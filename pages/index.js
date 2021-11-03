@@ -1,11 +1,14 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
+import ReactPlayer from "react-player";
 
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
 export default function Index() {
+  const [isPlaying, setIsPlaying] = useState(false);
   return (
     <>
       <IndexNavbar fixed />
@@ -21,11 +24,20 @@ export default function Index() {
               <h2 className="font-semibold text-4xl text-white text-center">
                 QUANTUM MANAGEMENT
               </h2>
-              <img
-                alt="LXT GROUP QUANTUM MANAGEMENT"
-                src="https://link.ap1.storjshare.io/jv6bxixnxmt7chs6jd3k4y6keitq/lxtgroup%2FQuantum%20Management%20Short.webp"
-                className="w-full align-middle rounded-t-lg"
-              />
+              <div className="pt-6 w-8/12 h-4/12">
+                <ReactPlayer
+                  url="https://link.ap1.storjshare.io/s/jv4s46x4upp2poeempcfwpeffunq/lxtgroup/Quantum%20Management%20Short.mp4?wrap=0"
+                  controls
+                  playing={isPlaying}
+                  config={{
+                    file: {
+                      attributes: {
+                        controlsList: "nodownload"
+                      }
+                    }
+                  }}
+                />
+              </div>
               <p className="mt-4 text-lg leading-relaxed text-white">
                 Investing in future of FoodTech, PharmaTech, Crypto EFT & Hyper
                 Local Microservices.
@@ -51,21 +63,22 @@ export default function Index() {
         </div>
       </section>
 
-      <section className="mt-48 md:mt-40 pb-40 relative bg-blueGray-100">
+      <section className="mt-48 md:mt-40 pb-40 relative bg-gray-300">
         {/*BIOTECH*/}
-        <div className="container mx-auto px-4 pb-32 pt-48">
+        <div className="container mx-auto px-4 pb-32 pt-20">
           <div className="items-center flex flex-wrap">
             <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
               <div className="md:pr-12">
-                <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                  <i className="fas fa-vials text-xl"></i>
+                <div className="bg-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full">
+                  <i className="fas fa-vials text-xl bg-white"></i>
                 </div>
-                <h3 className="text-3xl font-semibold">OUR BUSINESS</h3>
+                <h3 className="text-3xl font-semibold">BIO TECHNOLOGY</h3>
                 <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                  This extension comes a lot of fully coded examples that help
-                  you get started faster. You can adjust the colors and also the
-                  programming language. You can change the text and images and
-                  you're good to go.
+                  Advances in food technology spans from replacement food
+                  sources to synthetic replacements of biopharma applications.
+                </p>
+                <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
+                  We are investing in businesses that divest & diversify in,
                 </p>
                 <ul className="list-none mt-6">
                   <li className="py-2">
@@ -77,7 +90,8 @@ export default function Index() {
                       </div>
                       <div>
                         <h4 className="text-blueGray-500">
-                          Built by Developers for Developers
+                          Alternative food sources that utilize new food
+                          technologies
                         </h4>
                       </div>
                     </div>
@@ -91,7 +105,8 @@ export default function Index() {
                       </div>
                       <div>
                         <h4 className="text-blueGray-500">
-                          Carefully crafted code for Components
+                          Synthetic pharma technologies to increase
+                          accessibility to low cost pharmaceuticals
                         </h4>
                       </div>
                     </div>
@@ -114,7 +129,7 @@ export default function Index() {
               </div>
             </div>
 
-            <div className="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
+            <div className="w-full md:w-6/12 mr-auto px-4 pt-20 md:pt-0">
               <img
                 alt="..."
                 className="max-w-full rounded-lg shadow-xl"
@@ -129,9 +144,9 @@ export default function Index() {
         </div>
 
         {/*ETF */}
-        <div className="container mx-auto px-4 pb-32 pt-48">
+        <div className="container mx-auto px-4 pb-32 pt-20">
           <div className="items-center flex flex-wrap">
-            <div className="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
+            <div className="w-full md:w-6/12 mr-auto px-4 pt-20 md:pt-0">
               <img
                 alt="..."
                 className="max-w-full rounded-lg shadow-xl"
@@ -151,10 +166,13 @@ export default function Index() {
                   INVESTMENT MANAGEMENT
                 </h3>
                 <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                  This extension comes a lot of fully coded examples that help
-                  you get started faster. You can adjust the colors and also the
-                  programming language. You can change the text and images and
-                  you're good to go.
+                  In Q2 2022, our FinTech initiative will launch a multi-asset
+                  forex & crypto brokerage service.
+                </p>
+                <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
+                  Our primary goal is to establish a wealth strategy for our
+                  clients through the use of Artificial Intelligence-driven
+                  Quantitative trading,
                 </p>
                 <ul className="list-none mt-6">
                   <li className="py-2">
@@ -165,9 +183,7 @@ export default function Index() {
                         </span>
                       </div>
                       <div>
-                        <h4 className="text-blueGray-500">
-                          Built by Developers for Developers
-                        </h4>
+                        <h4 className="text-blueGray-500">SEC Approved</h4>
                       </div>
                     </div>
                   </li>
@@ -180,7 +196,7 @@ export default function Index() {
                       </div>
                       <div>
                         <h4 className="text-blueGray-500">
-                          Carefully crafted code for Components
+                          Lead by experienced brokers, traders & data scientists
                         </h4>
                       </div>
                     </div>
@@ -194,7 +210,7 @@ export default function Index() {
                       </div>
                       <div>
                         <h4 className="text-blueGray-500">
-                          Dynamic Javascript Components
+                          Dynamic AI & ML driven algorithms
                         </h4>
                       </div>
                     </div>
@@ -239,8 +255,8 @@ export default function Index() {
                         Food Delivery
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        Notus NextJS comes with a huge number of Fully Coded CSS
-                        components.
+                        Launch a food delivery or cloud kitchen app or
+                        marketplace
                       </p>
                     </div>
                   </div>
@@ -253,8 +269,7 @@ export default function Index() {
                         Transportation Services
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        We also feature many dynamic components for React,
-                        NextJS, Vue and Angular.
+                        Launch a transportation delivery app or marketplace
                       </p>
                     </div>
                   </div>
@@ -269,8 +284,7 @@ export default function Index() {
                         Medical Delivery
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        This extension also comes with 3 sample pages. They are
-                        fully coded so you can start working instantly.
+                        Launch a medical or pharmacy delivery app or marketplace
                       </p>
                     </div>
                   </div>
@@ -283,8 +297,7 @@ export default function Index() {
                         Parcel Logistics Services
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        Built by developers for developers. You will love how
-                        easy is to to work with Notus NextJS.
+                        Launch a parcel delivery or logistics app or marketplace
                       </p>
                     </div>
                   </div>
@@ -314,10 +327,8 @@ export default function Index() {
                     HYPERLOCAL MICROSERVICES
                   </h4>
                   <p className="text-md font-light mt-2 text-white">
-                    Putting together a page has never been easier than matching
-                    together pre-made components. From landing pages
-                    presentation to login areas, you can easily customise and
-                    built your pages.
+                    Investing in new local business opportunities in Los
+                    Angeles, CA & Orange County, CA.
                   </p>
                 </blockquote>
               </div>

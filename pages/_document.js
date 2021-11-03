@@ -29,6 +29,7 @@ class MyDocument extends Document {
             defer
             type="text/javascript"
           ></script>
+          <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
         </Head>
         <body className="text-blueGray-700 antialiased">
           <div id="page-transition"></div>
