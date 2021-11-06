@@ -1,11 +1,14 @@
 import React from "react";
 import Link from "next/link";
+import { useState, useEffect } from "react";
+
 import ReactPlayer from "react-player";
 // components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
 export default function BioTech() {
+  const [isPlaying, setIsPlaying] = useState(false);
   return (
     <>
       <IndexNavbar transparent />

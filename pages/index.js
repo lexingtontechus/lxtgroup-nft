@@ -9,24 +9,36 @@ import Footer from "components/Footers/Footer.js";
 
 export default function Index() {
   const [isPlaying, setIsPlaying] = useState(false);
+  const Emoji = (props) => (
+    <span
+      className="emoji"
+      role="img"
+      aria-label={props.label ? props.label : ""}
+      aria-hidden={props.label ? "false" : "true"}
+    >
+      {props.symbol}
+    </span>
+  );
   return (
     <>
       <IndexNavbar fixed />
       <section
-        className="header relative pt-16 items-center flex h-screen max-h-860-px bg-opacity-25 bg-fixed"
+        className="header relative pt-32 items-center flex h-screen max-h-860-px bg-opacity-25 bg-fixed bg-black"
         style={{
-          backgroundImage: "url('/img/brand/quantum_header.jpg')"
+          backgroundImage: "url('/img/assets/quantum_header.jpg')"
         }}
       >
         <div className="container mx-auto items-center flex flex-wrap">
-          <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
-            <div className="pt-32 sm:pt-0">
+          <div className="w-full md:w-10/12 lg:w-10/12 xl:w-10/12 px-4">
+            <div className="pt-16 sm:pt-8">
               <h2 className="font-semibold text-4xl text-white text-center">
                 QUANTUM MANAGEMENT
               </h2>
               <div className="pt-6 w-8/12 h-4/12">
                 <ReactPlayer
                   url="https://link.ap1.storjshare.io/s/jv4s46x4upp2poeempcfwpeffunq/lxtgroup/Quantum%20Management%20Short.mp4?wrap=0"
+                  width="100%"
+                  height="80%"
                   controls
                   playing={isPlaying}
                   config={{
@@ -38,11 +50,11 @@ export default function Index() {
                   }}
                 />
               </div>
-              <p className="mt-4 text-lg leading-relaxed text-white">
+              <p className="mt-4 text-center text-lg leading-relaxed text-white">
                 Investing in future of FoodTech, PharmaTech, Crypto EFT & Hyper
                 Local Microservices.
               </p>
-              <div className="mt-12">
+              <div className="mt-12 text-center ">
                 <a
                   href="/about"
                   target="_blank"
@@ -63,15 +75,12 @@ export default function Index() {
         </div>
       </section>
 
-      <section className="mt-48 md:mt-40 pb-40 relative bg-gray-300">
+      <section className="mt-16 md:mt-16 pb-40 relative bg-gray-300">
         {/*BIOTECH*/}
-        <div className="container mx-auto px-4 pb-32 pt-20">
+        <div className="container mx-auto px-4 pb-16 pt-16">
           <div className="items-center flex flex-wrap">
             <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
               <div className="md:pr-12">
-                <div className="bg-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full">
-                  <i className="fas fa-vials text-xl bg-white"></i>
-                </div>
                 <h3 className="text-3xl font-semibold">BIO TECHNOLOGY</h3>
                 <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
                   Advances in food technology spans from replacement food
@@ -85,7 +94,7 @@ export default function Index() {
                     <div className="flex items-center">
                       <div>
                         <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
-                          <i className="fas fa-fingerprint"></i>
+                          <i className="fas fa-apple-alt"></i>
                         </span>
                       </div>
                       <div>
@@ -100,7 +109,7 @@ export default function Index() {
                     <div className="flex items-center">
                       <div>
                         <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
-                          <i className="fab fa-html5"></i>
+                          <i className="fas fa-microscope"></i>
                         </span>
                       </div>
                       <div>
@@ -144,7 +153,7 @@ export default function Index() {
         </div>
 
         {/*ETF */}
-        <div className="container mx-auto px-4 pb-32 pt-20">
+        <div className="container mx-auto px-4 pb-16 pt-16">
           <div className="items-center flex flex-wrap">
             <div className="w-full md:w-6/12 mr-auto px-4 pt-20 md:pt-0">
               <img
@@ -159,9 +168,6 @@ export default function Index() {
             </div>
             <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
               <div className="md:pr-12">
-                <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                  <i className="fab fa-bitcoin text-xl"></i>
-                </div>
                 <h3 className="text-3xl font-semibold">
                   INVESTMENT MANAGEMENT
                 </h3>
@@ -179,7 +185,7 @@ export default function Index() {
                     <div className="flex items-center">
                       <div>
                         <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
-                          <i className="fas fa-fingerprint"></i>
+                          <Emoji symbol="️️🏛" label="SEC Approved" />
                         </span>
                       </div>
                       <div>
@@ -191,12 +197,12 @@ export default function Index() {
                     <div className="flex items-center">
                       <div>
                         <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
-                          <i className="fab fa-html5"></i>
+                          <Emoji symbol="👨‍🔬" label="Data Scientist" />
                         </span>
                       </div>
                       <div>
                         <h4 className="text-blueGray-500">
-                          Lead by experienced brokers, traders & data scientists
+                          Led by experienced brokers, traders & data scientists
                         </h4>
                       </div>
                     </div>
@@ -205,7 +211,7 @@ export default function Index() {
                     <div className="flex items-center">
                       <div>
                         <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
-                          <i className="far fa-paper-plane"></i>
+                          <Emoji symbol="💹" label="Market Growth" />
                         </span>
                       </div>
                       <div>
@@ -236,15 +242,18 @@ export default function Index() {
             y="0"
           >
             <polygon
-              className="text-blueGray-100 fill-current"
+              className="text-blueGray-700 fill-current"
               points="2560 0 2560 100 0 100"
             ></polygon>
           </svg>
         </div>
-        <div className="container mx-auto">
+        <div className="container mx-auto  px-4 pb-16 pt-16">
           <div className="flex flex-wrap items-center">
             <div className="w-full md:w-6/12 px-4">
               <div className="flex flex-wrap">
+                <h3 className="text-3xl font-semibold">
+                  HYPERLOCAL MICROSERVICES
+                </h3>
                 <div className="w-full md:w-6/12 px-4">
                   <div className="relative flex flex-col mt-4">
                     <div className="px-4 py-5 flex-auto">
@@ -263,7 +272,7 @@ export default function Index() {
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-drafting-compass"></i>
+                        <i className="fas fa-shuttle-van"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
                         Transportation Services
@@ -278,7 +287,7 @@ export default function Index() {
                   <div className="relative flex flex-col min-w-0 mt-4">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-newspaper"></i>
+                        <i className="fab fa-medrt"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
                         Medical Delivery
@@ -291,7 +300,7 @@ export default function Index() {
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-file-alt"></i>
+                        <i className="fas fa-dolly-flatbed"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
                         Parcel Logistics Services

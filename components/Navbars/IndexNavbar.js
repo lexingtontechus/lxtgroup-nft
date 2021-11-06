@@ -12,15 +12,26 @@ export default function Navbar(props) {
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link href="/">
+              <a className="inline-block mr-4 py-2" href="/">
+                <img
+                  alt="LXT GROUP LLC"
+                  src="/img/brand/logo_lxtgroup.svg"
+                  height="25px"
+                  width="25px"
+                  className="inline-block"
+                />
+              </a>
+            </Link>
+            <Link href="/">
               <a
                 className="text-white text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
-                href="#pablo"
+                href="/"
               >
                 LXT GROUP LLC
               </a>
             </Link>
             <button
-              className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+              className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none bg-gray-100"
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
