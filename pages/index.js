@@ -22,57 +22,67 @@ export default function Index() {
   return (
     <>
       <IndexNavbar fixed />
-      <section
-        className="header relative pt-32 items-center flex h-screen max-h-860-px bg-opacity-25 bg-fixed bg-black"
-        style={{
-          backgroundImage: "url('/img/assets/quantum_header.jpg')"
-        }}
-      >
+      <section className="header relative pt-16 items-center flex h-screen max-h-860-px">
+        <div
+          className="absolute top-0 w-full h-full bg-center bg-cover"
+          style={{
+            backgroundImage: "url('/img/assets/quantum_header.jpg')"
+          }}
+        >
+          <span
+            id="blackOverlay"
+            className="w-full h-full absolute opacity-50 bg-black"
+          ></span>
+        </div>
         <div className="container mx-auto items-center flex flex-wrap">
-          <div className="w-full md:w-10/12 lg:w-10/12 xl:w-10/12 px-4">
-            <div className="pt-16 sm:pt-8">
-              <h2 className="font-semibold text-4xl text-white text-center">
+          <div className="pt-32 absolute top-0 b-auto w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
+            <div className="pt-32 sm:pt-0">
+              <h2 className="font-semibold text-4xl text-blueGray-300">
                 QUANTUM MANAGEMENT
               </h2>
-              <div className="pt-6 w-8/12 h-4/12">
-                <ReactPlayer
-                  url="https://link.ap1.storjshare.io/s/jv4s46x4upp2poeempcfwpeffunq/lxtgroup/Quantum%20Management%20Short.mp4?wrap=0"
-                  width="100%"
-                  height="80%"
-                  controls
-                  playing={isPlaying}
-                  config={{
-                    file: {
-                      attributes: {
-                        controlsList: "nodownload"
-                      }
-                    }
-                  }}
-                />
-              </div>
-              <p className="mt-4 text-center text-lg leading-relaxed text-white">
-                Investing in future of FoodTech, PharmaTech, Crypto EFT & Hyper
-                Local Microservices.
+              <p className="mt-4 text-lg leading-relaxed text-blueGray-300">
+                Investing in the future of FoodTech, PharmaTech, <br />
+                Crypto EFT & Hyper-Local Microservices.
               </p>
-              <div className="mt-12 text-center ">
+              <ReactPlayer
+                height="320"
+                width="640"
+                url="https://link.ap1.storjshare.io/s/jv4s46x4upp2poeempcfwpeffunq/lxtgroup/Quantum%20Management%20Short.mp4?wrap=0"
+                controls
+                playing={isPlaying}
+                config={{
+                  file: {
+                    attributes: {
+                      controlsList: "nodownload"
+                    }
+                  }
+                }}
+              />
+              ;
+              <div className="mt-12">
                 <a
                   href="/about"
                   target="_blank"
-                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                  className="learn-more text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
-                  Learn More
+                  LEARN MORE
                 </a>
                 <a
                   href="/contact"
-                  className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
+                  className="contact ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
                   target="_blank"
                 >
-                  Contact
+                  CONTACT
                 </a>
               </div>
             </div>
           </div>
         </div>
+        {/* <img
+          className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860-px"
+          src="/img/ill_header.png"
+          alt="..."
+       />*/}
       </section>
 
       <section className="mt-16 md:mt-16 pb-40 relative bg-gray-300">
@@ -100,7 +110,7 @@ export default function Index() {
                       <div>
                         <h4 className="text-blueGray-500">
                           Alternative food sources that utilize new food
-                          technologies
+                          technologies.
                         </h4>
                       </div>
                     </div>
@@ -115,7 +125,7 @@ export default function Index() {
                       <div>
                         <h4 className="text-blueGray-500">
                           Synthetic pharma technologies to increase
-                          accessibility to low cost pharmaceuticals
+                          accessibility to low cost pharmaceuticals.
                         </h4>
                       </div>
                     </div>
@@ -124,12 +134,15 @@ export default function Index() {
                     <div className="flex items-center">
                       <div>
                         <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
-                          <i className="far fa-paper-plane"></i>
+                          <i className="fas fa-notes-medical"></i>
                         </span>
                       </div>
                       <div>
                         <h4 className="text-blueGray-500">
-                          Dynamic Javascript Components
+                          Biomanufacturing utilizing biological systems for the
+                          production of medical products and therapies,
+                          biomaterials, food & beverages, and specialty
+                          chemicals.
                         </h4>
                       </div>
                     </div>
@@ -227,9 +240,8 @@ export default function Index() {
           </div>
         </div>
 
-        {/*HYPERLOCAL */}
         <div
-          className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
+          className="bg-black -mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
           style={{ transform: "translateZ(0)" }}
         >
           <svg
@@ -247,6 +259,7 @@ export default function Index() {
             ></polygon>
           </svg>
         </div>
+        {/*HYPERLOCAL */}
         <div className="container mx-auto  px-4 pb-16 pt-16">
           <div className="flex flex-wrap items-center">
             <div className="w-full md:w-6/12 px-4">
@@ -313,7 +326,7 @@ export default function Index() {
                 </div>
               </div>
             </div>
-            <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32">
+            <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto mt-16">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
                 <img
                   alt="HYPERLOCAL MICROSERVICES"
@@ -345,7 +358,6 @@ export default function Index() {
           </div>
         </div>
       </section>
-
       <Footer />
     </>
   );

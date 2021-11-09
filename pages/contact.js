@@ -86,7 +86,7 @@ export default function Contact() {
             <div className="flex flex-wrap text-center justify-center">
               <div className="w-full lg:w-6/12 px-4">
                 <h2 className="text-4xl font-semibold text-white">
-                  Investment In Something
+                  Invest In Something
                 </h2>
                 <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400">
                   Put the potentially record low maximum sea ice extent tihs

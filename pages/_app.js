@@ -9,6 +9,12 @@ import PageChange from "components/PageChange/PageChange.js";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "styles/tailwind.css";
 
+//import TagManager from "react-gtm-module";
+
+//const tagManagerArgs = {
+//  id: "GTM-KFBK2N3"
+//};
+
 Router.events.on("routeChangeStart", (url) => {
   console.log(`Loading: ${url}`);
   document.body.classList.add("body-page-transition");
@@ -28,6 +34,7 @@ Router.events.on("routeChangeError", () => {
 
 export default class MyApp extends App {
   componentDidMount() {
+    //TagManager.initialize(tagManagerArgs);
     let comment = document.createComment(`
 
 =========================================================

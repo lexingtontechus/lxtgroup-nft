@@ -27,25 +27,30 @@ export default function BioTech() {
           </div>
           <div className="container relative mx-auto">
             <div className="items-center flex flex-wrap">
-              <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+              <div className="pt-24 w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
-                  <h1 className="text-white font-semibold text-5xl">
+                  <h1 className="text-white font-semibold text-5xl text-center">
                     BIOTECH INVESTMENT
                   </h1>
-                  <div className="pt-6 w-8/12 h-4/12">
-                    <ReactPlayer
-                      url="https://link.ap1.storjshare.io/s/jv4s46x4upp2poeempcfwpeffunq/lxtgroup/Quantum%20Management%20Short.mp4?wrap=0"
-                      controls
-                      playing={isPlaying}
-                      config={{
-                        file: {
-                          attributes: {
-                            controlsList: "nodownload"
-                          }
+                  <p className="mt-2 mb-4 text-blueGray-500 text-center">
+                    Synthetic biology & biofabrication offers increased
+                    sustainability, standardization and reproducibility.
+                  </p>
+                  <ReactPlayer
+                    url="https://link.ap1.storjshare.io/s/jvmji4ggxbqzlmltr2zxqkgsrntq/lxtgroup/foodtech_biotech.mp4?wrap=0"
+                    controls
+                    height="320"
+                    width="240"
+                    playing={isPlaying}
+                    config={{
+                      file: {
+                        attributes: {
+                          controlsList: "nodownload"
                         }
-                      }}
-                    />
-                  </div>
+                      }
+                    }}
+                  />
+                  ;<div className="pt-6 w-8/12 h-4/12"></div>
                 </div>
               </div>
             </div>
@@ -117,13 +122,6 @@ export default function BioTech() {
                       Future of eCommerce powered by virtual & augmented
                       reality.
                     </p>
-                    <a
-                      href="/contact"
-                      className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
-                      target="_blank"
-                    >
-                      Contact
-                    </a>
                   </div>
                 </div>
               </div>

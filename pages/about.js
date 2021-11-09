@@ -1,12 +1,25 @@
 import React from "react";
 import Link from "next/link";
-
+import { useState, useEffect } from "react";
+import ReactPlayer from "react-player";
+import AnnounceKit from "announcekit-react";
 // components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 //import Navbar from "components/Navbars/AuthNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
 export default function About() {
+  const [isPlaying, setIsPlaying] = useState(false);
+  const Emoji = (props) => (
+    <span
+      className="emoji"
+      role="img"
+      aria-label={props.label ? props.label : ""}
+      aria-hidden={props.label ? "false" : "true"}
+    >
+      {props.symbol}
+    </span>
+  );
   return (
     <>
       <IndexNavbar transparent />
@@ -29,12 +42,17 @@ export default function About() {
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
                   <h1 className="text-white font-semibold text-5xl">
-                    Your story starts with us.
+                    LXT GROUP LLC
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">
-                    This is a simple example of a Landing Page you can build
-                    using Notus NextJS. It features multiple CSS components
-                    based on the Tailwind CSS design system.
+                    Our decentralized domain & website is blockchain based and
+                    is part of the publicly accessible Ethereum blockchain. This
+                    means anyone can look at the records, providing an
+                    impressive level of openness and transparency. On top of
+                    that, users can benefit from enhanced security — each user
+                    holds the permissions to make updates to their domain name,
+                    which minimizes worries about servers getting hacked or
+                    domain names getting stolen.
                   </p>
                 </div>
               </div>
@@ -82,56 +100,26 @@ export default function About() {
             </svg>
           </div>
 
-          <div className="container mx-auto px-4 lg:pt-24 lg:pb-64">
-            <div className="flex flex-wrap text-center justify-center">
-              <div className="w-full lg:w-6/12 px-4">
-                <h2 className="text-4xl font-semibold text-white">
-                  Investment In Something
-                </h2>
-                <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400">
-                  Put the potentially record low maximum sea ice extent tihs
-                  year down to low ice. According to the National Oceanic and
-                  Atmospheric Administration, Ted, Scambos.
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-wrap mt-12 justify-center">
-              <div className="w-full lg:w-3/12 px-4 text-center">
-                <div className="text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                  <i className="fas fa-medal text-xl"></i>
-                </div>
-                <h6 className="text-xl mt-5 font-semibold text-white">
-                  Portfolio Management
-                </h6>
-                <p className="mt-2 mb-4 text-blueGray-400">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-              <div className="w-full lg:w-3/12 px-4 text-center">
-                <div className="text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                  <i className="fas fa-poll text-xl"></i>
-                </div>
-                <h5 className="text-xl mt-5 font-semibold text-white">
-                  Grow your market
-                </h5>
-                <p className="mt-2 mb-4 text-blueGray-400">
-                  Rapdi local market expansion
-                </p>
-              </div>
-              <div className="w-full lg:w-3/12 px-4 text-center">
-                <div className="text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                  <i className="fas fa-lightbulb text-xl"></i>
-                </div>
-                <h5 className="text-xl mt-5 font-semibold text-white">
-                  Launch time
-                </h5>
-                <p className="mt-2 mb-4 text-blueGray-400">
-                  Accelerated scaling
-                </p>
-              </div>
+          <div className="container mx-auto px-4">
+            <div
+              className="form-group"
+              style={{ width: "500px", height: "900px" }}
+            >
+              <h2 className="items-center flex flex-wrap uppercase text-white">
+                LATEST NEWS
+              </h2>
+              <AnnounceKit
+                embedWidget={true}
+                widget="https://announcekit.app/widgets/v2/33DYek"
+              />
             </div>
           </div>
+          <AnnounceKit
+            embedWidget={true}
+            widget="https://announcekit.app/widgets/v2/33DYek"
+          />
+
+          <div className="container mx-auto px-4 lg:pt-24 lg:pb-64"></div>
         </section>
         <section className="relative block py-24 lg:pt-0 bg-blueGray-800">
           <div className="container mx-auto px-4">
@@ -142,10 +130,6 @@ export default function About() {
                     <h4 className="text-2xl font-semibold">
                       Want to work with us?
                     </h4>
-                    <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
-                      Complete this form and we will get back to you in 24
-                      hours.
-                    </p>
                     <div class="convertful-148367"></div>
                   </div>
                 </div>

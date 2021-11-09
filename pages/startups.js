@@ -35,22 +35,19 @@ export default function Startups() {
                   <p className="mt-2 mb-4 text-blueGray-500 text-center">
                     Accelerated Startup Business Investment
                   </p>
-                  <div className="pt-6 w-8/12 h-4/12">
-                    <ReactPlayer
-                      url="https://link.ap1.storjshare.io/s/jwytxkq5oq7ttmwd5c6xnggkflra/lxtgroup/foodtech_biotech.mp4?wrap=0"
-                      height="100%"
-                      width="100%"
-                      controls
-                      playing={isPlaying}
-                      config={{
-                        file: {
-                          attributes: {
-                            controlsList: "nodownload"
-                          }
+                  <ReactPlayer
+                    url="https://link.ap1.storjshare.io/jx2uyqnpzutvjm5xerjqt3pnmqba/lxtgroup%2Fstartups.mp4?wrap=0"
+                    controls
+                    playing={isPlaying}
+                    config={{
+                      file: {
+                        attributes: {
+                          controlsList: "nodownload"
                         }
-                      }}
-                    />
-                  </div>
+                      }
+                    }}
+                  />
+                  ;<div className="pt-6 w-8/12 h-4/12"></div>
                 </div>
               </div>
             </div>
@@ -197,13 +194,6 @@ export default function Startups() {
                       Future of eCommerce powered by virtual & augmented
                       reality.
                     </p>
-                    <a
-                      href="/contact"
-                      className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
-                      target="_blank"
-                    >
-                      Contact
-                    </a>
                   </div>
                 </div>
               </div>
