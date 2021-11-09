@@ -88,17 +88,12 @@ export default function Navbar(props) {
                   Contact
                 </a>
               </li>
+
               <li className="flex items-center">
                 <span className="hover:text-blueGray-500 text-blueGray-500 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
-                  {""}
-                  News{" "}
-                  <AnnounceKit
-                    widget="https://announcekit.app/widgets/v2/2Cs3ny"
-                    WidgetStyle={{ display: "inline-flex" }}
-                  />
-                  {/*2Cs3ny*/}
+                  News
+                  <AnnounceKit widget="https://announcekit.app/widgets/v2/2NO0A8" />
                 </span>
-                {/*</AnnounceKit>*/}
               </li>
             </ul>
 
@@ -106,8 +101,7 @@ export default function Navbar(props) {
               {/*<li className="flex items-center">
                 <IndexDropdown />
           </li>*/}
-              <li className="flex items-center">
-                <i className="text-blueGray-400 fab fa-info-circle text-lg leading-lg inline-block" />
+              <li className="flex items-center text-blueGray-400 fab fa-info-circle text-lg leading-lg inline-block">
                 <AnnounceKit
                   widget="https://announcekit.app/widgets/v2/2Cs3ny"
                   WidgetStyle={{ display: "inline-flex" }}
