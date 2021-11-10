@@ -94,12 +94,7 @@ export default function About() {
                     </div>
                   </div>
                 </div>
-                <div
-                  className="text-center mt-12"
-                  style={{
-                    backgroundImage: "url('/img/assets/ipfs5.svg')"
-                  }}
-                >
+                <div className="text-center mt-12">
                   <h3 className="text-4xl font-semibold leading-normal mb-2 text-blueGray-700 mb-2">
                     LXT GROUP LLC
                   </h3>
@@ -107,7 +102,6 @@ export default function About() {
                     <i className="fas fa-map-marker-alt mr-2 text-lg text-blueGray-600"></i>{" "}
                     Los Angeles, California
                   </div>
-
                   <div className="mb-2 text-blueGray-600 mt-10">
                     The Decentralized Web (3.0)
                   </div>
@@ -118,6 +112,18 @@ export default function About() {
                 <div className="mt-10 py-10 border-t border-blueGray-200 text-center">
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full lg:w-9/12 px-4">
+                      <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
+                        <ul>
+                          <li>Cell and Plant-Based</li>
+                          <li>From Bench to Production</li>
+                        </ul>
+                      </p>
+                      <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
+                        <ul>
+                          <li>Crypto-Hedge Fund</li>
+                          <li>SmartFX</li>
+                        </ul>
+                      </p>
                       <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
                         <Link href="/">
                           <a

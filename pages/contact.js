@@ -29,10 +29,10 @@ export default function Contact() {
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
                   <h1 className="text-white font-semibold text-5xl">
-                    Your story starts with us.
+                    Diverse. Resilient. Sustainable.
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">
-                    Diverse. Resilient. Sustainable.
+                    Your story starts with us.
                   </p>
                 </div>
               </div>
@@ -84,13 +84,15 @@ export default function Contact() {
             <div className="flex flex-wrap text-center justify-center">
               <div className="w-full lg:w-6/12 px-4">
                 <h2 className="text-4xl font-semibold text-white">
-                  Invest In Something
+                  What Can't Tech Do?
                 </h2>
                 <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400">
-                  Put the potentially record low maximum sea ice extent tihs
-                  year down to low ice. According to the National Oceanic and
-                  Atmospheric Administration, Ted, Scambos.
+                  Technology alone cannot solve the sustainability & climate
+                  change crises.
                 </p>
+                <h3 className="text-2xl font-semibold text-white">
+                  Invest In Something Meaingful
+                </h3>
               </div>
             </div>
             <div className="flex flex-wrap mt-12 justify-center">
@@ -102,8 +104,8 @@ export default function Contact() {
                   Portfolio Management
                 </h6>
                 <p className="mt-2 mb-4 text-blueGray-400">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Cryptocurrency hedge fund exclusively focused on investing in
+                  digital assets.
                 </p>
               </div>
               <div className="w-full lg:w-3/12 px-4 text-center">
@@ -114,7 +116,7 @@ export default function Contact() {
                   Grow your market
                 </h5>
                 <p className="mt-2 mb-4 text-blueGray-400">
-                  Rapdi local market expansion
+                  Rapid hyper-local service expansion
                 </p>
               </div>
               <div className="w-full lg:w-3/12 px-4 text-center">
