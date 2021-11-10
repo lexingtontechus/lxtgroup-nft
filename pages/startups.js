@@ -38,6 +38,8 @@ export default function Startups() {
                   <ReactPlayer
                     url="https://link.ap1.storjshare.io/jx2uyqnpzutvjm5xerjqt3pnmqba/lxtgroup%2Fstartups.mp4?wrap=0"
                     controls
+                    height="320"
+                    width="240"
                     playing={isPlaying}
                     config={{
                       file: {
