@@ -52,8 +52,8 @@ export default function About() {
                     <div className="relative">
                       <img
                         alt="LXT GROUP LLC"
-                        src="/img/brand/logo_lxtgroup_85.svg"
-                        className="shadow-xl h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px"
+                        src="/img/brand/logo_lxtgroup_circle.svg"
+                        className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px"
                       />
                     </div>
                   </div>
@@ -108,6 +108,26 @@ export default function About() {
                   <div className="mb-2 text-blueGray-600">
                     IPFS - the Distributed Web
                   </div>
+                  <button
+                    className="align-middle bg-white text-white w-4 h-4 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <img
+                      src="/img/polygon.svg"
+                      alt="Polygon"
+                      height="25"
+                      width="25"
+                    />
+                  </button>
+                  <a
+                    className="mb-2 text-blueGray-600 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
+                    href="https://polygonscan.com/tx/0x120cd9cc6b3c8b143a56dc51f10d39624df4d1880ff5fe00ddc66c9234a57e03"
+                    alt="Polygon"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    Verify On Polygon
+                  </a>
                 </div>
                 <div className="mt-10 py-10 border-t border-blueGray-200 text-center">
                   <div className="flex flex-wrap justify-center">
