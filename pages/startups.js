@@ -207,7 +207,7 @@ export default function Startups() {
                       <i className="fas fa-fingerprint"></i>
                     </div>
                     <h6 className="text-xl font-semibold">Our Growth</h6>
-                    <p className="mt-2 mb-4 text-blueGray-500">... </p>
+                    <p className="mt-2 mb-4 text-blueGray-500">Automation, upskilling & training.</p>
                     <p className="mt-2 mb-4 text-blueGray-500">
                       Sustainable & high yield foodtech products & water
                       sources.

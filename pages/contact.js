@@ -26,7 +26,7 @@ export default function Contact() {
           </div>
           <div className="container relative mx-auto">
             <div className="items-center flex flex-wrap">
-              <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+              <div className="pt-24 w-full lg:w-10/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
                   <h1 className="text-white font-semibold text-5xl">
                     Diverse. Resilient. Sustainable.
@@ -91,14 +91,14 @@ export default function Contact() {
                   change crises.
                 </p>
                 <h3 className="text-2xl font-semibold text-white">
-                  Invest In Something Meaingful
+                  Invest In Something Meaningful
                 </h3>
               </div>
             </div>
             <div className="flex flex-wrap mt-12 justify-center">
               <div className="w-full lg:w-3/12 px-4 text-center">
                 <div className="text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                  <i className="fas fa-medal text-xl"></i>
+                  <i className="fas fa-hand-holding-usd text-xl"></i>
                 </div>
                 <h6 className="text-xl mt-5 font-semibold text-white">
                   Portfolio Management
@@ -110,7 +110,7 @@ export default function Contact() {
               </div>
               <div className="w-full lg:w-3/12 px-4 text-center">
                 <div className="text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                  <i className="fas fa-poll text-xl"></i>
+                  <i className="fas fa-hand-holding-water text-xl"></i>
                 </div>
                 <h5 className="text-xl mt-5 font-semibold text-white">
                   Grow your market
@@ -121,7 +121,7 @@ export default function Contact() {
               </div>
               <div className="w-full lg:w-3/12 px-4 text-center">
                 <div className="text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                  <i className="fas fa-lightbulb text-xl"></i>
+                  <i className="fas fa-rocket text-xl"></i>
                 </div>
                 <h5 className="text-xl mt-5 font-semibold text-white">
                   Launch time
