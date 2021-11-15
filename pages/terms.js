@@ -29,12 +29,11 @@ export default function Terms() {
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
                   <h1 className="text-white font-semibold text-5xl">
-                    Your story starts with us.
+                    Terms of Service
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">
-                    This is a simple example of a Landing Page you can build
-                    using Notus NextJS. It features multiple CSS components
-                    based on the Tailwind CSS design system.
+                    The definition of the Terms of Service in connection with
+                    the use of our services.
                   </p>
                 </div>
               </div>
@@ -68,22 +67,16 @@ export default function Terms() {
                 <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200">
                   <div className="flex-auto p-5 lg:p-10">
                     <h2 className="text-2xl font-semibold">
-                      TERMS & CONDITIONS
+                      Last updated October 01, 2021
                     </h2>
-                    <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
-                      Complete this form and we will get back to you in 24
-                      hours.
-                    </p>
                     <div className="relative w-full mb-3 mt-8">
-                      <h3>Last updated 01 October, 2021 </h3>
-                      <h3>AGREEMENT TO TERMS</h3>
-                      <p>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         These Terms of Use constitute a legally binding
                         agreement made between you, whether personally or on
-                        behalf of an entity (“you”) and Lexington Tech, doing
-                        business as Lexington (“Lexington“, “we”, “us”, or
+                        behalf of an entity (“you”) and LXT GROUP LLC, doing
+                        business as LXT GROUP (“LXT GROUP“, “we”, “us”, or
                         “our”), concerning your access to and use of the
-                        http://www.lexingtontech.us website as well as any other
+                        http://www.lxtgroup.nft website as well as any other
                         media form, media channel, mobile website or mobile
                         application related, linked, or otherwise connected
                         thereto (collectively, the “Site”). The Site provides an
@@ -100,7 +93,7 @@ export default function Terms() {
                         PROHIBITED FROM USING THE SITE AND/OR THE MARKETPLACE
                         OFFERINGS AND YOU MUST DISCONTINUE USE IMMEDIATELY.
                       </p>
-                      <p>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         Supplemental terms and conditions or documents that may
                         be posted on the Site from time to time are hereby
                         expressly incorporated herein by reference. We reserve
@@ -117,7 +110,7 @@ export default function Terms() {
                         use of the Site after the date such revised Terms of Use
                         are posted.{" "}
                       </p>
-                      <p>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         The information provided on the Site is not intended for
                         distribution to or use by any person or entity in any
                         jurisdiction or country where such distribution or use
@@ -129,7 +122,7 @@ export default function Terms() {
                         compliance with local laws, if and to the extent local
                         laws are applicable.
                       </p>
-                      <p>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         The Site is not tailored to comply with
                         industry-specific regulations (Health Insurance
                         Portability and Accountability Act (HIPAA), Federal
@@ -139,14 +132,16 @@ export default function Terms() {
                         way that would violate the Gramm-Leach-Bliley Act
                         (GLBA).
                       </p>
-                      <p>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         The Site is intended for users who are at least 18 years
                         old. Persons under the age of 18 are not permitted to
                         use or register for the Site or use the Marketplace
                         Offerings.
                       </p>
-                      <h4>INTELLECTUAL PROPERTY RIGHTS</h4>
-                      <p>
+                      <h3 className="text-2xl font-semibold">
+                        INTELLECTUAL PROPERTY RIGHTS{" "}
+                      </h3>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         Unless otherwise indicated, the Site and the Marketplace
                         Offerings are our proprietary property and all source
                         code, databases, functionality, software, website
@@ -169,7 +164,7 @@ export default function Terms() {
                         any commercial purpose whatsoever, without our express
                         prior written permission.
                       </p>
-                      <p>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         Provided that you are eligible to use the Site, you are
                         granted a limited license to access and use the Site and
                         to download or print a copy of any portion of the
@@ -178,8 +173,10 @@ export default function Terms() {
                         rights not expressly granted to you in and to the Site,
                         the Content and the Marks.
                       </p>
-                      <h4>USER REPRESENTATIONS</h4>
-                      <p>
+                      <h3 className="text-2xl font-semibold">
+                        USER REPRESENTATIONS{" "}
+                      </h3>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         By using the Site or the Marketplace Offerings, you
                         represent and warrant that: (1) you have the legal
                         capacity and you agree to comply with these Terms of
@@ -192,14 +189,14 @@ export default function Terms() {
                         the Marketplace Offerings will not violate any
                         applicable law or regulation.
                       </p>
-                      <p>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         If you provide any information that is untrue,
                         inaccurate, not current, or incomplete, we have the
                         right to suspend or terminate your account and refuse
                         any and all current or future use of the Site (or any
                         portion thereof).
                       </p>
-                      <p>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         You may not use the Site or the Marketplace Offerings
                         for any illegal or unauthorized purpose nor may you, in
                         the use of Marketplace Offerings, violate any laws.
@@ -212,7 +209,7 @@ export default function Terms() {
                         termination of your account and a lifetime ban from use
                         of the Site.
                       </p>
-                      <p>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         We are a service provider and make no representations as
                         to the safety, effectiveness, adequacy, accuracy,
                         availability, prices, ratings, reviews, or legality of
@@ -227,8 +224,10 @@ export default function Terms() {
                         and the Site is provided for informational and
                         advertising purposes only.
                       </p>
-                      <h4>MARKETPLACE OFFERINGS</h4>
-                      <p>
+                      <h3 className="text-2xl font-semibold">
+                        MARKETPLACE OFFERINGS{" "}
+                      </h3>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         We reserve the right to limit the quantities of the
                         Marketplace Offerings offered or available on the Site.
                         All descriptions or pricing of the Marketplace Offerings
@@ -239,14 +238,35 @@ export default function Terms() {
                         Offerings purchased by you will meet your expectations
                         or that any errors in the Site will be corrected.
                       </p>
-                      <h4>PURCHASES AND PAYMENT</h4>
-                      <p>We accept the following forms of payment:</p>
-                      <ul>
-                        <li>– Visa</li>
-                        <li>– Mastercard</li>
-                        <li>– Bank Wire Transfer</li>
+                      <h3 className="text-2xl font-semibold">
+                        PURCHASES AND PAYMENT{" "}
+                      </h3>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                        We accept the following forms of payment:
+                      </p>
+                      <ul className="list-none mr-auto">
+                        <li className="flex items-center">
+                          <i className="fab fa-bitcoin"></i>
+                          <span className="inline-block ml-2">
+                            Crypto-Currency
+                          </span>
+                        </li>
+                        <li className="flex items-center">
+                          <i className="fas fa-landmark"></i>
+                          <span className="inline-block ml-2">
+                            Bank Wire Transfer
+                          </span>
+                        </li>
+                        <li className="flex items-center">
+                          <i className="fab fa-cc-visa"></i>
+                          <span className="inline-block ml-2">Visa</span>
+                        </li>
+                        <li className="flex items-center">
+                          <i className="fab fa-cc-mastercard"></i>
+                          <span className="inline-block ml-2">Mastercard</span>
+                        </li>
                       </ul>
-                      <p>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         You agree to provide current, complete, and accurate
                         purchase and account information for all purchases of
                         the Marketplace Offerings made via the Site. You further
@@ -258,7 +278,7 @@ export default function Terms() {
                         deemed required by us. We may change prices at any time.
                         All payments shall be in U.S. dollars.{" "}
                       </p>
-                      <p>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         You agree to pay all charges at the prices then in
                         effect for your purchases and any applicable shipping
                         fees, and you authorize us to charge your chosen payment
@@ -267,7 +287,7 @@ export default function Terms() {
                         in pricing, even if we have already requested or
                         received payment.
                       </p>
-                      <p>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         We reserve the right to refuse any order placed through
                         the Site. We may, in our sole discretion, limit or
                         cancel quantities purchased per person, per household,
@@ -278,25 +298,33 @@ export default function Terms() {
                         prohibit orders that, in our sole judgment, appear to be
                         placed by dealers, resellers, or distributors.
                       </p>
-                      <h4>REFUNDS POLICY</h4>
-                      <p>All sales are final and no refund will be issued.</p>
-                      <h4>PROHIBITED ACTIVITIES</h4>
-                      <p>
+                      <h3 className="text-2xl font-semibold">
+                        REFUNDS POLICY{" "}
+                      </h3>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                        All sales are final and no refund will be issued.
+                      </p>
+                      <h3 className="text-2xl font-semibold">
+                        PROHIBITED ACTIVITIES{" "}
+                      </h3>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         You may not access or use the Site for any purpose other
                         than that for which we make the Site available. The Site
                         may not be used in connection with any commercial
                         endeavors except those that are specifically endorsed or
                         approved by us.
                       </p>
-                      <p>As a user of the Site, you agree not to:</p>
-                      <ul>
-                        <li>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                        As a user of the Site, you agree not to:
+                      </p>
+                      <ul className="list-none mr-auto">
+                        <li className="flex items-center">
                           1. Systematically retrieve data or other content from
                           the Site to create or compile, directly or indirectly,
                           a collection, compilation, database, or directory
                           without written permission from us.
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           2. Make any unauthorized use of the Marketplace
                           Offerings, including collecting usernames and/or email
                           addresses of users by electronic or other means for
@@ -304,85 +332,87 @@ export default function Terms() {
                           user accounts by automated means or under false
                           pretenses.
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           3. Use a buying agent or purchasing agent to make
                           purchases on the Site.
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           4. Use the Site to advertise or offer to sell goods
                           and services.
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           5. Circumvent, disable, or otherwise interfere with
                           security-related features of the Site, including
                           features that prevent or restrict the use or copying
                           of any Content or enforce limitations on the use of
                           the Site and/or the Content contained therein.
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           6. Engage in unauthorized framing of or linking to the
                           Site.
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           7. Trick, defraud, or mislead us and other users,
                           especially in any attempt to learn sensitive account
                           information such as user passwords.
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           8. Make improper use of our support services or submit
                           false reports of abuse or misconduct.
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           9. Engage in any automated use of the system, such as
                           using scripts to send comments or messages, or using
                           any data mining, robots, or similar data gathering and
                           extraction tools.
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           10. Interfere with, disrupt, or create an undue burden
                           on the Site or the networks or services connected to
                           the Site.
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           11. Attempt to impersonate another user or person or
                           use the username of another user.
                         </li>
-                        <li>12. Sell or otherwise transfer your profile.</li>
-                        <li>
+                        <li className="flex items-center">
+                          12. Sell or otherwise transfer your profile.
+                        </li>
+                        <li className="flex items-center">
                           13. Use any information obtained from the Site in
                           order to harass, abuse, or harm another person.
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           14. Use the Marketplace Offerings as part of any
                           effort to compete with us or otherwise use the Site
                           and/or the Content for any revenue-generating endeavor
                           or commercial enterprise.
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           15. Decipher, decompile, disassemble, or reverse
                           engineer any of the software comprising or in any way
                           making up a part of the Site.
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           16. Attempt to bypass any measures of the Site
                           designed to prevent or restrict access to the Site, or
                           any portion of the Site.
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           17. Harass, annoy, intimidate, or threaten any of our
                           employees or agents engaged in providing any portion
                           of the Marketplace Offerings to you.
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           18. Delete the copyright or other proprietary rights
                           notice from any Content.
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           19. Copy or adapt the Site’s software, including but
                           not limited to Flash, PHP, HTML, JavaScript, or other
                           code.
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           20. Upload or transmit (or attempt to upload or to
                           transmit) viruses, Trojan horses, or other material,
                           including excessive use of capital letters and
@@ -393,7 +423,7 @@ export default function Terms() {
                           functions, operation, or maintenance of the
                           Marketplace Offerings.
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           21. Upload or transmit (or attempt to upload or to
                           transmit) any material that acts as a passive or
                           active information collection or transmission
@@ -403,7 +433,7 @@ export default function Terms() {
                           referred to as “spyware” or “passive collection
                           mechanisms” or “pcms”).
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           22. Except as may be the result of standard search
                           engine or Internet browser usage, use, launch,
                           develop, or distribute any automated system, including
@@ -412,17 +442,19 @@ export default function Terms() {
                           using or launching any unauthorized script or other
                           software.
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           23. Disparage, tarnish, or otherwise harm, in our
                           opinion, us and/or the Site.
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           24. Use the Site in a manner inconsistent with any
                           applicable laws or regulations.
                         </li>
                       </ul>
-                      <h4>USER GENERATED CONTRIBUTIONS </h4>
-                      <p>
+                      <h3 className="text-2xl font-semibold">
+                        USER GENERATED CONTRIBUTIONS{" "}
+                      </h3>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         The Site does not offer users to submit or post content.
                         We may provide you with the opportunity to create,
                         submit, post, display, transmit, perform, publish,
@@ -437,8 +469,8 @@ export default function Terms() {
                         Privacy Policy. When you create or make available any
                         Contributions, you thereby represent and warrant that:{" "}
                       </p>
-                      <ul>
-                        <li>
+                      <ul className="list-none mr-auto">
+                        <li className="flex items-center">
                           1. The creation, distribution, transmission, public
                           display, or performance, and the accessing,
                           downloading, or copying of your Contributions do not
@@ -447,7 +479,7 @@ export default function Terms() {
                           trademark, trade secret, or moral rights of any third
                           party.{" "}
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           2. You are the creator and owner of or have the
                           necessary licenses, rights, consents, releases, and
                           permissions to use and to authorize us, the Site, and
@@ -455,7 +487,7 @@ export default function Terms() {
                           any manner contemplated by the Site and these Terms of
                           Use.{" "}
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           3. You have the written consent, release, and/or
                           permission of each and every identifiable individual
                           person in your Contributions to use the name or
@@ -464,58 +496,58 @@ export default function Terms() {
                           Contributions in any manner contemplated by the Site
                           and these Terms of Use.{" "}
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           4. Your Contributions are not false, inaccurate, or
                           misleading.{" "}
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           5. Your Contributions are not unsolicited or
                           unauthorized advertising, promotional materials,
                           pyramid schemes, chain letters, spam, mass mailings,
                           or other forms of solicitation.{" "}
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           6. Your Contributions are not obscene, lewd,
                           lascivious, filthy, violent, harassing, libelous,
                           slanderous, or otherwise objectionable (as determined
                           by us).{" "}
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           7. Your Contributions do not ridicule, mock,
                           disparage, intimidate, or abuse anyone.{" "}
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           8. Your Contributions are not used to harass or
                           threaten (in the legal sense of those terms) any other
                           person and to promote violence against a specific
                           person or class of people.{" "}
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           9. Your Contributions do not violate any applicable
                           law, regulation, or rule.{" "}
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           10. Your Contributions do not violate the privacy or
                           publicity rights of any third party.{" "}
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           11. Your Contributions do not contain any material
                           that solicits personal information from anyone under
                           the age of 18 or exploits people under the age of 18
                           in a sexual or violent manner.{" "}
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           12. Your Contributions do not violate any applicable
                           law concerning child pornography, or otherwise
                           intended to protect the health or well-being of
                           minors.{" "}
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           13. Your Contributions do not include any offensive
                           comments that are connected to race, national origin,
                           gender, sexual preference, or physical handicap.{" "}
                         </li>
-                        <li>
+                        <li className="flex items-center">
                           14. Your Contributions do not otherwise violate, or
                           link to material that violates, any provision of these
                           Terms of Use, or any applicable law or regulation. Any
@@ -526,20 +558,22 @@ export default function Terms() {
                           Marketplace Offerings.
                         </li>
                       </ul>
-                      <h4>CONTRIBUTION LICENSE</h4>
-                      <p>
+                      <h3 className="text-2xl font-semibold">
+                        CONTRIBUTION LICENSE{" "}
+                      </h3>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         {" "}
                         You and the Site agree that we may access, store,
                         process, and use any information and personal data that
                         you provide following the terms of the Privacy Policy
                         and your choices (including settings).{" "}
                       </p>
-                      <p>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         By submitting suggestions or other feedback regarding
                         the Site, you agree that we can use and share such
                         feedback for any purpose without compensation to you.{" "}
                       </p>
-                      <p>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         We do not assert any ownership over your Contributions.
                         You retain full ownership of all of your Contributions
                         and any intellectual property rights or other
@@ -551,8 +585,8 @@ export default function Terms() {
                         any and all responsibility and to refrain from any legal
                         action against us regarding your Contributions.{" "}
                       </p>
-                      <h4>SOCIAL MEDIA</h4>
-                      <p>
+                      <h3 className="text-2xl font-semibold">SOCIAL MEDIA </h3>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         {" "}
                         As part of the functionality of the Site, you may link
                         your account with online accounts you have with
@@ -614,8 +648,8 @@ export default function Terms() {
                         Third-Party Account, except the username and profile
                         picture that become associated with your account.
                       </p>
-                      <h4>SUBMISSIONS</h4>
-                      <p>
+                      <h3 className="text-2xl font-semibold">SUBMISSIONS </h3>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         {" "}
                         You acknowledge and agree that any questions, comments,
                         suggestions, ideas, feedback, or other information
@@ -634,8 +668,10 @@ export default function Terms() {
                         alleged or actual infringement or misappropriation of
                         any proprietary right in your Submissions.{" "}
                       </p>
-                      <h4>SITE MANAGEMENT </h4>
-                      <p>
+                      <h3 className="text-2xl font-semibold">
+                        SITE MANAGEMENT{" "}
+                      </h3>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         We reserve the right, but not the obligation, to: (1)
                         monitor the Site for violations of these Terms of Use;
                         (2) take appropriate legal action against anyone who, in
@@ -654,10 +690,12 @@ export default function Terms() {
                         property and to facilitate the proper functioning of the
                         Site and the Marketplace Offerings.{" "}
                       </p>
-                      <h4>PRIVACY POLICY</h4>{" "}
-                      <p>
+                      <h3 className="text-2xl font-semibold">
+                        PRIVACY POLICY{" "}
+                      </h3>{" "}
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         We care about data privacy and security. Please review
-                        our Privacy Policy: https://lexingtontech.us/privacy. By
+                        our Privacy Policy: https://lxtgroup.nft/privacy. By
                         using the Site or the Marketplace Offerings, you agree
                         to be bound by our Privacy Policy, which is incorporated
                         into these Terms of Use. Please be advised the Site and
@@ -671,8 +709,10 @@ export default function Terms() {
                         data to the United States, and you agree to have your
                         data transferred to and processed in the United States.{" "}
                       </p>
-                      <h4>TERM AND TERMINATION</h4>
-                      <p>
+                      <h3 className="text-2xl font-semibold">
+                        TERM AND TERMINATION{" "}
+                      </h3>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         {" "}
                         These Terms of Use shall remain in full force and effect
                         while you use the Site. WITHOUT LIMITING ANY OTHER
@@ -697,8 +737,10 @@ export default function Terms() {
                         action, including without limitation pursuing civil,
                         criminal, and injunctive redress.{" "}
                       </p>
-                      <h4>MODIFICATIONS AND INTERRUPTIONS</h4>
-                      <p>
+                      <h3 className="text-2xl font-semibold">
+                        MODIFICATIONS AND INTERRUPTIONS{" "}
+                      </h3>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         {" "}
                         We reserve the right to change, modify, or remove the
                         contents of the Site at any time or for any reason at
@@ -732,9 +774,13 @@ export default function Terms() {
                         be entirely performed within the State of Delaware,
                         without regard to its conflict of law principles.{" "}
                       </p>
-                      <h4>DISPUTE RESOLUTION </h4>
-                      <h5>Informal Negotiations </h5>
-                      <p>
+                      <h3 className="text-2xl font-semibold">
+                        DISPUTE RESOLUTION{" "}
+                      </h3>
+                      <h4 className="text-xl font-semibold">
+                        Informal Negotiations{" "}
+                      </h4>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         To expedite resolution and control the cost of any
                         dispute, controversy, or claim related to these Terms of
                         Use (each “Dispute” and collectively, the “Disputes”)
@@ -746,8 +792,10 @@ export default function Terms() {
                         negotiations commence upon written notice from one Party
                         to the other Party.{" "}
                       </p>
-                      <h5>Binding Arbitration</h5>
-                      <p>
+                      <h4 className="text-xl font-semibold">
+                        Binding Arbitration
+                      </h4>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         {" "}
                         If the Parties are unable to resolve a Dispute through
                         informal negotiations, the Dispute (except those
@@ -797,8 +845,8 @@ export default function Terms() {
                         agree to submit to the personal jurisdiction of that
                         court.
                       </p>
-                      <h5>Restrictions</h5>
-                      <p>
+                      <h4 className="text-xl font-semibold">Restrictions</h4>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         The Parties agree that any arbitration shall be limited
                         to the Dispute between the Parties individually. To the
                         full extent permitted by law, (a) no arbitration shall
@@ -810,10 +858,10 @@ export default function Terms() {
                         capacity on behalf of the general public or any other
                         persons.
                       </p>
-                      <h5>
+                      <h4 className="text-xl font-semibold">
                         Exceptions to Informal Negotiations and Arbitration
-                      </h5>
-                      <p>
+                      </h4>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         {" "}
                         The Parties agree that the following Disputes are not
                         subject to the above provisions concerning informal
@@ -832,8 +880,8 @@ export default function Terms() {
                         above, and the Parties agree to submit to the personal
                         jurisdiction of that court.{" "}
                       </p>
-                      <h4>CORRECTIONS</h4>
-                      <p>
+                      <h3 className="text-2xl font-semibold">CORRECTIONS </h3>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         There may be information on the Site that contains
                         typographical errors, inaccuracies, or omissions that
                         may relate to the Marketplace Offerings, including
@@ -843,8 +891,8 @@ export default function Terms() {
                         information on the Site at any time, without prior
                         notice.{" "}
                       </p>
-                      <h4>DISCLAIMER</h4>
-                      <p>
+                      <h3 className="text-2xl font-semibold">DISCLAIMER </h3>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         {" "}
                         THE SITE AND THE MARKETPLACE OFFERINGS ARE PROVIDED ON
                         AN AS-IS AND AS-AVAILABLE BASIS. YOU AGREE THAT YOUR USE
@@ -885,8 +933,10 @@ export default function Terms() {
                         YOUR BEST JUDGMENT AND EXERCISE CAUTION WHERE
                         APPROPRIATE.
                       </p>
-                      <h4>LIMITATIONS OF LIABILITY </h4>
-                      <p>
+                      <h3 className="text-2xl font-semibold">
+                        LIMITATIONS OF LIABILITY{" "}
+                      </h3>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         {" "}
                         IN NO EVENT WILL WE OR OUR DIRECTORS, EMPLOYEES, OR
                         AGENTS BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY
@@ -989,20 +1039,32 @@ export default function Terms() {
                         these Terms of Use and the lack of signing by the
                         parties hereto to execute these Terms of Use.
                       </p>
-                      <h4>CONTACT US</h4>
-                      <p>
+                      <h3 className="text-2xl font-semibold">CONTACT US </h3>
+                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                         {" "}
                         In order to resolve a complaint regarding the Site or
                         the Marketplace Offerings or to receive further
                         information regarding use of the Site or the Marketplace
                         Offerings, please contact us at:{" "}
                       </p>
-                      <ul>
-                        <li>LXT GROUP LLC</li>
-                        <li>16192 Coastal Highway</li>
-                        <li> Lewes, DE 19958 United States</li>
-                        <li> Phone: +1 6193632168</li>
-                        <li>info@lxtgroup.nft</li>
+                      <ul className="list-none mr-auto">
+                        <li className="flex items-center">
+                         <img
+                            src="/img/brand/logo_lxtgroup_circle.svg"
+                            alt="LXT GROUP LLC"
+                            height="16"
+                            width="16"
+                          />
+                          <span className="inline-block ml-2">LXT GROUP LLC</span></li>
+                        <li className="flex items-center">
+                        <i className="fas fa-map-marker-alt"></i>
+                          <span className="inline-block ml-2">
+                          16192 Coastal Highway
+                          <br />                          
+                          Lewes, DE 19958 <br />
+                          United States</span>                        </li>
+                        <li className="flex items-center"><i className="fas fa-at"></i>
+                         <span className="inline-block ml-2">legal@lxtgroup.nft</span></li>
                       </ul>
                     </div>
                   </div>

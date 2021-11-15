@@ -8,7 +8,7 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
 export default function Index() {
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(true);
   const Emoji = (props) => (
     <span
       className="emoji"
@@ -45,9 +45,9 @@ export default function Index() {
                 Crypto EFT & Hyper-Local Microservices.
               </p>
               <ReactPlayer
-                height="320"
+                className="opacity-75" height="320"
                 width="640"
-                url="https://link.ap1.storjshare.io/s/jv4s46x4upp2poeempcfwpeffunq/lxtgroup/Quantum%20Management%20Short.mp4?wrap=0"
+                url="https://link.ap1.storjshare.io/s/jufrs23neuaizdwmvvjskuo5psza/lxtgroup/Quantum%20Management%20Short.mp4?wrap=0"
                 controls
                 playing={isPlaying}
                 config={{
