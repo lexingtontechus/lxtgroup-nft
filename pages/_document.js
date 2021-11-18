@@ -34,7 +34,7 @@ class MyDocument extends Document {
           <div id="page-transition"></div>
           <Main />
           <NextScript />
-          <div classname="minymon">
+          <div className="minymon">
             <minymon-body
               enableFeed="true"
               enableTalk="true"
