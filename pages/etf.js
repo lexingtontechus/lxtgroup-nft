@@ -1,16 +1,25 @@
 import React from "react";
 import Link from "next/link";
 import { useState, useEffect } from "react";
-
+import Head from "next/head";
 import ReactPlayer from "react-player";
 // components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
 export default function ETF() {
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(true);
   return (
     <>
+      <Head>
+        <title>LXT GROUP | ETF</title>
+        <meta
+          property="description="
+          content="Investment management of Crypto, digital & Forex assets."
+          key="description"
+        />
+      </Head>
+
       <IndexNavbar transparent />
       <main>
         <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
@@ -29,15 +38,11 @@ export default function ETF() {
             <div className="items-center flex flex-wrap">
               <div className="pt-24 w-full lg:w-10/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
-                  <h1 className="text-white text-center font-semibold text-5xl">
+                  <h1 className="text-white text-center font-semibold text-5xl pb-4">
                     INVESTMENT MANAGEMENT
                   </h1>
-                  <p className="mt-2 mb-4 text-blueGray-500 text-center">
-                    Cryptocurrency hedge fund exclusively focused on investing
-                    in digital assets
-                  </p>
                   <ReactPlayer
-                    url="https://link.ap1.storjshare.io/s/jxwpfnsmsadgr66g4lpbwqqcl6iq/lxtgroup/etf.mp4?wrap=0"
+                    url="https://link.ap1.storjshare.io/s/jvwmx4khbal5hdno43j5jo73yruq/lxtgroup/etf.mp4?wrap=0"
                     height="320"
                     width="240"
                     controls
@@ -50,7 +55,13 @@ export default function ETF() {
                       }
                     }}
                   />
-                  ;<div className="pt-6 w-8/12 h-4/12"></div>
+                  ;
+                  <div className="pt-2 w-8/12 h-4/12">
+                    <p className="mt-2 mb-4 text-blueGray-500 text-center">
+                      Cryptocurrency hedge fund exclusively focused on investing
+                      in digital assets
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

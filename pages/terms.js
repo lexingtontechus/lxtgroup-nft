@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-
+import Head from "next/head";
 // components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 //import Navbar from "components/Navbars/AuthNavbar.js";
@@ -9,6 +9,10 @@ import Footer from "components/Footers/Footer.js";
 export default function Terms() {
   return (
     <>
+             <Head>
+        <title>LXT GROUP | Terms of Service</title>
+        <meta property="description=" content="Terms of Service" key="description"/>
+      </Head> 
       <IndexNavbar transparent />
       <main>
         <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
@@ -1049,22 +1053,31 @@ export default function Terms() {
                       </p>
                       <ul className="list-none mr-auto">
                         <li className="flex items-center">
-                         <img
+                          <img
                             src="/img/brand/logo_lxtgroup_circle.svg"
                             alt="LXT GROUP LLC"
                             height="16"
                             width="16"
                           />
-                          <span className="inline-block ml-2">LXT GROUP LLC</span></li>
-                        <li className="flex items-center">
-                        <i className="fas fa-map-marker-alt"></i>
                           <span className="inline-block ml-2">
-                          16192 Coastal Highway
-                          <br />                          
-                          Lewes, DE 19958 <br />
-                          United States</span>                        </li>
-                        <li className="flex items-center"><i className="fas fa-at"></i>
-                         <span className="inline-block ml-2">legal@lxtgroup.nft</span></li>
+                            LXT GROUP LLC
+                          </span>
+                        </li>
+                        <li className="flex items-center">
+                          <i className="fas fa-map-marker-alt"></i>
+                          <span className="inline-block ml-2">
+                            16192 Coastal Highway
+                            <br />
+                            Lewes, DE 19958 <br />
+                            United States
+                          </span>{" "}
+                        </li>
+                        <li className="flex items-center">
+                          <i className="fas fa-at"></i>
+                          <span className="inline-block ml-2">
+                            legal@lxtgroup.nft
+                          </span>
+                        </li>
                       </ul>
                     </div>
                   </div>

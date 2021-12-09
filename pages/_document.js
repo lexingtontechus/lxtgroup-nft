@@ -8,6 +8,31 @@ class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
           <meta name="theme-color" content="#000000" />
+          <meta
+            name="description"
+            content="Investing in the future of FoodTech, PharmaTech,
+Crypto EFT & Hyper-Local Microservices."
+            key="description"
+          />
+          <meta
+            property="og:title"
+            content="LXT GROUP | QUANTUM MANAGEMENT"
+            key="title"
+          />
+          <meta
+            property="og:description"
+            content="QUANTUM MANAGEMENT |
+Investing in the future of FoodTech, PharmaTech,
+Crypto EFT & Hyper-Local Microservices.  Web 3.0 Blockchain domain IPFS "
+            key="description"
+          />
+          <meta property="og:url" content="https://lxtgroup.nft" />
+          <meta property="og:type" content="website" />
+          <meta
+            property="keywords"
+            content=" Web 3.0, Blockchain, domain, IPFS, Interplantary File System, Storj, Quantum Management, FoodTech, BioTech, Hyperlocal Microservices, Crypto, Forex, ETF, Pharmatech"
+            key="keywords"
+          />
           <link rel="shortcut icon" href="/img/brand/ico_lxtgroup.svg" />
           <link
             rel="apple-touch-icon"
@@ -23,7 +48,6 @@ class MyDocument extends Document {
             src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.8/lottie_svg.min.js"
             type="text/javascript"
           ></script>
-
           <script
             src="https://api.minymon.com/minymon.js"
             defer

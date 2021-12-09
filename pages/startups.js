@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import Head from "next/head";
 
 import ReactPlayer from "react-player";
 // components
@@ -8,9 +9,17 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
 export default function Startups() {
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(true);
   return (
     <>
+      <Head>
+        <title>LXT GROUP | Startups</title>
+        <meta
+          property="description="
+          content="Accelerated Startup Investment of Hyperlocal Microservices"
+          key="description"
+        />
+      </Head>
       <IndexNavbar transparent />
       <main>
         <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
@@ -29,14 +38,11 @@ export default function Startups() {
             <div className="items-center flex flex-wrap">
               <div className="pt-24 w-full lg:w-10/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
-                  <h1 className="text-white text-center font-semibold text-5xl">
-                    HYPER-LOCAL MICROSERVICES
+                  <h1 className="text-white text-center font-semibold text-5xl pb-4">
+                    HYPERLOCAL MICROSERVICES
                   </h1>
-                  <p className="mt-2 mb-4 text-blueGray-500 text-center">
-                    Accelerated Startup Business Investment
-                  </p>
                   <ReactPlayer
-                    url="https://link.ap1.storjshare.io/jx2uyqnpzutvjm5xerjqt3pnmqba/lxtgroup%2Fstartups.mp4?wrap=0"
+                    url="https://link.ap1.storjshare.io/s/jwzvdrya3zvc6vuafnasaf4i6hiq/lxtgroup/startups.mp4?wrap=0"
                     controls
                     height="320"
                     width="240"
@@ -49,7 +55,12 @@ export default function Startups() {
                       }
                     }}
                   />
-                  ;<div className="pt-6 w-8/12 h-4/12"></div>
+                  ;
+                  <div className="pt-2 w-8/12 h-4/12">
+                    <p className="mt-2 mb-4 text-blueGray-500 text-center">
+                      Accelerated Startup Business Investment
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -86,7 +97,7 @@ export default function Startups() {
                     </div>
                     <h6 className="text-xl font-semibold">Our Mission</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Launching hyper-local start-ups.
+                      Launching hyperlocal start-ups.
                     </p>
                     <ul className="list-none mt-6">
                       <li className="py-2">
@@ -207,7 +218,9 @@ export default function Startups() {
                       <i className="fas fa-fingerprint"></i>
                     </div>
                     <h6 className="text-xl font-semibold">Our Growth</h6>
-                    <p className="mt-2 mb-4 text-blueGray-500">Automation, upskilling & training.</p>
+                    <p className="mt-2 mb-4 text-blueGray-500">
+                      Automation, upskilling & training.
+                    </p>
                     <p className="mt-2 mb-4 text-blueGray-500">
                       Sustainable & high yield foodtech products & water
                       sources.
@@ -231,8 +244,8 @@ export default function Startups() {
                   Service Networks.
                 </p>
                 <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
-                  Launch a hyper-local transportation service that caters to
-                  your niche market, e.g.
+                  Launch a hyperlocal transportation service that caters to your
+                  niche market, e.g.
                 </p>
                 <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
                   Local business routes Welfare causes Afterschool pickup Senior
@@ -336,7 +349,7 @@ export default function Startups() {
                     Transportation Services
                   </h3>
                   <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                    Launching hyper-local startups.
+                    Launching hyperlocal startups.
                   </p>
                   <ul className="list-none mt-6">
                     <li className="py-2">
@@ -362,7 +375,7 @@ export default function Startups() {
                         </div>
                         <div>
                           <h4 className="text-blueGray-500">
-                            Launch a hyper-local service in your city.
+                            Launch a hyperlocal service in your city.
                           </h4>
                         </div>
                       </div>

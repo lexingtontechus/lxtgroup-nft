@@ -2,6 +2,8 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Head from "next/head";
+
 import ReactPlayer from "react-player";
 
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
@@ -21,6 +23,9 @@ export default function Index() {
   );
   return (
     <>
+      <Head>
+        <title>LXT GROUP | Home</title>
+      </Head>
       <IndexNavbar fixed />
       <main>
         <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
@@ -37,20 +42,17 @@ export default function Index() {
           </div>
           <div className="container relative mx-auto">
             <div className="items-center flex flex-wrap">
-              <div className="pt-24 w-full lg:w-10/12 px-4 ml-auto mr-auto text-center">
+              <div className="pt-24 w-full lg:w-10/12 px-4 ml-auto mr-auto text-center justify-center">
                 <div className="pr-12">
-                  <h1 className="text-white font-semibold text-5xl text-center uppercase">
+                  <h1 className="text-white font-semibold text-5xl text-center uppercase pb-4">
                     Quantum Management
                   </h1>
-                  <p className="mt-2 mb-4 text-blueGray-500 text-center">
-                    Investing in the future of FoodTech, PharmaTech, <br />
-                    Crypto EFT & Hyper-Local Microservices.
-                  </p>
                   <ReactPlayer
-                    url="https://link.ap1.storjshare.io/s/jufrs23neuaizdwmvvjskuo5psza/lxtgroup/Quantum%20Management%20Short.mp4?wrap=0"
+                    url="https://link.ap1.storjshare.io/s/jwylcpaqzdib5uqg32lltvzl527a/lxtgroup/quantum_management.mp4?wrap=0"
                     controls
                     height="320"
                     width="240"
+                    loop="true"
                     playing={isPlaying}
                     config={{
                       file: {
@@ -60,6 +62,12 @@ export default function Index() {
                       }
                     }}
                   />
+                  <div className="pt-2 w-8/12 h-4/12">
+                    <p className="mt-2 mb-4 text-blueGray-500 text-center">
+                      Investing in the future of FoodTech, PharmaTech, <br />
+                      Crypto EFT & Hyperlocal Microservices.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -78,7 +86,7 @@ export default function Index() {
               y="0"
             >
               <polygon
-                className="text-blueGray-200 fill-current"
+                className="text-blueGray-300 fill-current"
                 points="2560 0 2560 100 0 100"
               ></polygon>
             </svg>
@@ -155,7 +163,7 @@ export default function Index() {
 
               <div className="w-full md:w-6/12 mr-auto px-4 pt-20 md:pt-0">
                 <img
-                  alt="..."
+                  alt="BioTech"
                   className="max-w-full rounded-lg shadow-xl"
                   style={{
                     transform:

@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import AnnounceKit from "announcekit-react";
-
+import Image from "next/image";
 // components
 
 import IndexDropdown from "components/Dropdowns/IndexDropdown.js";
@@ -13,7 +13,7 @@ export default function Navbar(props) {
       <nav className="top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-blueGray-700 shadow">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-            <img
+            <Image
               alt="LXT GROUP LLC"
               height="25"
               width="25"
@@ -91,7 +91,7 @@ export default function Navbar(props) {
 
               <li className="flex items-center">
                 <span className="hover:text-blueGray-500 text-blueGray-500 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
-                  News
+                  News{" "}
                   <AnnounceKit widget="https://announcekit.app/widgets/v2/2NO0A8" />
                 </span>
               </li>

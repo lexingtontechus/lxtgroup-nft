@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "next/link";
+import Head from "next/head";
+
 //import Navbar from "components/Navbars/AuthNavbar.js";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 
@@ -8,6 +10,14 @@ import Footer from "components/Footers/Footer.js";
 export default function About() {
   return (
     <>
+      <Head>
+        <title>LXT GROUP | About</title>
+        <meta
+          property="description="
+          content="Web 3.0 Blockchain IPFS based domain."
+          key="description"
+        />
+      </Head>
       <IndexNavbar transparent />
       <main className="profile-page">
         <section className="relative block h-500-px">
@@ -71,13 +81,13 @@ export default function About() {
                     <div className="flex justify-center py-4 lg:pt-4 pt-8">
                       <div className="mr-4 p-3 text-center">
                         <span className="text-xl font-bold block uppercase tracking-wide text-blueGray-600">
-                          6
+                          3
                         </span>
                         <span className="text-sm text-blueGray-400">Funds</span>
                       </div>
                       <div className="mr-4 p-3 text-center">
                         <span className="text-xl font-bold block uppercase tracking-wide text-blueGray-600">
-                          10
+                          6
                         </span>
                         <span className="text-sm text-blueGray-400">
                           Investments
@@ -85,7 +95,7 @@ export default function About() {
                       </div>
                       <div className="lg:mr-4 p-3 text-center">
                         <span className="text-xl font-bold block uppercase tracking-wide text-blueGray-600">
-                          7
+                          4
                         </span>
                         <span className="text-sm text-blueGray-400">
                           Startups
@@ -132,28 +142,21 @@ export default function About() {
                 <div className="mt-10 py-10 border-t border-blueGray-200 text-center">
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full lg:w-9/12 px-4">
+                      <h3 className="text-4xl font-semibold leading-normal mb-2 text-blueGray-700 mb-2">
+                        Our focus is sustainable projects.
+                      </h3>
                       <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
                         <ul>
                           <li>Cell and Plant-Based</li>
                           <li>From Bench to Production</li>
-                        </ul>
-                      </p>
-                      <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
-                        <ul>
                           <li>Crypto-Hedge Fund</li>
                           <li>SmartFX</li>
+                          <li>Web 3.0</li>
                         </ul>
                       </p>
                       <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
-                        <Link href="/">
-                          <a
-                            className="text-white text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
-                            href="#pablo"
-                          >
-                            lxtgroup.nft
-                          </a>
-                        </Link>{" "}
                         Part of the publicly accessible Ethereum blockchain.
+                        <br />
                         Providing an impressive level of openness, transparency
                         and enhanced security.
                       </p>

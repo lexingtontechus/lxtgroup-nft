@@ -31,28 +31,32 @@ export default function Footer() {
                 Find us on any of these platforms, we respond 1-2 business days.
               </h5>
               <div className="mt-6 lg:mb-0 mb-6">
-                                  <a
+                <a
                   className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2  items-center text-xs uppercase font-bold"
                   href="https://www.linkedin.com/company/lxtgroup"
                   target="_blank"
                   rel="noreferrer"
-                ><button
-                  className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                  type="button"
                 >
-<i className="fab fa-linkedin"></i>
-                </button></a>
+                  <button
+                    className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    type="button"
+                  >
+                    <i className="fab fa-linkedin"></i>
+                  </button>
+                </a>
                 <a
                   className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2  items-center text-xs uppercase font-bold"
                   href="https://angel.co/company/lxt-group/"
                   target="_blank"
                   rel="noreferrer"
-                ><button
-                  className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                  type="button"
                 >
-                  <i className="fab fa-angellist"></i>
-                </button></a>
+                  <button
+                    className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    type="button"
+                  >
+                    <i className="fab fa-angellist"></i>
+                  </button>
+                </a>
               </div>
             </div>
             <div className="w-full lg:w-6/12 px-4">
@@ -70,12 +74,20 @@ export default function Footer() {
                         About Us
                       </a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://blog.lxtgroup.nft"
                       >
                         Blog
+                      </a>
+                   </li>*/}
+                    <li>
+                      <a
+                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                        href="/contact"
+                      >
+                        Contact Us
                       </a>
                     </li>
                   </ul>
@@ -99,14 +111,6 @@ export default function Footer() {
                         href="/privacy"
                       >
                         Privacy Policy
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="/contact"
-                      >
-                        Contact Us
                       </a>
                     </li>
                   </ul>

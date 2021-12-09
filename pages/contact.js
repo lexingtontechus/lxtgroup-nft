@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-
+import Head from "next/head";
 // components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 //import Navbar from "components/Navbars/AuthNavbar.js";
@@ -9,6 +9,10 @@ import Footer from "components/Footers/Footer.js";
 export default function Contact() {
   return (
     <>
+        <Head>
+        <title>LXT GROUP | Contact</title>
+        <meta property="description=" content="Your story starts with us." key="description"/>
+      </Head>
       <IndexNavbar transparent />
       <main>
         <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
