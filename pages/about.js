@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Head from "next/head";
+import Image from "next/image";
 
 //import Navbar from "components/Navbars/AuthNavbar.js";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
@@ -60,7 +61,7 @@ export default function About() {
                 <div className="flex flex-wrap justify-center">
                   <div className="w-full lg:w-3/12 px-4 lg:order-2 flex justify-center">
                     <div className="relative">
-                      <img
+                      <Image
                         alt="LXT GROUP LLC"
                         src="/img/brand/logo_lxtgroup_circle.svg"
                         className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px"

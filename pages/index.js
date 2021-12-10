@@ -3,7 +3,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Head from "next/head";
-
+import Image from 'next/image';
 import ReactPlayer from "react-player";
 
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
@@ -162,7 +162,7 @@ export default function Index() {
               </div>
 
               <div className="w-full md:w-6/12 mr-auto px-4 pt-20 md:pt-0">
-                <img
+                <Image
                   alt="BioTech"
                   className="max-w-full rounded-lg shadow-xl"
                   style={{
@@ -179,7 +179,7 @@ export default function Index() {
           <div className="container mx-auto px-4 pb-16 pt-16">
             <div className="items-center flex flex-wrap">
               <div className="w-full md:w-6/12 mr-auto px-4 pt-20 md:pt-0">
-                <img
+                <Image
                   alt="Crypto EFT"
                   className="max-w-full rounded-lg shadow-xl"
                   style={{
@@ -322,7 +322,7 @@ export default function Index() {
               </div>
               <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto mt-16">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
-                  <img
+                  <Image
                     alt="HYPERLOCAL MICROSERVICES"
                     src="/img/assets/hyperlocal.png"
                     className="w-full align-middle rounded-t-lg"

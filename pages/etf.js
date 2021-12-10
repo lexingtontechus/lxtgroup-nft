@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import Head from "next/head";
+import Image from "next/image";
 import ReactPlayer from "react-player";
 // components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
@@ -185,7 +186,7 @@ export default function ETF() {
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
-                  <img
+                  <Image
                     alt="FoodTech"
                     src="/img/assets/crypto_etf2.jfif"
                     className="w-full align-middle rounded-t-lg"
@@ -241,7 +242,7 @@ export default function ETF() {
             <div className="items-center flex flex-wrap">
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
-                  <img
+                  <Image
                     alt="BioTech"
                     src="/img/assets/forex_etf1.jfif"
                     className="w-full align-middle rounded-t-lg"
