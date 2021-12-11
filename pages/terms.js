@@ -9,10 +9,14 @@ import Footer from "components/Footers/Footer.js";
 export default function Terms() {
   return (
     <>
-             <Head>
+      <Head>
         <title>LXT GROUP | Terms of Service</title>
-        <meta property="description=" content="Terms of Service" key="description"/>
-      </Head> 
+        <meta
+          property="description="
+          content="Terms of Service"
+          key="description"
+        />
+      </Head>
       <IndexNavbar transparent />
       <main>
         <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
@@ -1054,7 +1058,7 @@ export default function Terms() {
                       <ul className="list-none mr-auto">
                         <li className="flex items-center">
                           <img
-                            src="/img/brand/logo_lxtgroup_circle.svg"
+                            src="/logo_lxtgroup_circle.svg"
                             alt="LXT GROUP LLC"
                             height="16"
                             width="16"

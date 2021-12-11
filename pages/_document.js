@@ -33,12 +33,8 @@ Crypto EFT & Hyper-Local Microservices.  Web 3.0 Blockchain domain IPFS "
             content=" Web 3.0, Blockchain, domain, IPFS, Interplantary File System, Storj, Quantum Management, FoodTech, BioTech, Hyperlocal Microservices, Crypto, Forex, ETF, Pharmatech"
             key="keywords"
           />
-          <link rel="shortcut icon" href="/img/brand/ico_lxtgroup.svg" />
-          <link
-            rel="apple-touch-icon"
-            sizes="76x76"
-            href="/img/brand/apple-icon.png"
-          />
+          <link rel="shortcut icon" href="/ico_lxtgroup.svg" />
+          <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon.png" />
           <script
             id="convertful-api"
             src="https://app.convertful.com/Convertful.js?owner=6615"

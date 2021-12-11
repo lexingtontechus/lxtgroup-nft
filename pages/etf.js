@@ -7,6 +7,9 @@ import ReactPlayer from "react-player";
 // components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
+//Images
+import ImgCrypto from "../public/crypto_etf2.png";
+import ImgForex from "../public/forex_etf1.png";
 
 export default function ETF() {
   const [isPlaying, setIsPlaying] = useState(true);
@@ -27,7 +30,7 @@ export default function ETF() {
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
-              backgroundImage: "url('/img/assets/crypto_banner.jfif')"
+              backgroundImage: "url('/crypto_banner.png')"
             }}
           >
             <span
@@ -188,7 +191,8 @@ export default function ETF() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
                   <Image
                     alt="FoodTech"
-                    src="/img/assets/crypto_etf2.jfif"
+                    src={ImgCrypto}
+                    layout="responsive"
                     className="w-full align-middle rounded-t-lg"
                   />
                   <blockquote className="relative p-8 mb-4">
@@ -243,8 +247,9 @@ export default function ETF() {
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
                   <Image
-                    alt="BioTech"
-                    src="/img/assets/forex_etf1.jfif"
+                    alt="Forex"
+                    src={ImgForex}
+                    layout="responsive"
                     className="w-full align-middle rounded-t-lg"
                   />
                   <blockquote className="relative p-8 mb-4">
@@ -261,9 +266,8 @@ export default function ETF() {
                     </svg>
                     <h4 className="text-xl font-bold text-white">Forex</h4>
                     <p className="text-md font-light mt-2 text-white">
-                      BioTech is the use of living organisms & synthetic
-                      alternatives to produce sustainable & affordable bio &
-                      pharma applications.
+                      Live Forex trading built on our proprietary smart trading
+                      algorithms.
                     </p>
                   </blockquote>
                 </div>
