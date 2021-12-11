@@ -8,6 +8,9 @@ import ReactPlayer from "react-player";
 // components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
+//Images
+import ImgFoodTech from "../public/foodlovestech.png";
+import ImgBioTech from "../public/biotech.png";
 
 export default function BioTech() {
   const [isPlaying, setIsPlaying] = useState(true);
@@ -27,7 +30,7 @@ export default function BioTech() {
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
-              backgroundImage: "url('/img/assets/food_evolution.png')"
+              backgroundImage: "url('../public/food_evolution.png')"
             }}
           >
             <span
@@ -182,7 +185,8 @@ export default function BioTech() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
                   <Image
                     alt="FoodTech"
-                    src="/img/assets/foodlovestech.jfif"
+                    src={ImgFoodTech}
+                    layout="responsive"
                     className="w-full align-middle rounded-t-lg"
                   />
                   <blockquote className="relative p-8 mb-4">
@@ -238,7 +242,8 @@ export default function BioTech() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
                   <Image
                     alt="BioTech"
-                    src="/img/assets/biotech.png"
+                    src={ImgBioTech}
+                    layout="responsive"
                     className="w-full align-middle rounded-t-lg"
                   />
                   <blockquote className="relative p-8 mb-4">

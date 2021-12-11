@@ -1,12 +1,13 @@
 import React from "react";
-import Link from "next/link";
+//import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
 
 //import Navbar from "components/Navbars/AuthNavbar.js";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
-
 import Footer from "components/Footers/Footer.js";
+//Images
+import ImgLogo from "../public/logo_lxtgroup_circle.svg";
 
 export default function About() {
   return (
@@ -63,7 +64,8 @@ export default function About() {
                     <div className="relative">
                       <Image
                         alt="LXT GROUP LLC"
-                        src="/img/brand/logo_lxtgroup_circle.svg"
+                        src={ImgLogo}
+                        layout="responsive"
                         className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px"
                       />
                     </div>

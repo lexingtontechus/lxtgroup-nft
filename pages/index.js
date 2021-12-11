@@ -1,13 +1,17 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import { useState, useEffect } from "react";
-import Link from "next/link";
+//import Link from "next/link";
 import Head from "next/head";
-import Image from 'next/image';
+import Image from "next/image";
 import ReactPlayer from "react-player";
 
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
+
+import ImgBioTech from "../public/biotech.png";
+import ImgETF from "../public/biotech.png";
+import ImgHyperlocal from "../public/biotech.png";
 
 export default function Index() {
   const [isPlaying, setIsPlaying] = useState(true);
@@ -32,7 +36,7 @@ export default function Index() {
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
-              backgroundImage: "url('/img/assets/quantum_header.jpg')"
+              backgroundImage: "url('/quantum_header.jpg')"
             }}
           >
             <span
@@ -52,7 +56,6 @@ export default function Index() {
                     controls
                     height="320"
                     width="240"
-                    loop="true"
                     playing={isPlaying}
                     config={{
                       file: {
@@ -165,11 +168,12 @@ export default function Index() {
                 <Image
                   alt="BioTech"
                   className="max-w-full rounded-lg shadow-xl"
+                  layout="responsive"
                   style={{
                     transform:
                       "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)"
                   }}
-                  src="/img/assets/biotech.png"
+                  src={ImgBioTech}
                 />
               </div>
             </div>
@@ -182,11 +186,12 @@ export default function Index() {
                 <Image
                   alt="Crypto EFT"
                   className="max-w-full rounded-lg shadow-xl"
+                  layout="responsive"
                   style={{
                     transform:
                       "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)"
                   }}
-                  src="/img/assets/crypto_etf2.jfif"
+                  src={ImgETF}
                 />
               </div>
               <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
@@ -324,7 +329,8 @@ export default function Index() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
                   <Image
                     alt="HYPERLOCAL MICROSERVICES"
-                    src="/img/assets/hyperlocal.png"
+                    layout="responsive"
+                    src={ImgHyperlocal}
                     className="w-full align-middle rounded-t-lg"
                   />
                   <blockquote className="relative p-8 mb-4">

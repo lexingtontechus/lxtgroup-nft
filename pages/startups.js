@@ -2,11 +2,13 @@ import React from "react";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import Head from "next/head";
-import Image from 'next/image';
+import Image from "next/image";
 import ReactPlayer from "react-player";
 // components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
+//Images
+import ImgFoodDelivery from "../public/delivery_food.png";
 
 export default function Startups() {
   const [isPlaying, setIsPlaying] = useState(true);
@@ -26,7 +28,7 @@ export default function Startups() {
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
-              backgroundImage: "url('/img/assets/startup_business.jfif')"
+              backgroundImage: "url('/startup_business.png')"
             }}
           >
             <span
@@ -256,8 +258,9 @@ export default function Startups() {
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
                   <Image
-                    alt="FoodTech"
-                    src="/img/assets/delivery_food.jfif"
+                    alt="Food Delivery Technology"
+                    src={ImgFoodDelivery}
+                    layout="responsive"
                     className="w-full align-middle rounded-t-lg"
                   />
                   <blockquote className="relative p-8 mb-4">
@@ -313,7 +316,7 @@ export default function Startups() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
                   <img
                     alt="BioTech"
-                    src="/img/assets/delivery_medical.png"
+                    src="../public/delivery_medical.png"
                     className="w-full align-middle rounded-t-lg"
                   />
                   <blockquote className="relative p-8 mb-4">

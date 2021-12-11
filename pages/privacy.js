@@ -11,10 +11,14 @@ import Footer from "components/Footers/Footer.js";
 export default function Privacy({ color }) {
   return (
     <>
-       <Head>
+      <Head>
         <title>LXT GROUP | Privacy</title>
-        <meta property="description=" content="Privacy & Data Protection" key="description"/>
-      </Head> 
+        <meta
+          property="description="
+          content="Privacy & Data Protection"
+          key="description"
+        />
+      </Head>
       <IndexNavbar transparent />
       <main>
         <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
@@ -492,7 +496,6 @@ export default function Privacy({ color }) {
                         We have collected the following categories of personal
                         information in the past twelve (12) months:
                       </p>
-
                       <div className="block w-full overflow-x-auto">
                         {/* Projects table */}
                         <table className="items-center w-full bg-transparent border-collapse">
@@ -548,7 +551,6 @@ export default function Privacy({ color }) {
                               >
                                 Sold
                               </th>
-                              
                             </tr>
                           </thead>
                           <tbody>
@@ -593,7 +595,6 @@ export default function Privacy({ color }) {
                             {/*Personal categories*/}
                             <tr>
                               <th className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-normal p-4 text-left flex items-center">
-                              
                                 <span
                                   className={
                                     "ml-0 font-bold " +
@@ -652,7 +653,7 @@ export default function Privacy({ color }) {
                             {/*Commercial information*/}
                             <tr>
                               <th className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-normal p-4 text-left flex items-center">
-                              <span
+                                <span
                                   className={
                                     "ml-0 font-bold " +
                                     +(color === "light"
@@ -682,7 +683,7 @@ export default function Privacy({ color }) {
                             {/*Biometric information*/}
                             <tr>
                               <th className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-normal p-4 text-left flex items-center">
-                               <span
+                                <span
                                   className={
                                     "ml-0 font-bold " +
                                     +(color === "light"
@@ -740,7 +741,7 @@ export default function Privacy({ color }) {
                             {/*Geolocation data*/}
                             <tr>
                               <th className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-normal p-4 text-left flex items-center">
-                               <span
+                                <span
                                   className={
                                     "ml-0 font-bold " +
                                     +(color === "light"
@@ -800,7 +801,7 @@ export default function Privacy({ color }) {
                             {/* Professional or employment-related information*/}
                             <tr>
                               <th className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-normal p-4 text-left flex items-center">
-                               <span
+                                <span
                                   className={
                                     "ml-0 font-bold " +
                                     +(color === "light"
@@ -837,7 +838,7 @@ export default function Privacy({ color }) {
                             {/* Inferences drawn from other personal information */}
                             <tr>
                               <th className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-normal p-4 text-left flex items-center">
-                              <span
+                                <span
                                   className={
                                     "ml-0 font-bold " +
                                     +(color === "light"
@@ -1147,7 +1148,7 @@ export default function Privacy({ color }) {
                       <ul className="list-none mr-auto">
                         <li className="flex items-center">
                           <img
-                            src="/img/brand/logo_lxtgroup_circle.svg"
+                            src="/logo_lxtgroup_circle.svg"
                             alt="LXT GROUP LLC"
                             height="16"
                             width="16"
@@ -1166,9 +1167,14 @@ export default function Privacy({ color }) {
                             United States
                           </span>
                         </li>
-                        <li className="flex items-center"><i className="fas fa-at"></i>
-                         <span className="inline-block ml-2">legal@lxtgroup.nft</span></li>
-                      </ul><br />
+                        <li className="flex items-center">
+                          <i className="fas fa-at"></i>
+                          <span className="inline-block ml-2">
+                            legal@lxtgroup.nft
+                          </span>
+                        </li>
+                      </ul>
+                      <br />
                       <h4 className="text-xl font-semibold">
                         13. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE
                         COLLECT FROM YOU?{" "}
