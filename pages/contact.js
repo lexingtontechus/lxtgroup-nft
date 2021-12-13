@@ -1,17 +1,21 @@
 import React from "react";
-import Link from "next/link";
+//import Link from "next/link";
 import Head from "next/head";
 // components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
-//import Navbar from "components/Navbars/AuthNavbar.js";
+import ContactForm from "./contactform.js";
 import Footer from "components/Footers/Footer.js";
 
 export default function Contact() {
   return (
     <>
-        <Head>
+      <Head>
         <title>LXT GROUP | Contact</title>
-        <meta property="description=" content="Your story starts with us." key="description"/>
+        <meta
+          property="description="
+          content="Your story starts with us."
+          key="description"
+        />
       </Head>
       <IndexNavbar transparent />
       <main>
@@ -149,8 +153,8 @@ export default function Contact() {
                     <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
                       Complete this form and we will get back to you in 24
                       hours.
-                    </p>
-                    <div class="convertful-148367"></div>
+                    </p>{" "}
+                    <ContactForm />
                   </div>
                 </div>
               </div>

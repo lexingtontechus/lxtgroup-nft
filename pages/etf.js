@@ -41,7 +41,7 @@ export default function ETF() {
           <div className="container relative mx-auto">
             <div className="items-center flex flex-wrap">
               <div className="pt-24 w-full lg:w-10/12 px-4 ml-auto mr-auto text-center">
-                <div className="pr-12">
+                <div className="p-2">
                   <h1 className="text-white text-center font-semibold text-5xl pb-4">
                     INVESTMENT MANAGEMENT
                   </h1>
@@ -61,7 +61,7 @@ export default function ETF() {
                   />
                   ;
                   <div className="pt-2 w-8/12 h-4/12">
-                    <p className="mt-2 mb-4 text-blueGray-500 text-center">
+                    <p className="mt-2 mb-4 text-blueGray-400 text-center">
                       Cryptocurrency hedge fund exclusively focused on investing
                       in digital assets
                     </p>
@@ -102,16 +102,16 @@ export default function ETF() {
                     </div>
                     <h6 className="text-xl font-semibold">Our Mission</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      If you are a start-ups that fits our missionInvesting in
-                      the sustainable future of food & medical advances.
+                      Build AI & Machine Learning driven algorithms for ETF
+                      platforms.
                     </p>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Sustainable & high yield foodtech products & water
-                      sources.
+                      Sustainable investment portfolios across a wide range of
+                      technologies & industries.
                     </p>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Future of eCommerce powered by virtual & augmented
-                      reality.
+                      Web 3.0 - DeFi & Crypto payments solutions for our
+                      clients.
                     </p>
                   </div>
                 </div>
@@ -121,49 +121,41 @@ export default function ETF() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
-                      <i className="fas fa-retweet"></i>
+                      <i className="fab fa-bitcoin"></i>
                     </div>
                     <h6 className="text-xl font-semibold">Our Investments</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      We invest in plant-based & cell-based innovations. If you
-                      are a start-ups that fits our missionInvesting in the
-                      sustainable future of food & medical advances.
+                      Investing in digital assets management, currency ETF &
+                      Forex .
                     </p>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Sustainable & high yield foodtech products & water
-                      sources.
+                      Investing in Education & Fintech Defi business
+                      opportunities.
                     </p>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Future of eCommerce powered by virtual & augmented
-                      reality.
+                      Investing in eCommerce ecosystems powered by digital
+                      crypto currencies.
                     </p>
-                    <a
-                      href="/contact"
-                      className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
-                      target="_blank"
-                    >
-                      Contact
-                    </a>
                   </div>
                 </div>
               </div>
 
-              <div className="pt-6 w-full md:w-4/12 px-4 text-center">
+              <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
-                      <i className="fas fa-fingerprint"></i>
+                      <i className="fas fa-rocket"></i>
                     </div>
                     <h6 className="text-xl font-semibold">LAUNCHING Q2 2022</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      A quant-driven Forex & Crypto investment platform.
+                      Quant-driven Forex & Crypto investment platform.
                     </p>
                     <p className="mt-2 mb-4 text-blueGray-500">
                       Predicting specific market conditions to produce
-                      exceptional returns to investors while containing risk.
+                      exceptional returns to investors.
                     </p>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Create superior investment returns by means of acquiring
+                      Superior investment returns by means of acquiring
                       value-add income assets & properties.
                     </p>
                   </div>
@@ -174,23 +166,25 @@ export default function ETF() {
             <div className="flex flex-wrap items-center mt-32">
               <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
                 <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                  The Future Of Food
+                  Crypto ETF
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                  Technology that meets future needs.
+                  Algorithmic tracking of crypto indices & transactions.
                 </p>
                 <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
-                  Sustainable & high yield foodtech products & water sources.
+                  Direct & indirect exposure to digital assets.
                 </p>
                 <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
-                  Future of eCommerce powered by virtual & augmented reality.
+                  Includes crypto miners, companies engaged in blockchain,
+                  crypto transactions, purveyors of blockchain technology,
+                  including hardware and software, and more.
                 </p>
               </div>
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
                   <Image
-                    alt="FoodTech"
+                    alt="Crypto ETF"
                     src={ImgCrypto}
                     layout="responsive"
                     className="w-full align-middle rounded-t-lg"
@@ -209,10 +203,7 @@ export default function ETF() {
                     </svg>
                     <h4 className="text-xl font-bold text-white">Crypto ETF</h4>
                     <p className="text-md font-light mt-2 text-white">
-                      FoodTech is an ecosystem made of all the agrifood
-                      entrepreneurs and startups (from production to
-                      distribution) innovating on the products, distribution,
-                      marketing or business model.
+                      Encompassing all aspects of digital assets management.
                     </p>
                   </blockquote>
                 </div>
@@ -247,7 +238,7 @@ export default function ETF() {
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
                   <Image
-                    alt="Forex"
+                    alt="Forex ETF"
                     src={ImgForex}
                     layout="responsive"
                     className="w-full align-middle rounded-t-lg"
@@ -264,9 +255,11 @@ export default function ETF() {
                         className="text-blueGray-700 fill-current"
                       ></polygon>
                     </svg>
-                    <h4 className="text-xl font-bold text-white">Forex</h4>
+                    <h4 className="text-xl font-bold text-white">
+                      Forex & Currency ETF
+                    </h4>
                     <p className="text-md font-light mt-2 text-white">
-                      Live Forex trading built on our proprietary smart trading
+                      Live trading built on our proprietary smart trading
                       algorithms.
                     </p>
                   </blockquote>
@@ -276,22 +269,23 @@ export default function ETF() {
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
                 <div className="md:pr-12">
                   <h3 className="text-3xl font-semibold">
-                    Evolution of Bio Technology
+                    Forex & Currency ETF
                   </h3>
                   <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                    Synthetic & biotech inventions & startups.
+                    Funds are comprised of currency futures contracts.
                   </p>
                   <ul className="list-none mt-6">
                     <li className="py-2">
                       <div className="flex items-center">
                         <div>
                           <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
-                            <i className="fas fa-fingerprint"></i>
+                            <i className="fas fa-money-bill-alt"></i>
                           </span>
                         </div>
                         <div>
                           <h4 className="text-blueGray-500">
-                            Carefully crafted components
+                            Algorithm driven smart trading of Forex & Currency
+                            ETF contracts.
                           </h4>
                         </div>
                       </div>
@@ -300,12 +294,12 @@ export default function ETF() {
                       <div className="flex items-center">
                         <div>
                           <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
-                            <i className="fab fa-html5"></i>
+                            <i className="fas fa-money-bill-wave"></i>
                           </span>
                         </div>
                         <div>
                           <h4 className="text-blueGray-500">
-                            Amazing page examples
+                            Optimized leverage & liquidity.
                           </h4>
                         </div>
                       </div>
@@ -314,12 +308,13 @@ export default function ETF() {
                       <div className="flex items-center">
                         <div>
                           <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
-                            <i className="far fa-paper-plane"></i>
+                            <i className="fas fa-piggy-bank"></i>
                           </span>
                         </div>
                         <div>
                           <h4 className="text-blueGray-500">
-                            Dynamic components
+                            Curated currency baskets & dynamic pairing
+                            selections.
                           </h4>
                         </div>
                       </div>

@@ -9,7 +9,7 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 //Images
 import ImgFoodDelivery from "../public/delivery_food.png";
-
+import ImgMedicalDelivery from "../public/delivery_medical.png";
 export default function Startups() {
   const [isPlaying, setIsPlaying] = useState(true);
   return (
@@ -39,7 +39,7 @@ export default function Startups() {
           <div className="container relative mx-auto">
             <div className="items-center flex flex-wrap">
               <div className="pt-24 w-full lg:w-10/12 px-4 ml-auto mr-auto text-center">
-                <div className="pr-12">
+                <div className="p-2">
                   <h1 className="text-white text-center font-semibold text-5xl pb-4">
                     HYPERLOCAL MICROSERVICES
                   </h1>
@@ -59,7 +59,7 @@ export default function Startups() {
                   />
                   ;
                   <div className="pt-2 w-8/12 h-4/12">
-                    <p className="mt-2 mb-4 text-blueGray-500 text-center">
+                    <p className="mt-2 mb-4 text-blueGray-400 text-center">
                       Accelerated Startup Business Investment
                     </p>
                   </div>
@@ -99,10 +99,10 @@ export default function Startups() {
                     </div>
                     <h6 className="text-xl font-semibold">Our Mission</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Launching hyperlocal start-ups.
+                      Launching hyperlocal startups.
                     </p>
-                    <ul className="list-none mt-6">
-                      <li className="py-2">
+                    <ul className="list-none">
+                      <li className="py-1">
                         <div className="flex items-center">
                           <div>
                             <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
@@ -110,39 +110,14 @@ export default function Startups() {
                             </span>
                           </div>
                           <div>
-                            <h4 className="text-blueGray-500">Food Delivery</h4>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="py-2">
-                        <div className="flex items-center">
-                          <div>
-                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
-                              <i className="fas fa-truck-loading"></i>
-                            </span>
-                          </div>
-                          <div>
-                            <h4 className="text-blueGray-500">
-                              Parcel Delivery
+                            <h4 className="text-blueGray-500 text-left">
+                              Food Delivery
                             </h4>
                           </div>
                         </div>
                       </li>
-                      <li className="py-2">
-                        <div className="flex items-center">
-                          <div>
-                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
-                              <i className="fas fa-file-prescription"></i>
-                            </span>
-                          </div>
-                          <div>
-                            <h4 className="text-blueGray-500">
-                              Medical Delivery
-                            </h4>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="py-2">
+
+                      <li className="py-1">
                         <div className="flex items-center">
                           <div>
                             <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
@@ -150,27 +125,13 @@ export default function Startups() {
                             </span>
                           </div>
                           <div>
-                            <h4 className="text-blueGray-500">
+                            <h4 className="text-blueGray-500 text-left">
                               Logistics Service
                             </h4>
                           </div>
                         </div>
                       </li>
-                      <li className="py-2">
-                        <div className="flex items-center">
-                          <div>
-                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
-                              <i className="fas fa-wine-glass"></i>
-                            </span>
-                          </div>
-                          <div>
-                            <h4 className="text-blueGray-500">
-                              Alcohol Delivery
-                            </h4>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="py-2">
+                      <li className="py-1">
                         <div className="flex items-center">
                           <div>
                             <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
@@ -178,7 +139,7 @@ export default function Startups() {
                             </span>
                           </div>
                           <div>
-                            <h4 className="text-blueGray-500">
+                            <h4 className="text-blueGray-500 text-left">
                               Transportation Service
                             </h4>
                           </div>
@@ -193,27 +154,25 @@ export default function Startups() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
-                      <i className="fas fa-retweet"></i>
+                      <i className="fas fa-hand-holding-water"></i>
                     </div>
                     <h6 className="text-xl font-semibold">Our Investments</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      We invest in plant-based & cell-based innovations. If you
-                      are a start-ups that fits our missionInvesting in the
-                      sustainable future of food & medical advances.
+                      Investing in hyperlocal business startups.
                     </p>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Sustainable & high yield foodtech products & water
-                      sources.
+                      Sustainable offline to online hyperlocal business
+                      startups.
                     </p>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Future of eCommerce powered by virtual & augmented
-                      reality.
+                      Future of local eCommerce powered by microservices
+                      techologies & marketplace platforms.
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div className="pt-6 w-full md:w-4/12 px-4 text-center">
+              <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
@@ -224,8 +183,7 @@ export default function Startups() {
                       Automation, upskilling & training.
                     </p>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Sustainable & high yield foodtech products & water
-                      sources.
+                      Sustainable SMB in personalized services.
                     </p>
                     <p className="mt-2 mb-4 text-blueGray-500">
                       Future of eCommerce powered by virtual & augmented
@@ -239,7 +197,7 @@ export default function Startups() {
             <div className="flex flex-wrap items-center mt-32">
               <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
                 <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                  The Future Of Food
+                  The Future Of Local Business
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
                   Supporting Transportation Service Companies & Transportation
@@ -314,9 +272,10 @@ export default function Startups() {
             <div className="items-center flex flex-wrap">
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
-                  <img
+                  <Image
                     alt="BioTech"
-                    src="../public/delivery_medical.png"
+                    layout="responsive"
+                    src={ImgMedicalDelivery}
                     className="w-full align-middle rounded-t-lg"
                   />
                   <blockquote className="relative p-8 mb-4">

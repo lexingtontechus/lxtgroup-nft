@@ -36,6 +36,7 @@ export default function Footer() {
                   href="https://www.linkedin.com/company/lxtgroup"
                   target="_blank"
                   rel="noreferrer"
+                  Title="LinkedIn"
                 >
                   <button
                     className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
@@ -49,6 +50,7 @@ export default function Footer() {
                   href="https://angel.co/company/lxt-group/"
                   target="_blank"
                   rel="noreferrer"
+                  Title="Angel"
                 >
                   <button
                     className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
@@ -57,13 +59,27 @@ export default function Footer() {
                     <i className="fab fa-angellist"></i>
                   </button>
                 </a>
+                <a
+                  className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2  items-center text-xs uppercase font-bold"
+                  href="https://discord.gg/8nZndQn6m6"
+                  target="_blank"
+                  rel="noreferrer"
+                  Title="Discord"
+                >
+                  <button
+                    className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    type="button"
+                  >
+                    <i className="fab fa-discord"></i>
+                  </button>
+                </a>
               </div>
             </div>
             <div className="w-full lg:w-6/12 px-4">
               <div className="flex flex-wrap items-top mb-6">
                 <div className="w-full lg:w-4/12 px-4 ml-auto">
                   <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">
-                    Useful Links
+                    LXT GROUP
                   </span>
                   <ul className="list-unstyled">
                     <li>

@@ -41,7 +41,7 @@ export default function BioTech() {
           <div className="container relative mx-auto">
             <div className="items-center flex flex-wrap">
               <div className="pt-24 w-full lg:w-10/12 px-4 ml-auto mr-auto text-center">
-                <div className="pr-12">
+                <div className="p-2">
                   <h1 className="text-white font-semibold text-5xl text-center pb-4">
                     BIOTECH INVESTMENT
                   </h1>
@@ -60,7 +60,7 @@ export default function BioTech() {
                     }}
                   />
                   <div className="pt-2 w-8/12 h-4/12">
-                    <p className="mt-2 mb-4 text-blueGray-500 text-center">
+                    <p className="mt-2 mb-4 text-blueGray-400 text-center">
                       Synthetic biology & biofabrication offers increased
                       sustainability, standardization and reproducibility.
                     </p>
@@ -101,8 +101,8 @@ export default function BioTech() {
                     </div>
                     <h6 className="text-xl font-semibold">Our Mission</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      If you are a start-ups that fits our missionInvesting in
-                      the sustainable future of food & medical advances.
+                      Investing in the sustainable future of food & medical
+                      advances.
                     </p>
                     <p className="mt-2 mb-4 text-blueGray-500">
                       Sustainable & high yield foodtech products & water
@@ -140,7 +140,7 @@ export default function BioTech() {
                 </div>
               </div>
 
-              <div className="pt-6 w-full md:w-4/12 px-4 text-center">
+              <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
@@ -148,17 +148,14 @@ export default function BioTech() {
                     </div>
                     <h6 className="text-xl font-semibold">Our Growth</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      We invest in plant-based & cell-based innovations. If you
-                      are a start-ups that fits our missionInvesting in the
-                      sustainable future of food & medical advances.
+                      Accelerating innovation and action for sustainable growth.
                     </p>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Sustainable & high yield foodtech products & water
-                      sources.
+                      Embracing technology to power sustainable food systems
+                      transformation.
                     </p>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Future of eCommerce powered by virtual & augmented
-                      reality.
+                      Embracing technology &leveraging AI and Machine Learning.
                     </p>
                   </div>
                 </div>

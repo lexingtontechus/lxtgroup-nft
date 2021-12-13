@@ -7,6 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "@babel/core": "7.16.0",
+    "@formspree/react": "2.2.4",
     "@fortawesome/fontawesome-free": "5.15.4",
     "@popperjs/core": "2.11.0",
     "@tailwindcss/forms": "0.4.0",
@@ -35,7 +36,11 @@
     "extends": "react-app"
   },
   "browserslist": {
-    "production": [">0.2%", "not dead", "not op_mini all"],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",

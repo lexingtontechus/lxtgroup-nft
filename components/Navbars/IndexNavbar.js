@@ -3,8 +3,9 @@ import Link from "next/link";
 import AnnounceKit from "announcekit-react";
 import Image from "next/image";
 // components
-
-import IndexDropdown from "components/Dropdowns/IndexDropdown.js";
+//import IndexDropdown from "components/Dropdowns/IndexDropdown.js";
+//Images
+//import ImgIco from "../public/ico_lxtgroup.svg";
 
 export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -17,12 +18,8 @@ export default function Navbar(props) {
               alt="LXT GROUP LLC"
               height="25"
               width="25"
-              className="max-w-full rounded-lg shadow-xl inline-block"
-              style={{
-                transform:
-                  "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)"
-              }}
-              src="/img/brand/ico_lxtgroup.svg"
+              className="bg-blueGray-700 max-w-full rounded-lg shadow-xl inline-block"
+              src="/ico_lxtgroup.svg"
             />{" "}
             <Link href="/">
               <a
@@ -106,6 +103,7 @@ export default function Navbar(props) {
                   className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="/about"
                   rel="noreferrer"
+                  Title="About"
                 >
                   <i className="text-blueGray-400 fas fa-info-circle text-lg leading-lg " />
                   <span className="lg:hidden inline-block ml-2">About</span>
@@ -116,6 +114,7 @@ export default function Navbar(props) {
                   className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="/contact"
                   rel="noreferrer"
+                  Title="Contact"
                 >
                   <i className="text-blueGray-400 fas fa-at text-lg leading-lg " />
                   <span className="lg:hidden inline-block ml-2">Contact</span>
@@ -127,6 +126,7 @@ export default function Navbar(props) {
                   href="https://www.linkedin.com/company/lxtgroup"
                   target="_blank"
                   rel="noreferrer"
+                  Title="LinkedIn"
                 >
                   <i className="text-blueGray-400 fab fa-linkedin text-lg leading-lg " />
                   <span className="lg:hidden inline-block ml-2">LinkedIn</span>
@@ -139,9 +139,22 @@ export default function Navbar(props) {
                   href="https://angel.co/company/lxt-group/"
                   target="_blank"
                   rel="noreferrer"
+                  Title="Angel"
                 >
                   <i className="text-blueGray-400 fab fa-angellist text-lg leading-lg " />
                   <span className="lg:hidden inline-block ml-2">AngelCo</span>
+                </a>
+              </li>
+              <li className="flex items-center">
+                <a
+                  className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  href="https://discord.gg/8nZndQn6m6"
+                  target="_blank"
+                  rel="noreferrer"
+                  Title="Discord"
+                >
+                  <i className="text-blueGray-400 fab fa-discord text-lg leading-lg " />
+                  <span className="lg:hidden inline-block ml-2">Discord</span>
                 </a>
               </li>
             </ul>

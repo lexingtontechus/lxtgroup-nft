@@ -10,8 +10,8 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
 import ImgBioTech from "../public/biotech.png";
-import ImgETF from "../public/biotech.png";
-import ImgHyperlocal from "../public/biotech.png";
+import ImgETF from "../public/crypto_etf1.png";
+import ImgHyperlocal from "../public/hyperlocal.png";
 
 export default function Index() {
   const [isPlaying, setIsPlaying] = useState(true);
@@ -47,7 +47,7 @@ export default function Index() {
           <div className="container relative mx-auto">
             <div className="items-center flex flex-wrap">
               <div className="pt-24 w-full lg:w-10/12 px-4 ml-auto mr-auto text-center justify-center">
-                <div className="pr-12">
+                <div className="p-2">
                   <h1 className="text-white font-semibold text-5xl text-center uppercase pb-4">
                     Quantum Management
                   </h1>
@@ -66,7 +66,7 @@ export default function Index() {
                     }}
                   />
                   <div className="pt-2 w-8/12 h-4/12">
-                    <p className="mt-2 mb-4 text-blueGray-500 text-center">
+                    <p className="mt-2 mb-4 text-blueGray-400 text-center">
                       Investing in the future of FoodTech, PharmaTech, <br />
                       Crypto EFT & Hyperlocal Microservices.
                     </p>
@@ -167,12 +167,8 @@ export default function Index() {
               <div className="w-full md:w-6/12 mr-auto px-4 pt-20 md:pt-0">
                 <Image
                   alt="BioTech"
-                  className="max-w-full rounded-lg shadow-xl"
+                  className="max-w-full rounded-lg shadow-xl "
                   layout="responsive"
-                  style={{
-                    transform:
-                      "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)"
-                  }}
                   src={ImgBioTech}
                 />
               </div>
@@ -187,10 +183,6 @@ export default function Index() {
                   alt="Crypto EFT"
                   className="max-w-full rounded-lg shadow-xl"
                   layout="responsive"
-                  style={{
-                    transform:
-                      "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)"
-                  }}
                   src={ImgETF}
                 />
               </div>
