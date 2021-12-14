@@ -11,11 +11,12 @@ module.exports = {
     // limit of 25 imageSizes values
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     // limit of 50 domains values
-    domains: [],
+    domains: ["storageapi.fleek.co"],
     // path prefix for Image Optimization API, useful with `loader`
-    path: "/_next/image",
+    path: "custom",
+    //"/_next/image",
     // loader can be 'default', 'imgix', 'cloudinary', 'akamai', or 'custom'
-    loader: "default",
+    loader: "custom",
     // disable static imports for image files
     disableStaticImages: false,
     // minimumCacheTTL is in seconds, must be integer 0 or more

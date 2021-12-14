@@ -62,12 +62,13 @@ export default function About() {
                 <div className="flex flex-wrap justify-center">
                   <div className="w-full lg:w-3/12 px-4 lg:order-2 flex justify-center">
                     <div className="relative">
-                      <Image
+                      <img
                         alt="LXT GROUP LLC"
-                        src={ImgLogo}
+                        layout="responsive"
+                        src="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxtgroup-images/logo_lxtgroup.svg"
                         width="150"
                         height="150"
-                        className="rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 "
+                        className="rounded-half h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px"
                       />
                     </div>
                   </div>
@@ -127,7 +128,7 @@ export default function About() {
                     type="button"
                   >
                     <img
-                      src="/img/polygon.svg"
+                      src="/polygon.svg"
                       alt="Polygon"
                       height="25"
                       width="25"

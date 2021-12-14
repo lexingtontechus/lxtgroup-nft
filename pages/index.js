@@ -9,11 +9,14 @@ import ReactPlayer from "react-player";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
-import ImgBioTech from "../public/biotech.png";
-import ImgETF from "../public/crypto_etf1.png";
-import ImgHyperlocal from "../public/hyperlocal.png";
+//import ImgBioTech from "https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxtgroup-images/biotech.png";
+//import ImgETF from "https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxtgroup-images/crypto_etf1.png";
+//import ImgHyperlocal from "https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxtgroup-images/hyperlocal.png";
 
 export default function Index() {
+  const myLoader = ({ src, width, quality }) => {
+    return "https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxtgroup-images/biotech.png";
+  };
   const [isPlaying, setIsPlaying] = useState(true);
   const Emoji = (props) => (
     <span
@@ -52,7 +55,8 @@ export default function Index() {
                     Quantum Management
                   </h1>
                   <ReactPlayer
-                    url="https://link.ap1.storjshare.io/s/jwylcpaqzdib5uqg32lltvzl527a/lxtgroup/quantum_management.mp4?wrap=0"
+                    // url="https://link.ap1.storjshare.io/s/jwylcpaqzdib5uqg32lltvzl527a/lxtgroup/quantum_management.mp4?wrap=0"
+                    url="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxtgroup-videos/quantum_management.mp4"
                     controls
                     height="320"
                     width="240"
@@ -165,11 +169,11 @@ export default function Index() {
               </div>
 
               <div className="w-full md:w-6/12 mr-auto px-4 pt-20 md:pt-0">
-                <Image
+                <img
                   alt="BioTech"
                   className="max-w-full rounded-lg shadow-xl "
                   layout="responsive"
-                  src={ImgBioTech}
+                  src="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxtgroup-images/biotech.png"
                 />
               </div>
             </div>
@@ -179,11 +183,11 @@ export default function Index() {
           <div className="container mx-auto px-4 pb-16 pt-16">
             <div className="items-center flex flex-wrap">
               <div className="w-full md:w-6/12 mr-auto px-4 pt-20 md:pt-0">
-                <Image
+                <img
                   alt="Crypto EFT"
                   className="max-w-full rounded-lg shadow-xl"
                   layout="responsive"
-                  src={ImgETF}
+                  src="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxtgroup-images/crypto_etf1.png"
                 />
               </div>
               <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
@@ -319,10 +323,10 @@ export default function Index() {
               </div>
               <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto mt-16">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
-                  <Image
+                  <img
                     alt="HYPERLOCAL MICROSERVICES"
                     layout="responsive"
-                    src={ImgHyperlocal}
+                    src="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxtgroup-images/hyperlocal.png"
                     className="w-full align-middle rounded-t-lg"
                   />
                   <blockquote className="relative p-8 mb-4">

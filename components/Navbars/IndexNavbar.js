@@ -9,17 +9,20 @@ import Image from "next/image";
 
 export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
+  const myLoader = ({ src, width, quality }) => {
+    return "https://storageapi.fleek.co/${src}?w=${width}&q=${quality || 75}";
+  };
   return (
     <>
       <nav className="top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-blueGray-700 shadow">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-            <Image
+            <img
               alt="LXT GROUP LLC"
               height="25"
               width="25"
               className="bg-blueGray-700 max-w-full rounded-lg shadow-xl inline-block"
-              src="/ico_lxtgroup.svg"
+              src="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxtgroup-images/logo_lxtgroup.svg"
             />{" "}
             <Link href="/">
               <a
