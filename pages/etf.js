@@ -46,7 +46,7 @@ export default function ETF() {
                     INVESTMENT MANAGEMENT
                   </h1>
                   <ReactPlayer
-                    url="https://link.ap1.storjshare.io/s/jvwmx4khbal5hdno43j5jo73yruq/lxtgroup/etf.mp4?wrap=0"
+                    url="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxtgroup-videos/etf.mp4"
                     height="320"
                     width="240"
                     controls
@@ -183,9 +183,9 @@ export default function ETF() {
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
-                  <Image
+                  <img
                     alt="Crypto ETF"
-                    src={ImgCrypto}
+                    src="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxtgroup-images/crypto_etf2.png"
                     layout="responsive"
                     className="w-full align-middle rounded-t-lg"
                   />
@@ -237,9 +237,9 @@ export default function ETF() {
             <div className="items-center flex flex-wrap">
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
-                  <Image
+                  <img
                     alt="Forex ETF"
-                    src={ImgForex}
+                    src="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxtgroup-images/forex_etf1.png"
                     layout="responsive"
                     className="w-full align-middle rounded-t-lg"
                   />
