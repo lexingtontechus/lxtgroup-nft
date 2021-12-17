@@ -1,16 +1,14 @@
 import React from "react";
-import Link from "next/link";
+//import Link from "next/link";
 import { useState, useEffect } from "react";
 import Head from "next/head";
-import Image from "next/image";
+//import Image from "next/image";
 
 import ReactPlayer from "react-player";
 // components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 //Images
-import ImgFoodTech from "../public/foodlovestech.png";
-import ImgBioTech from "../public/biotech.png";
 
 export default function BioTech() {
   const [isPlaying, setIsPlaying] = useState(true);
@@ -30,7 +28,7 @@ export default function BioTech() {
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
-              backgroundImage: "url('../public/food_evolution.png')"
+              backgroundImage: "url('/food_evolution.png')"
             }}
           >
             <span
@@ -97,7 +95,7 @@ export default function BioTech() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
-                      <i className="fas fa-award"></i>
+                      <i className="fab fa-empire"></i>
                     </div>
                     <h6 className="text-xl font-semibold">Our Mission</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
@@ -120,7 +118,7 @@ export default function BioTech() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
-                      <i className="fas fa-retweet"></i>
+                      <i className="fas fa-power-off"></i>
                     </div>
                     <h6 className="text-xl font-semibold">Our Investments</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
@@ -278,12 +276,12 @@ export default function BioTech() {
                       <div className="flex items-center">
                         <div>
                           <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
-                            <i className="fas fa-fingerprint"></i>
+                            <i className="fas fa-heartbeat"></i>
                           </span>
                         </div>
                         <div>
                           <h4 className="text-blueGray-500">
-                            Carefully crafted components
+                            Affordable & alternate healthcare solutions
                           </h4>
                         </div>
                       </div>
@@ -292,12 +290,12 @@ export default function BioTech() {
                       <div className="flex items-center">
                         <div>
                           <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
-                            <i className="fab fa-html5"></i>
+                            <i className="fas fa-parachute-box"></i>
                           </span>
                         </div>
                         <div>
                           <h4 className="text-blueGray-500">
-                            Amazing page examples
+                            Food supply chain security
                           </h4>
                         </div>
                       </div>
@@ -306,12 +304,12 @@ export default function BioTech() {
                       <div className="flex items-center">
                         <div>
                           <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
-                            <i className="far fa-paper-plane"></i>
+                            <i className="fas fa-recycle"></i>
                           </span>
                         </div>
                         <div>
                           <h4 className="text-blueGray-500">
-                            Dynamic components
+                            Repurposing waste into sustainable products
                           </h4>
                         </div>
                       </div>

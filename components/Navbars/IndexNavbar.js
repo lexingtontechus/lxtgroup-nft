@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import AnnounceKit from "announcekit-react";
-import Image from "next/image";
+//import Image from "next/image";
 // components
 //import IndexDropdown from "components/Dropdowns/IndexDropdown.js";
 //Images
@@ -9,9 +9,7 @@ import Image from "next/image";
 
 export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
-  const myLoader = ({ src, width, quality }) => {
-    return "https://storageapi.fleek.co/${src}?w=${width}&q=${quality || 75}";
-  };
+
   return (
     <>
       <nav className="top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-blueGray-700 shadow">
@@ -92,7 +90,10 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <span className="hover:text-blueGray-500 text-blueGray-500 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
                   News{" "}
-                  <AnnounceKit widget="https://announcekit.app/widgets/v2/2NO0A8" />
+                  <AnnounceKit
+                    widget="https://announcekit.co/widgets/v2/3hkz9S"
+                    className="pl-1"
+                  />
                 </span>
               </li>
             </ul>
@@ -106,7 +107,7 @@ export default function Navbar(props) {
                   className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="/about"
                   rel="noreferrer"
-                  Title="About"
+                  title="About"
                 >
                   <i className="text-blueGray-400 fas fa-info-circle text-lg leading-lg " />
                   <span className="lg:hidden inline-block ml-2">About</span>
@@ -117,7 +118,7 @@ export default function Navbar(props) {
                   className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="/contact"
                   rel="noreferrer"
-                  Title="Contact"
+                  title="Contact"
                 >
                   <i className="text-blueGray-400 fas fa-at text-lg leading-lg " />
                   <span className="lg:hidden inline-block ml-2">Contact</span>
@@ -129,7 +130,7 @@ export default function Navbar(props) {
                   href="https://www.linkedin.com/company/lxtgroup"
                   target="_blank"
                   rel="noreferrer"
-                  Title="LinkedIn"
+                  title="LinkedIn"
                 >
                   <i className="text-blueGray-400 fab fa-linkedin text-lg leading-lg " />
                   <span className="lg:hidden inline-block ml-2">LinkedIn</span>
@@ -142,7 +143,7 @@ export default function Navbar(props) {
                   href="https://angel.co/company/lxt-group/"
                   target="_blank"
                   rel="noreferrer"
-                  Title="Angel"
+                  title="Angel"
                 >
                   <i className="text-blueGray-400 fab fa-angellist text-lg leading-lg " />
                   <span className="lg:hidden inline-block ml-2">AngelCo</span>
@@ -154,7 +155,7 @@ export default function Navbar(props) {
                   href="https://discord.gg/8nZndQn6m6"
                   target="_blank"
                   rel="noreferrer"
-                  Title="Discord"
+                  title="Discord"
                 >
                   <i className="text-blueGray-400 fab fa-discord text-lg leading-lg " />
                   <span className="lg:hidden inline-block ml-2">Discord</span>
