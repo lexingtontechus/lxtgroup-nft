@@ -36,7 +36,7 @@ export default function Footer() {
                   href="https://www.linkedin.com/company/lxtgroup"
                   target="_blank"
                   rel="noreferrer"
-                  Title="LinkedIn"
+                  title="LinkedIn"
                 >
                   <button
                     className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
@@ -50,7 +50,7 @@ export default function Footer() {
                   href="https://angel.co/company/lxt-group/"
                   target="_blank"
                   rel="noreferrer"
-                  Title="Angel"
+                  title="Angel"
                 >
                   <button
                     className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
@@ -64,7 +64,7 @@ export default function Footer() {
                   href="https://discord.gg/8nZndQn6m6"
                   target="_blank"
                   rel="noreferrer"
-                  Title="Discord"
+                  title="Discord"
                 >
                   <button
                     className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"

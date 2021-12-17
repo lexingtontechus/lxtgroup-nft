@@ -88,12 +88,9 @@ export default function Navbar(props) {
         </li>*/}
 
               <li className="flex items-center">
-                <span className="hover:text-blueGray-500 text-blueGray-500 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+                <span className="hover:text-blueGray-500 text-blueGray-500 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold pr-1">
                   News{" "}
-                  <AnnounceKit
-                    widget="https://announcekit.co/widgets/v2/3hkz9S"
-                    className="pl-1"
-                  />
+                  <AnnounceKit widget="https://announcekit.co/widgets/v2/3hkz9S" />
                 </span>
               </li>
             </ul>

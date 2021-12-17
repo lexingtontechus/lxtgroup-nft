@@ -8,8 +8,6 @@ import ReactPlayer from "react-player";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 //Images
-import ImgCrypto from "../public/crypto_etf2.png";
-import ImgForex from "../public/forex_etf1.png";
 
 export default function ETF() {
   const [isPlaying, setIsPlaying] = useState(true);
@@ -30,7 +28,7 @@ export default function ETF() {
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
-              backgroundImage: "url('/crypto_banner.png')"
+              backgroundImage: "url('/quantum_header.jpg')"
             }}
           >
             <span

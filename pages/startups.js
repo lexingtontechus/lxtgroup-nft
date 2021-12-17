@@ -8,8 +8,6 @@ import ReactPlayer from "react-player";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 //Images
-import ImgFoodDelivery from "../public/delivery_food.png";
-import ImgMedicalDelivery from "../public/delivery_medical.png";
 export default function Startups() {
   const [isPlaying, setIsPlaying] = useState(true);
   return (
@@ -28,7 +26,7 @@ export default function Startups() {
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
-              backgroundImage: "url('/startup_business.png')"
+              backgroundImage: "url('/quantum_header.jpg')"
             }}
           >
             <span
