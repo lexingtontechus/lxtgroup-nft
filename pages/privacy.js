@@ -144,7 +144,7 @@ export default function Privacy({ color }) {
                       <ul className="list-none mr-auto">
                         <li className="flex items-center">
                           <i className="fas fa-shield-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             Fulfill and manage your orders. We may use your
                             information to fulfill and manage your orders,
                             payments, returns, and exchanges made through the
@@ -153,7 +153,7 @@ export default function Privacy({ color }) {
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-shield-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             Administer prize draws and competitions. We may use
                             your information to administer prize draws and
                             competitions when you elect to participate in our
@@ -162,7 +162,7 @@ export default function Privacy({ color }) {
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-shield-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             To deliver and facilitate delivery of services to
                             the user. We may use your information to provide you
                             with the requested service.
@@ -170,7 +170,7 @@ export default function Privacy({ color }) {
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-shield-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             To respond to user inquiries/offer support to users.
                             We may use your information to respond to your
                             inquiries and solve any potential issues you might
@@ -179,7 +179,7 @@ export default function Privacy({ color }) {
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-shield-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             To send you marketing and promotional
                             communications. We and/or our third-party marketing
                             partners may use the personal information you send
@@ -196,7 +196,7 @@ export default function Privacy({ color }) {
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-shield-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             Deliver targeted advertising to you. We may use your
                             information to develop and display personalized
                             content and advertising (and work with third parties
@@ -220,7 +220,7 @@ export default function Privacy({ color }) {
                       <ul className="list-none mr-auto">
                         <li className="flex items-center">
                           <i className="fas fa-shield-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             Consent: We may process your data if you have given
                             us specific consent to use your personal information
                             for a specific purpose.
@@ -228,7 +228,7 @@ export default function Privacy({ color }) {
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-shield-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             Legitimate Interests: We may process your data when
                             it is reasonably necessary to achieve our legitimate
                             business interests.
@@ -236,7 +236,7 @@ export default function Privacy({ color }) {
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-shield-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             {" "}
                             Performance of a Contract: Where we have entered
                             into a contract with you, we may process your
@@ -246,7 +246,7 @@ export default function Privacy({ color }) {
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-shield-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             Legal Obligations: We may disclose your information
                             where we are legally required to do so in order to
                             comply with applicable law, governmental requests, a
@@ -258,7 +258,7 @@ export default function Privacy({ color }) {
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-shield-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             Vital Interests: We may disclose your information
                             where we believe it is necessary to investigate,
                             prevent, or take action regarding potential
@@ -277,7 +277,7 @@ export default function Privacy({ color }) {
                       <ul className="flex flex-col lg:flex-row list-none mr-auto">
                         <li className="flex items-center">
                           <i className="fas fa-shield-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             Business Transfers. We may share or transfer your
                             information in connection with, or during
                             negotiations of, any merger, sale of company assets,
@@ -466,7 +466,7 @@ export default function Privacy({ color }) {
                       <ul className="list-none mr-auto">
                         <li className="flex items-center">
                           <i className="fas fa-shield-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             (1) every individual who is in the State of
                             California for other than a temporary or transitory
                             purpose and
@@ -474,7 +474,7 @@ export default function Privacy({ color }) {
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-shield-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             (2) every individual who is domiciled in the State
                             of California who is outside the State of California
                             for a temporary or transitory purpose
@@ -881,20 +881,20 @@ export default function Privacy({ color }) {
                       <ul className="list-none mr-auto">
                         <li className="flex items-center">
                           <i className="fas fa-shield-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             Receiving help through our customer support
                             channels;
                           </span>
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-shield-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             Participation in customer surveys or contests; and
                           </span>
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-shield-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             Facilitation in the delivery of our Services and to
                             respond to your inquiries.
                           </span>
@@ -969,7 +969,7 @@ export default function Privacy({ color }) {
                       <ul className="list-none mr-auto">
                         <li className="flex items-center">
                           <i className="fas fa-shield-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             {" "}
                             whether we collect and use your personal
                             information;
@@ -977,28 +977,28 @@ export default function Privacy({ color }) {
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-shield-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             the categories of personal information that we
                             collect;
                           </span>
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-shield-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             the purposes for which the collected personal
                             information is used;
                           </span>
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-shield-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             whether we sell your personal information to third
                             parties;
                           </span>
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-shield-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             {" "}
                             the categories of personal information that we sold
                             or disclosed for a business purpose;
@@ -1006,7 +1006,7 @@ export default function Privacy({ color }) {
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-shield-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             the categories of third parties to whom the personal
                             information was sold or disclosed for a business
                             purpose; and
@@ -1014,7 +1014,7 @@ export default function Privacy({ color }) {
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-shield-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             {" "}
                             the business or commercial purpose for collecting or
                             selling personal information.
@@ -1073,7 +1073,7 @@ export default function Privacy({ color }) {
                       <ul className="list-none mr-auto">
                         <li className="flex items-center">
                           <i className="fas fa-shield-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             {" "}
                             you may object to the processing of your personal
                             data.
@@ -1081,7 +1081,7 @@ export default function Privacy({ color }) {
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-shield-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             {" "}
                             you may request correction of your personal data if
                             it is incorrect or no longer relevant, or ask to
@@ -1090,7 +1090,7 @@ export default function Privacy({ color }) {
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-shield-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             {" "}
                             you can designate an authorized agent to make a
                             request under the CCPA on your behalf. We may deny a
@@ -1101,7 +1101,7 @@ export default function Privacy({ color }) {
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-shield-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             {" "}
                             you may request to opt-out from future selling of
                             your personal information to third parties. Upon
@@ -1153,13 +1153,13 @@ export default function Privacy({ color }) {
                             height="16"
                             width="16"
                           />
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             LXT GROUP LLC
                           </span>
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-map-marker-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             16192 Coastal Highway
                             <br />
                             Lewes, DE 19958
@@ -1169,7 +1169,7 @@ export default function Privacy({ color }) {
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-at"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             legal@lxtgroup.nft
                           </span>
                         </li>

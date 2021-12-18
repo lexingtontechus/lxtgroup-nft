@@ -42,7 +42,7 @@ export default function Startups() {
                     HYPERLOCAL MICROSERVICES
                   </h1>
                   <ReactPlayer
-                    url="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxtgroup-videos/startups.mp4"
+                    url="https://storageapi.fleek.co/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-videos/startups.mp4"
                     controls
                     height="320"
                     width="240"
@@ -215,7 +215,7 @@ export default function Startups() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
                   <img
                     alt="Food Delivery Technology"
-                    src="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxtgroup-images/delivery_food.png"
+                    src="/delivery_food.png"
                     layout="responsive"
                     className="w-full align-middle rounded-t-lg"
                   />
@@ -273,7 +273,7 @@ export default function Startups() {
                   <img
                     alt="Medical Delivery Technology"
                     layout="responsive"
-                    src="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxtgroup-images/delivery_medical.png"
+                    src="/delivery_medical.png"
                     className="w-full align-middle rounded-t-lg"
                   />
                   <blockquote className="relative p-8 mb-4">

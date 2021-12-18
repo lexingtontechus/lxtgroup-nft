@@ -255,23 +255,27 @@ export default function Terms() {
                       <ul className="list-none mr-auto">
                         <li className="flex items-center">
                           <i className="fab fa-bitcoin"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             Crypto-Currency
                           </span>
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-landmark"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             Bank Wire Transfer
                           </span>
                         </li>
                         <li className="flex items-center">
                           <i className="fab fa-cc-visa"></i>
-                          <span className="inline-block ml-2">Visa</span>
+                          <span className="inline-block ml-2 text-blueGray-500">
+                            Visa
+                          </span>
                         </li>
                         <li className="flex items-center">
                           <i className="fab fa-cc-mastercard"></i>
-                          <span className="inline-block ml-2">Mastercard</span>
+                          <span className="inline-block ml-2 text-blueGray-500">
+                            Mastercard
+                          </span>
                         </li>
                       </ul>
                       <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
@@ -1063,13 +1067,13 @@ export default function Terms() {
                             height="16"
                             width="16"
                           />
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             LXT GROUP LLC
                           </span>
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-map-marker-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             16192 Coastal Highway
                             <br />
                             Lewes, DE 19958 <br />
@@ -1078,7 +1082,7 @@ export default function Terms() {
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-at"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-2 text-blueGray-500">
                             legal@lxtgroup.nft
                           </span>
                         </li>

@@ -44,7 +44,7 @@ export default function BioTech() {
                     BIOTECH INVESTMENT
                   </h1>
                   <ReactPlayer
-                    url="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxtgroup-videos/foodtech_biotech.mp4"
+                    url="https://storageapi.fleek.co/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-videos/foodtech_biotech.mp4"
                     controls
                     height="320"
                     width="240"
@@ -182,7 +182,7 @@ export default function BioTech() {
                     alt="Food Loves Tech"
                     layout="responsive"
                     className="w-full align-middle rounded-t-lg"
-                    src="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxtgroup-images/foodlovestech.png"
+                    src="/foodlovestech.png"
                   />
                   <blockquote className="relative p-8 mb-4">
                     <svg
@@ -237,7 +237,7 @@ export default function BioTech() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
                   <img
                     alt="BioTech"
-                    src="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxtgroup-images/biotech.png"
+                    src="/biotech.png"
                     layout="responsive"
                     className="w-full align-middle rounded-t-lg"
                   />
