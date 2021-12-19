@@ -13,11 +13,7 @@ export default function Privacy({ color }) {
     <>
       <Head>
         <title>LXT GROUP | Privacy</title>
-        <meta
-          property="description="
-          content="Privacy & Data Protection"
-          key="description"
-        />
+        
       </Head>
       <IndexNavbar transparent />
       <main>

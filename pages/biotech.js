@@ -16,11 +16,7 @@ export default function BioTech() {
     <>
       <Head>
         <title>LXT GROUP | BioTech</title>
-        <meta
-          property="description="
-          content="Investing in BioTech startups & technologies."
-          key="description"
-        />
+        
       </Head>
       <IndexNavbar transparent />
       <main>

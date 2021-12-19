@@ -10,8 +10,7 @@ class MyDocument extends Document {
           <meta name="theme-color" content="#000000" />
           <meta
             name="description"
-            content="Investing in the future of FoodTech, PharmaTech,
-Crypto EFT & Hyper-Local Microservices."
+            content="Quantum Management - Investing in the future of FoodTech, BioTech, Crypto EFT & Hyperlocal Microservices."
             key="description"
           />
           <meta
@@ -21,16 +20,15 @@ Crypto EFT & Hyper-Local Microservices."
           />
           <meta
             property="og:description"
-            content="QUANTUM MANAGEMENT |
-Investing in the future of FoodTech, PharmaTech,
-Crypto EFT & Hyper-Local Microservices.  Web 3.0 Blockchain domain IPFS "
+            content="QUANTUM MANAGEMENT - Investing in the future of FoodTech, BioTech,
+Crypto EFT & Hyperlocal Microservices.  Web 3.0 Blockchain domain IPFS "
             key="description"
           />
           <meta property="og:url" content="https://lxtgroup.nft" />
           <meta property="og:type" content="website" />
           <meta
             property="keywords"
-            content=" Web 3.0, Blockchain, domain, IPFS, Interplantary File System, Storj, Quantum Management, FoodTech, BioTech, Hyperlocal Microservices, Crypto, Forex, ETF, Pharmatech"
+            content=" Web 3.0, Blockchain, domain, IPFS, Interplantary File System, Fleek, Storj, Quantum Management, FoodTech, BioTech, Hyperlocal Microservices, Crypto, Forex, ETF, Pharmatech"
             key="keywords"
           />
           <link rel="shortcut icon" href="/ico_lxtgroup.svg" />

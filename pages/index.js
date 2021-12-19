@@ -9,9 +9,6 @@ import ReactPlayer from "react-player";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
-//import ImgBioTech from "https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxtgroup-images/biotech.png";
-//import ImgETF from "https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxtgroup-images/crypto_etf1.png";
-//import ImgHyperlocal from "https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxtgroup-images/hyperlocal.png";
 
 export default function Index() {
   const myLoader = ({ src, width, quality }) => {

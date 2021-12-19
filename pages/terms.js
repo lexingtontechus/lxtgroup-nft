@@ -11,11 +11,7 @@ export default function Terms() {
     <>
       <Head>
         <title>LXT GROUP | Terms of Service</title>
-        <meta
-          property="description="
-          content="Terms of Service"
-          key="description"
-        />
+       
       </Head>
       <IndexNavbar transparent />
       <main>

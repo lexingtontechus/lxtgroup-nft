@@ -4,9 +4,15 @@ import AnnounceKit from "announcekit-react";
 //import Image from "next/image";
 // components
 //import IndexDropdown from "components/Dropdowns/IndexDropdown.js";
-//Images
-//import ImgIco from "../public/ico_lxtgroup.svg";
 
+function MyLink(props) {
+  let { href, children, ...rest } = props;
+  return (
+    <Link href={href}>
+      <a {...rest}>{children}</a>
+    </Link>
+  );
+}
 export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
 
@@ -70,22 +76,6 @@ export default function Navbar(props) {
                   Startups
                 </a>
               </li>
-              {/*<li className="flex items-center">
-                <a
-                  className="hover:text-blueGray-500 text-blueGray-500 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="/about"
-                >
-                  About
-                </a>
-          </li>*/}
-              {/*<li className="flex items-center">
-                <a
-                  className="hover:text-blueGray-500 text-blueGray-500 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="/contact"
-                >
-                  Contact
-                </a>
-        </li>*/}
 
               <li className="flex items-center">
                 <span className="hover:text-blueGray-500 text-blueGray-500 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold pr-1">

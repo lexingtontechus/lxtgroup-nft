@@ -15,11 +15,7 @@ export default function ETF() {
     <>
       <Head>
         <title>LXT GROUP | ETF</title>
-        <meta
-          property="description="
-          content="Investment management of Crypto, digital & Forex assets."
-          key="description"
-        />
+        
       </Head>
 
       <IndexNavbar transparent />

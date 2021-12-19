@@ -14,11 +14,7 @@ export default function Startups() {
     <>
       <Head>
         <title>LXT GROUP | Startups</title>
-        <meta
-          property="description="
-          content="Accelerated Startup Investment of Hyperlocal Microservices"
-          key="description"
-        />
+      
       </Head>
       <IndexNavbar transparent />
       <main>

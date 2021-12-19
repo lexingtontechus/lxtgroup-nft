@@ -10,6 +10,7 @@
     "@fleekhq/fleek-storage-js": "1.0.20",
     "@formspree/react": "2.2.4",
     "@fortawesome/fontawesome-free": "5.15.4",
+    "@headlessui/react": "1.4.2",
     "@popperjs/core": "2.11.0",
     "@tailwindcss/forms": "0.4.0",
     "announcekit-react": "2.1.7",

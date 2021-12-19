@@ -11,11 +11,7 @@ export default function Contact() {
     <>
       <Head>
         <title>LXT GROUP | Contact</title>
-        <meta
-          property="description="
-          content="Your story starts with us."
-          key="description"
-        />
+       
       </Head>
       <IndexNavbar transparent />
       <main>
