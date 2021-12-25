@@ -11,7 +11,6 @@ export default function Contact() {
     <>
       <Head>
         <title>LXT GROUP | Contact</title>
-       
       </Head>
       <IndexNavbar transparent />
       <main>
@@ -31,7 +30,7 @@ export default function Contact() {
           <div className="container relative mx-auto">
             <div className="items-center flex flex-wrap">
               <div className="pt-24 w-full lg:w-10/12 px-4 ml-auto mr-auto text-center">
-                <div className="pr-12">
+                <div className="">
                   <h1 className="text-white font-semibold text-5xl">
                     Diverse. Resilient. Sustainable.
                   </h1>

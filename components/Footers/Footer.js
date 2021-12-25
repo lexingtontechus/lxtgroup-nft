@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -32,7 +33,7 @@ export default function Footer() {
               </h5>
               <div className="mt-6 lg:mb-0 mb-6">
                 <a
-                  className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2  items-center text-xs uppercase font-bold"
+                  className="hover:text-blueGray-300 text-blueGray-700 px-3 py-4 lg:py-2  items-center text-xs uppercase font-bold"
                   href="https://www.linkedin.com/company/lxtgroup"
                   target="_blank"
                   rel="noreferrer"
@@ -46,7 +47,7 @@ export default function Footer() {
                   </button>
                 </a>
                 <a
-                  className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2  items-center text-xs uppercase font-bold"
+                  className="hover:text-blueGray-300 text-blueGray-700 px-3 py-4 lg:py-2  items-center text-xs uppercase font-bold"
                   href="https://angel.co/company/lxt-group/"
                   target="_blank"
                   rel="noreferrer"
@@ -60,14 +61,14 @@ export default function Footer() {
                   </button>
                 </a>
                 <a
-                  className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2  items-center text-xs uppercase font-bold"
+                  className="hover:text-blueGray-300 text-blueGray-700 px-3 py-4 lg:py-2  items-center text-xs uppercase font-bold"
                   href="https://discord.gg/8nZndQn6m6"
                   target="_blank"
                   rel="noreferrer"
                   title="Discord"
                 >
                   <button
-                    className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 "
                     type="button"
                   >
                     <i className="fab fa-discord"></i>
@@ -83,12 +84,14 @@ export default function Footer() {
                   </span>
                   <ul className="list-unstyled">
                     <li>
-                      <a
-                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="/about"
-                      >
-                        About Us
-                      </a>
+                      <Link href="/about">
+                        <a
+                          href="#lxt"
+                          className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm border-none border-transparent"
+                        >
+                          About Us
+                        </a>
+                      </Link>
                     </li>
                     {/* <li>
                       <a
@@ -99,12 +102,14 @@ export default function Footer() {
                       </a>
                    </li>*/}
                     <li>
-                      <a
-                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="/contact"
-                      >
-                        Contact Us
-                      </a>
+                      <Link href="/contact">
+                        <a
+                          href="#lxt"
+                          className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm border-none border-transparent"
+                        >
+                          Contact Us
+                        </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -114,20 +119,24 @@ export default function Footer() {
                   </span>
                   <ul className="list-unstyled">
                     <li>
-                      <a
-                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="/terms"
-                      >
-                        Terms of Service
-                      </a>
+                      <Link href="/terms">
+                        <a
+                          href="#lxt"
+                          className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm border-none border-transparent"
+                        >
+                          Terms of Service
+                        </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="/privacy"
-                      >
-                        Privacy Policy
-                      </a>
+                      <Link href="/privacy">
+                        <a
+                          href="#lxt"
+                          className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm border-none border-transparent"
+                        >
+                          Privacy Policy
+                        </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>

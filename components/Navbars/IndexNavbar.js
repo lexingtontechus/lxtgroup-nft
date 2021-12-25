@@ -31,7 +31,7 @@ export default function Navbar(props) {
             <Link href="/">
               <a
                 className="text-white text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
-                href="#pablo"
+                href="#lxt"
               >
                 LXT GROUP LLC
               </a>
@@ -53,32 +53,38 @@ export default function Navbar(props) {
           >
             <ul className="flex flex-col lg:flex-row list-none mr-auto">
               <li className="flex items-center">
-                <a
-                  className="hover:text-blueGray-500 text-blueGray-500 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="/biotech"
-                >
-                  BioTech
-                </a>
+                <Link href="/biotech">
+                  <a
+                    href="#lxt"
+                    className="hover:text-blueGray-300 text-blueGray-500 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold border-none border-transparent"
+                  >
+                    BioTech
+                  </a>
+                </Link>
               </li>
               <li className="flex items-center">
-                <a
-                  className="hover:text-blueGray-500 text-blueGray-500 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="/etf"
-                >
-                  ETF
-                </a>
+                <Link href="/etf">
+                  <a
+                    href="#lxt"
+                    className="hover:text-blueGray-300 text-blueGray-500 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold border-none border-transparent"
+                  >
+                    ETF
+                  </a>
+                </Link>
               </li>
               <li className="flex items-center">
-                <a
-                  className="hover:text-blueGray-500 text-blueGray-500 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="/startups"
-                >
-                  Startups
-                </a>
+                <Link href="/startups">
+                  <a
+                    href="#lxt"
+                    className="hover:text-blueGray-300 text-blueGray-500 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold border-none border-transparent"
+                  >
+                    Startups
+                  </a>
+                </Link>
               </li>
 
               <li className="flex items-center">
-                <span className="hover:text-blueGray-500 text-blueGray-500 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold pr-1">
+                <span className="hover:text-blueGray-300 text-blueGray-500 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold pr-1">
                   News{"  "}
                   <AnnounceKit widget="https://announcekit.co/widgets/v2/3hkz9S" />
                 </span>
@@ -90,30 +96,32 @@ export default function Navbar(props) {
                 <IndexDropdown />
           </li>*/}
               <li className="flex items-center">
-                <a
-                  className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="/about"
-                  rel="noreferrer"
-                  title="About"
-                >
-                  <i className="text-blueGray-400 fas fa-info-circle text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2">About</span>
-                </a>
+                <Link href="/about">
+                  <a
+                    href="#lxt"
+                    className="hover:text-blueGray-300 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                    title="About"
+                  >
+                    <i className="text-blueGray-400 fas fa-info-circle text-lg leading-lg " />
+                    <span className="lg:hidden inline-block ml-2">About</span>
+                  </a>
+                </Link>
+              </li>
+              <li className="flex items-center">
+                <Link href="/contact">
+                  <a
+                    href="#lxt"
+                    className="hover:text-blueGray-300 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                    title="Contact"
+                  >
+                    <i className="text-blueGray-400 fas fa-at text-lg leading-lg " />
+                    <span className="lg:hidden inline-block ml-2">Contact</span>
+                  </a>
+                </Link>
               </li>
               <li className="flex items-center">
                 <a
-                  className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="/contact"
-                  rel="noreferrer"
-                  title="Contact"
-                >
-                  <i className="text-blueGray-400 fas fa-at text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2">Contact</span>
-                </a>
-              </li>
-              <li className="flex items-center">
-                <a
-                  className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  className="hover:text-blueGray-300 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="https://www.linkedin.com/company/lxtgroup"
                   target="_blank"
                   rel="noreferrer"
@@ -126,7 +134,7 @@ export default function Navbar(props) {
 
               <li className="flex items-center">
                 <a
-                  className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  className="hover:text-blueGray-300 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="https://angel.co/company/lxt-group/"
                   target="_blank"
                   rel="noreferrer"
@@ -138,7 +146,7 @@ export default function Navbar(props) {
               </li>
               <li className="flex items-center">
                 <a
-                  className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  className="hover:text-blueGray-300 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="https://discord.gg/8nZndQn6m6"
                   target="_blank"
                   rel="noreferrer"

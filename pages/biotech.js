@@ -16,7 +16,6 @@ export default function BioTech() {
     <>
       <Head>
         <title>LXT GROUP | BioTech</title>
-        
       </Head>
       <IndexNavbar transparent />
       <main>
@@ -53,7 +52,7 @@ export default function BioTech() {
                       }
                     }}
                   />
-                  <div className="pt-2 w-8/12 h-4/12">
+                  <div className="pt-2 w-full h-4/12">
                     <p className="mt-2 mb-4 text-blueGray-400 text-center">
                       Synthetic biology & biofabrication offers increased
                       sustainability, standardization and reproducibility.
