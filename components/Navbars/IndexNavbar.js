@@ -5,14 +5,6 @@ import AnnounceKit from "announcekit-react";
 // components
 //import IndexDropdown from "components/Dropdowns/IndexDropdown.js";
 
-function MyLink(props) {
-  let { href, children, ...rest } = props;
-  return (
-    <Link href={href}>
-      <a {...rest}>{children}</a>
-    </Link>
-  );
-}
 export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
 
@@ -82,27 +74,29 @@ export default function Navbar(props) {
                   </a>
                 </Link>
               </li>
-
-              <li className="flex items-center">
-                <span className="hover:text-blueGray-300 text-blueGray-500 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold pr-1">
-                  News{"  "}
-                  <AnnounceKit widget="https://announcekit.co/widgets/v2/3hkz9S" />
-                </span>
-              </li>
             </ul>
 
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
-              {/*<li className="flex items-center">
-                <IndexDropdown />
-          </li>*/}
+              <li className="flex items-center">
+                <span
+                  className="px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  title="News"
+                >
+                  <AnnounceKit widget="https://announcekit.app/widgets/v2/3hkz9S">
+                    <i className="hover:text-blueGray-300 text-blueGray-500 fas fa-rss text-lg leading-lg mr-2" />
+                    <span className="lg:hidden inline-block">News</span>
+                  </AnnounceKit>
+                </span>
+              </li>
+
               <li className="flex items-center">
                 <Link href="/about">
                   <a
                     href="#lxt"
-                    className="hover:text-blueGray-300 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                    className="hover:text-blueGray-300 text-blueGray-500 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                     title="About"
                   >
-                    <i className="text-blueGray-400 fas fa-info-circle text-lg leading-lg " />
+                    <i className="hover:text-blueGray-300 text-blueGray-500 fas fa-info-circle text-lg leading-lg " />
                     <span className="lg:hidden inline-block ml-2">About</span>
                   </a>
                 </Link>
@@ -111,48 +105,48 @@ export default function Navbar(props) {
                 <Link href="/contact">
                   <a
                     href="#lxt"
-                    className="hover:text-blueGray-300 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                    className="hover:text-blueGray-300 text-blueGray-500 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                     title="Contact"
                   >
-                    <i className="text-blueGray-400 fas fa-at text-lg leading-lg " />
+                    <i className="hover:text-blueGray-300 text-blueGray-500 fas fa-at text-lg leading-lg " />
                     <span className="lg:hidden inline-block ml-2">Contact</span>
                   </a>
                 </Link>
               </li>
               <li className="flex items-center">
                 <a
-                  className="hover:text-blueGray-300 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  className="hover:text-blueGray-300 text-blueGray-500 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="https://www.linkedin.com/company/lxtgroup"
                   target="_blank"
                   rel="noreferrer"
                   title="LinkedIn"
                 >
-                  <i className="text-blueGray-400 fab fa-linkedin text-lg leading-lg " />
+                  <i className="hover:text-blueGray-300 text-blueGray-500 fab fa-linkedin text-lg leading-lg " />
                   <span className="lg:hidden inline-block ml-2">LinkedIn</span>
                 </a>
               </li>
-
               <li className="flex items-center">
                 <a
-                  className="hover:text-blueGray-300 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  className="hover:text-blueGray-300 text-blueGray-500 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="https://angel.co/company/lxt-group/"
                   target="_blank"
                   rel="noreferrer"
                   title="Angel"
                 >
-                  <i className="text-blueGray-400 fab fa-angellist text-lg leading-lg " />
+                  <i className="hover:text-blueGray-300 text-blueGray-500 fab fa-angellist text-lg leading-lg " />
                   <span className="lg:hidden inline-block ml-2">AngelCo</span>
                 </a>
               </li>
+
               <li className="flex items-center">
                 <a
-                  className="hover:text-blueGray-300 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  className="hover:text-blueGray-300 text-blueGray-500 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="https://discord.gg/8nZndQn6m6"
                   target="_blank"
                   rel="noreferrer"
                   title="Discord"
                 >
-                  <i className="text-blueGray-400 fab fa-discord text-lg leading-lg " />
+                  <i className="hover:text-blueGray-300 text-blueGray-500 fab fa-discord text-lg leading-lg " />
                   <span className="lg:hidden inline-block ml-2">Discord</span>
                 </a>
               </li>
