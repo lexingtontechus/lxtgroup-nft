@@ -35,7 +35,7 @@ export default function BioTech() {
             <div className="items-center flex flex-wrap">
               <div className="pt-24 w-full lg:w-10/12 px-4 ml-auto mr-auto text-center">
                 <div className="p-2">
-                  <h1 className="text-white font-semibold text-5xl text-center pb-4">
+                  <h1 className="text-white font-semibold text-4xl text-center pb-4">
                     BIOTECH INVESTMENT
                   </h1>
                   <ReactPlayer

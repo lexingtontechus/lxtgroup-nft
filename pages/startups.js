@@ -34,7 +34,7 @@ export default function Startups() {
             <div className="items-center flex flex-wrap">
               <div className="pt-24 w-full lg:w-10/12 px-4 ml-auto mr-auto text-center">
                 <div className="p-2">
-                  <h1 className="text-white text-center font-semibold text-5xl pb-4">
+                  <h1 className="text-white text-center font-semibold text-4xl pb-4">
                     HYPERLOCAL MICROSERVICES
                   </h1>
                   <ReactPlayer

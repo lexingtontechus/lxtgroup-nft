@@ -31,7 +31,7 @@ export default function Contact() {
             <div className="items-center flex flex-wrap">
               <div className="pt-24 w-full lg:w-10/12 px-4 ml-auto mr-auto text-center">
                 <div className="">
-                  <h1 className="text-white font-semibold text-5xl">
+                  <h1 className="text-white font-semibold text-4xl">
                     Diverse. Resilient. Sustainable.
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">

@@ -9,7 +9,6 @@ import ReactPlayer from "react-player";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
-
 export default function Index() {
   const myLoader = ({ src, width, quality }) => {
     return "https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxtgroup-images/biotech.png";
@@ -48,7 +47,7 @@ export default function Index() {
             <div className="items-center flex flex-wrap">
               <div className="pt-24 w-full lg:w-10/12 px-4 ml-auto mr-auto text-center justify-center">
                 <div className="p-2">
-                  <h1 className="text-white font-semibold text-5xl text-center uppercase pb-4">
+                  <h1 className="text-white font-semibold text-4xl text-center uppercase pb-4">
                     Quantum Management
                   </h1>
                   <ReactPlayer

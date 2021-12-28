@@ -34,11 +34,7 @@ Crypto EFT & Hyperlocal Microservices.  Web 3.0 Blockchain domain IPFS "
           <link rel="shortcut icon" href="/ico_lxtgroup.svg" />
           <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon.png" />
 
-          <script
-            id="convertful-api"
-            src="https://app.convertful.com/Convertful.js?owner=6615"
-            async
-          ></script>
+          <script async src="https://cdn.announcekit.app/widget-v2.js"></script>
           <script
             src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.8/lottie_svg.min.js"
             type="text/javascript"
