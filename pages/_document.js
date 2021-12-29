@@ -45,7 +45,7 @@ Crypto EFT & Hyperlocal Microservices.  Web 3.0 Blockchain domain IPFS "
             type="text/javascript"
           ></script>
         </Head>
-        <body className="text-blueGray-700 antialiased">
+        <body className="text-stone-700 antialiased">
           <div id="page-transition"></div>
           <Main />
           <NextScript />

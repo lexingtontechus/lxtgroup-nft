@@ -34,7 +34,7 @@ export default function Contact() {
                   <h1 className="text-white font-semibold text-4xl">
                     Diverse. Resilient. Sustainable.
                   </h1>
-                  <p className="mt-4 text-lg text-blueGray-200">
+                  <p className="mt-4 text-lg text-stone-200">
                     Your story starts with us.
                   </p>
                 </div>
@@ -55,14 +55,14 @@ export default function Contact() {
               y="0"
             >
               <polygon
-                className="text-blueGray-200 fill-current"
+                className="text-stone-400 fill-current"
                 points="2560 0 2560 100 0 100"
               ></polygon>
             </svg>
           </div>
         </div>
 
-        <section className="pb-20 relative block bg-blueGray-800">
+        <section className="pb-20 relative block bg-stone-400">
           <div
             className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
             style={{ transform: "translateZ(0)" }}
@@ -77,7 +77,7 @@ export default function Contact() {
               y="0"
             >
               <polygon
-                className="text-blueGray-800 fill-current"
+                className="text-stone-400 fill-current"
                 points="2560 0 2560 100 0 100"
               ></polygon>
             </svg>
@@ -89,7 +89,7 @@ export default function Contact() {
                 <h2 className="text-4xl font-semibold text-white">
                   What Can't Tech Do?
                 </h2>
-                <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400">
+                <p className="text-lg leading-relaxed mt-4 mb-4 text-stone-400">
                   Technology alone cannot solve the sustainability & climate
                   change crises.
                 </p>
@@ -100,52 +100,50 @@ export default function Contact() {
             </div>
             <div className="flex flex-wrap mt-12 justify-center">
               <div className="w-full lg:w-3/12 px-4 text-center">
-                <div className="text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
+                <div className="p-3 w-12 h-12 shadow-lg rounded-full bg-stone-100 inline-flex items-center justify-center">
                   <i className="fas fa-hand-holding-usd text-xl"></i>
                 </div>
                 <h6 className="text-xl mt-5 font-semibold text-white">
                   Portfolio Management
                 </h6>
-                <p className="mt-2 mb-4 text-blueGray-400">
+                <p className="mt-2 mb-4 text-stone-400">
                   Cryptocurrency hedge fund exclusively focused on investing in
                   digital assets.
                 </p>
               </div>
               <div className="w-full lg:w-3/12 px-4 text-center">
-                <div className="text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
+                <div className=" p-3 w-12 h-12 shadow-lg rounded-full bg-stone-100 inline-flex items-center justify-center">
                   <i className="fas fa-hand-holding-water text-xl"></i>
                 </div>
                 <h5 className="text-xl mt-5 font-semibold text-white">
                   Grow your market
                 </h5>
-                <p className="mt-2 mb-4 text-blueGray-400">
+                <p className="mt-2 mb-4 text-stone-400">
                   Rapid hyper-local service expansion
                 </p>
               </div>
               <div className="w-full lg:w-3/12 px-4 text-center">
-                <div className="text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
+                <div className=" p-3 w-12 h-12 shadow-lg rounded-full bg-stone-100 inline-flex items-center justify-center">
                   <i className="fas fa-rocket text-xl"></i>
                 </div>
                 <h5 className="text-xl mt-5 font-semibold text-white">
                   Launch time
                 </h5>
-                <p className="mt-2 mb-4 text-blueGray-400">
-                  Accelerated scaling
-                </p>
+                <p className="mt-2 mb-4 text-stone-400">Accelerated scaling</p>
               </div>
             </div>
           </div>
         </section>
-        <section className="relative block py-24 lg:pt-0 bg-blueGray-800">
+        <section className="relative block py-24 lg:pt-0 bg-stone-400">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
               <div className="w-full lg:w-6/12 px-4">
-                <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200">
+                <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-stone-200">
                   <div className="flex-auto p-5 lg:p-10">
                     <h4 className="text-2xl font-semibold">
                       Want to work with us?
                     </h4>
-                    <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                    <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                       Complete this form and we will get back to you in 24
                       hours.
                     </p>{" "}

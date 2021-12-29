@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <>
-      <footer className="relative bg-blueGray-200 pt-8 pb-6">
+      <footer className="relative bg-stone-200 pt-8 pb-6">
         <div
           className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
           style={{ transform: "translateZ(0)" }}
@@ -19,7 +19,7 @@ export default function Footer() {
             y="0"
           >
             <polygon
-              className="text-blueGray-200 fill-current"
+              className="text-stone-200 fill-current"
               points="2560 0 2560 100 0 100"
             ></polygon>
           </svg>
@@ -28,47 +28,47 @@ export default function Footer() {
           <div className="flex flex-wrap text-center lg:text-left">
             <div className="w-full lg:w-6/12 px-4">
               <h4 className="text-3xl font-semibold">Let's keep in touch!</h4>
-              <h5 className="text-lg mt-0 mb-2 text-blueGray-600">
+              <h5 className="text-lg mt-0 mb-2 text-stone-600">
                 Find us on any of these platforms, we respond 1-2 business days.
               </h5>
               <div className="mt-6 lg:mb-0 mb-6">
                 <a
-                  className="hover:text-blueGray-300 text-blueGray-700 px-3 py-4 lg:py-2  items-center text-xs uppercase font-bold"
+                  className="hover:text-stone-300 text-stone-700 px-3 py-4 lg:py-2  items-center text-xs uppercase font-bold"
                   href="https://www.linkedin.com/company/lxtgroup"
                   target="_blank"
                   rel="noreferrer"
                   title="LinkedIn"
                 >
                   <button
-                    className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    className="bg-white text-stone-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                     type="button"
                   >
                     <i className="fab fa-linkedin"></i>
                   </button>
                 </a>
                 <a
-                  className="hover:text-blueGray-300 text-blueGray-700 px-3 py-4 lg:py-2  items-center text-xs uppercase font-bold"
+                  className="hover:text-stone-300 text-stone-900 px-3 py-4 lg:py-2  items-center text-xs uppercase font-bold"
                   href="https://angel.co/company/lxt-group/"
                   target="_blank"
                   rel="noreferrer"
                   title="Angel"
                 >
                   <button
-                    className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    className="bg-white text-stone-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                     type="button"
                   >
                     <i className="fab fa-angellist"></i>
                   </button>
                 </a>
                 <a
-                  className="hover:text-blueGray-300 text-blueGray-700 px-3 py-4 lg:py-2  items-center text-xs uppercase font-bold"
+                  className="hover:text-stone-300 text-stone-700 px-3 py-4 lg:py-2  items-center text-xs uppercase font-bold"
                   href="https://discord.gg/8nZndQn6m6"
                   target="_blank"
                   rel="noreferrer"
                   title="Discord"
                 >
                   <button
-                    className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 "
+                    className="bg-white text-stone-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 "
                     type="button"
                   >
                     <i className="fab fa-discord"></i>
@@ -79,7 +79,7 @@ export default function Footer() {
             <div className="w-full lg:w-6/12 px-4">
               <div className="flex flex-wrap items-top mb-6">
                 <div className="w-full lg:w-4/12 px-4 ml-auto">
-                  <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">
+                  <span className="block uppercase text-stone-900 text-sm font-semibold mb-2">
                     LXT GROUP
                   </span>
                   <ul className="list-unstyled">
@@ -87,7 +87,7 @@ export default function Footer() {
                       <Link href="/about">
                         <a
                           href="#lxt"
-                          className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm border-none border-transparent"
+                          className="text-stone-600 hover:text-stone-800 font-semibold block pb-2 text-sm border-none border-transparent"
                         >
                           About Us
                         </a>
@@ -95,7 +95,7 @@ export default function Footer() {
                     </li>
                     {/* <li>
                       <a
-                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                        className="text-stone-600 hover:text-stone-800 font-semibold block pb-2 text-sm"
                         href="https://blog.lxtgroup.nft"
                       >
                         Blog
@@ -105,7 +105,7 @@ export default function Footer() {
                       <Link href="/contact">
                         <a
                           href="#lxt"
-                          className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm border-none border-transparent"
+                          className="text-stone-600 hover:text-stone-800 font-semibold block pb-2 text-sm border-none border-transparent"
                         >
                           Contact Us
                         </a>
@@ -114,7 +114,7 @@ export default function Footer() {
                   </ul>
                 </div>
                 <div className="w-full lg:w-4/12 px-4">
-                  <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">
+                  <span className="block uppercase text-stone-900 text-sm font-semibold mb-2">
                     Legal
                   </span>
                   <ul className="list-unstyled">
@@ -122,7 +122,7 @@ export default function Footer() {
                       <Link href="/terms">
                         <a
                           href="#lxt"
-                          className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm border-none border-transparent"
+                          className="text-stone-600 hover:text-stone-800 font-semibold block pb-2 text-sm border-none border-transparent"
                         >
                           Terms of Service
                         </a>
@@ -132,7 +132,7 @@ export default function Footer() {
                       <Link href="/privacy">
                         <a
                           href="#lxt"
-                          className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm border-none border-transparent"
+                          className="text-stone-600 hover:text-stone-800 font-semibold block pb-2 text-sm border-none border-transparent"
                         >
                           Privacy Policy
                         </a>
@@ -143,14 +143,14 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <hr className="my-6 border-blueGray-300" />
+          <hr className="my-6 border-stone-300" />
           <div className="flex flex-wrap items-center md:justify-between justify-center">
             <div className="w-full md:w-4/12 px-4 mx-auto text-center">
-              <div className="text-sm text-blueGray-500 font-semibold py-1">
+              <div className="text-sm text-stone-500 font-semibold py-1">
                 Copyright © {new Date().getFullYear()}{" "}
                 <a
                   href="https://lxtgroup.ft"
-                  className="text-blueGray-500 hover:text-blueGray-800"
+                  className="text-stone-500 hover:text-stone-800"
                 >
                   LXT GROUP LLC
                 </a>

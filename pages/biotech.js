@@ -53,7 +53,7 @@ export default function BioTech() {
                     }}
                   />
                   <div className="pt-2 w-full h-4/12">
-                    <p className="mt-2 mb-4 text-blueGray-400 text-center">
+                    <p className="mt-2 mb-4 text-stone-400 text-center">
                       Synthetic biology & biofabrication offers increased
                       sustainability, standardization and reproducibility.
                     </p>
@@ -76,32 +76,32 @@ export default function BioTech() {
               y="0"
             >
               <polygon
-                className="text-blueGray-200 fill-current"
+                className="text-stone-200 fill-current"
                 points="2560 0 2560 100 0 100"
               ></polygon>
             </svg>
           </div>
         </div>
 
-        <section className="pb-20 bg-blueGray-200 -mt-24">
+        <section className="pb-20 bg-stone-200 -mt-24">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap">
               <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                <div className="relative flex flex-col min-w-0 break-words bg-stone-100 w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
                       <i className="fab fa-empire"></i>
                     </div>
                     <h6 className="text-xl font-semibold">Our Mission</h6>
-                    <p className="mt-2 mb-4 text-blueGray-500">
+                    <p className="mt-2 mb-4 text-stone-500">
                       Investing in the sustainable future of food & medical
                       advances.
                     </p>
-                    <p className="mt-2 mb-4 text-blueGray-500">
+                    <p className="mt-2 mb-4 text-stone-500">
                       Sustainable & high yield foodtech products & water
                       sources.
                     </p>
-                    <p className="mt-2 mb-4 text-blueGray-500">
+                    <p className="mt-2 mb-4 text-stone-500">
                       Future of eCommerce powered by virtual & augmented
                       reality.
                     </p>
@@ -110,22 +110,22 @@ export default function BioTech() {
               </div>
 
               <div className="w-full md:w-4/12 px-4 text-center">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                <div className="relative flex flex-col min-w-0 break-words bg-stone-100 w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
+                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-sky-300">
                       <i className="fas fa-power-off"></i>
                     </div>
                     <h6 className="text-xl font-semibold">Our Investments</h6>
-                    <p className="mt-2 mb-4 text-blueGray-500">
+                    <p className="mt-2 mb-4 text-stone-500">
                       We invest in plant-based & cell-based innovations. If you
                       are a start-ups that fits our missionInvesting in the
                       sustainable future of food & medical advances.
                     </p>
-                    <p className="mt-2 mb-4 text-blueGray-500">
+                    <p className="mt-2 mb-4 text-stone-500">
                       Sustainable & high yield foodtech products & water
                       sources.
                     </p>
-                    <p className="mt-2 mb-4 text-blueGray-500">
+                    <p className="mt-2 mb-4 text-stone-500">
                       Future of eCommerce powered by virtual & augmented
                       reality.
                     </p>
@@ -134,20 +134,20 @@ export default function BioTech() {
               </div>
 
               <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                <div className="relative flex flex-col min-w-0 break-words bg-stone-100 w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
                       <i className="fas fa-fingerprint"></i>
                     </div>
                     <h6 className="text-xl font-semibold">Our Growth</h6>
-                    <p className="mt-2 mb-4 text-blueGray-500">
+                    <p className="mt-2 mb-4 text-stone-500">
                       Accelerating innovation and action for sustainable growth.
                     </p>
-                    <p className="mt-2 mb-4 text-blueGray-500">
+                    <p className="mt-2 mb-4 text-stone-500">
                       Embracing technology to power sustainable food systems
                       transformation.
                     </p>
-                    <p className="mt-2 mb-4 text-blueGray-500">
+                    <p className="mt-2 mb-4 text-stone-500">
                       Embracing technology &leveraging AI and Machine Learning.
                     </p>
                   </div>
@@ -160,19 +160,19 @@ export default function BioTech() {
                 <h3 className="text-3xl mb-2 font-semibold leading-normal">
                   The Future Of Food
                 </h3>
-                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
+                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-stone-600">
                   Technology that meets future needs.
                 </p>
-                <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
+                <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-stone-600">
                   Sustainable & high yield foodtech products & water sources.
                 </p>
-                <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
+                <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-stone-600">
                   Future of eCommerce powered by virtual & augmented reality.
                 </p>
               </div>
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
+                <div className="relative flex flex-col min-w-0 break-words bg-stone-100 w-full mb-6 shadow-lg rounded-lg bg-stone-700">
                   <img
                     alt="Food Loves Tech"
                     layout="responsive"
@@ -188,7 +188,7 @@ export default function BioTech() {
                     >
                       <polygon
                         points="-30,95 583,95 583,65"
-                        className="text-blueGray-700 fill-current"
+                        className="text-stone-700 fill-current"
                       ></polygon>
                     </svg>
                     <h4 className="text-xl font-bold text-white">FoodTech</h4>
@@ -220,7 +220,7 @@ export default function BioTech() {
               y="0"
             >
               <polygon
-                className="text-white fill-current"
+                className="text-stone-100 fill-current"
                 points="2560 0 2560 100 0 100"
               ></polygon>
             </svg>
@@ -229,7 +229,7 @@ export default function BioTech() {
           <div className="container mx-auto px-4">
             <div className="items-center flex flex-wrap">
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
+                <div className="relative flex flex-col min-w-0 break-words bg-stone-100 w-full mb-6 shadow-lg rounded-lg bg-stone-700">
                   <img
                     alt="BioTech"
                     src="/biotech.png"
@@ -245,7 +245,7 @@ export default function BioTech() {
                     >
                       <polygon
                         points="-30,95 583,95 583,65"
-                        className="text-blueGray-700 fill-current"
+                        className="text-stone-700 fill-current"
                       ></polygon>
                     </svg>
                     <h4 className="text-xl font-bold text-white">BioTech</h4>
@@ -263,19 +263,19 @@ export default function BioTech() {
                   <h3 className="text-3xl font-semibold">
                     Evolution of Bio Technology
                   </h3>
-                  <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
+                  <p className="mt-4 text-lg leading-relaxed text-stone-500">
                     Synthetic & biotech inventions & startups.
                   </p>
                   <ul className="list-none mt-6">
                     <li className="py-2">
                       <div className="flex items-center">
                         <div>
-                          <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
+                          <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-stone-900 bg-stone-100 mr-3">
                             <i className="fas fa-heartbeat"></i>
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-blueGray-500">
+                          <h4 className="text-stone-500">
                             Affordable & alternate healthcare solutions
                           </h4>
                         </div>
@@ -284,12 +284,12 @@ export default function BioTech() {
                     <li className="py-2">
                       <div className="flex items-center">
                         <div>
-                          <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
+                          <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-stone-900 bg-stone-100 mr-3">
                             <i className="fas fa-parachute-box"></i>
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-blueGray-500">
+                          <h4 className="text-stone-500">
                             Food supply chain security
                           </h4>
                         </div>
@@ -298,12 +298,12 @@ export default function BioTech() {
                     <li className="py-2">
                       <div className="flex items-center">
                         <div>
-                          <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
+                          <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-stone-900 bg-stone-100 mr-3">
                             <i className="fas fa-recycle"></i>
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-blueGray-500">
+                          <h4 className="text-stone-500">
                             Repurposing waste into sustainable products
                           </h4>
                         </div>

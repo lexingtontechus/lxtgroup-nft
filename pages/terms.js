@@ -11,7 +11,6 @@ export default function Terms() {
     <>
       <Head>
         <title>LXT GROUP | Terms of Service</title>
-       
       </Head>
       <IndexNavbar transparent />
       <main>
@@ -35,7 +34,7 @@ export default function Terms() {
                   <h1 className="text-white font-semibold text-xl">
                     Terms of Service
                   </h1>
-                  <p className="mt-4 text-lg text-blueGray-200">
+                  <p className="mt-4 text-lg text-stone-200">
                     The definition of the Terms of Service in connection with
                     the use of our services.
                   </p>
@@ -57,24 +56,24 @@ export default function Terms() {
               y="0"
             >
               <polygon
-                className="text-blueGray-200 fill-current"
+                className="text-stone-200 fill-current"
                 points="2560 0 2560 100 0 100"
               ></polygon>
             </svg>
           </div>
         </div>
 
-        <section className="relative block py-24 lg:pt-0 bg-blueGray-800">
+        <section className="relative block py-24 lg:pt-0 bg-stone-800">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
               <div className="w-full lg:w-10/12 px-4">
-                <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200">
+                <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-stone-200">
                   <div className="flex-auto p-5 lg:p-10">
                     <h2 className="text-2xl font-semibold">
                       Last updated October 01, 2021
                     </h2>
                     <div className="relative w-full mb-3 mt-8">
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         These Terms of Use constitute a legally binding
                         agreement made between you, whether personally or on
                         behalf of an entity (“you”) and LXT GROUP LLC, doing
@@ -97,7 +96,7 @@ export default function Terms() {
                         PROHIBITED FROM USING THE SITE AND/OR THE MARKETPLACE
                         OFFERINGS AND YOU MUST DISCONTINUE USE IMMEDIATELY.
                       </p>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         Supplemental terms and conditions or documents that may
                         be posted on the Site from time to time are hereby
                         expressly incorporated herein by reference. We reserve
@@ -114,7 +113,7 @@ export default function Terms() {
                         use of the Site after the date such revised Terms of Use
                         are posted.{" "}
                       </p>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         The information provided on the Site is not intended for
                         distribution to or use by any person or entity in any
                         jurisdiction or country where such distribution or use
@@ -126,7 +125,7 @@ export default function Terms() {
                         compliance with local laws, if and to the extent local
                         laws are applicable.
                       </p>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         The Site is not tailored to comply with
                         industry-specific regulations (Health Insurance
                         Portability and Accountability Act (HIPAA), Federal
@@ -136,7 +135,7 @@ export default function Terms() {
                         way that would violate the Gramm-Leach-Bliley Act
                         (GLBA).
                       </p>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         The Site is intended for users who are at least 18 years
                         old. Persons under the age of 18 are not permitted to
                         use or register for the Site or use the Marketplace
@@ -145,7 +144,7 @@ export default function Terms() {
                       <h3 className="text-2xl font-semibold">
                         INTELLECTUAL PROPERTY RIGHTS{" "}
                       </h3>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         Unless otherwise indicated, the Site and the Marketplace
                         Offerings are our proprietary property and all source
                         code, databases, functionality, software, website
@@ -168,7 +167,7 @@ export default function Terms() {
                         any commercial purpose whatsoever, without our express
                         prior written permission.
                       </p>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         Provided that you are eligible to use the Site, you are
                         granted a limited license to access and use the Site and
                         to download or print a copy of any portion of the
@@ -180,7 +179,7 @@ export default function Terms() {
                       <h3 className="text-2xl font-semibold">
                         USER REPRESENTATIONS{" "}
                       </h3>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         By using the Site or the Marketplace Offerings, you
                         represent and warrant that: (1) you have the legal
                         capacity and you agree to comply with these Terms of
@@ -193,14 +192,14 @@ export default function Terms() {
                         the Marketplace Offerings will not violate any
                         applicable law or regulation.
                       </p>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         If you provide any information that is untrue,
                         inaccurate, not current, or incomplete, we have the
                         right to suspend or terminate your account and refuse
                         any and all current or future use of the Site (or any
                         portion thereof).
                       </p>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         You may not use the Site or the Marketplace Offerings
                         for any illegal or unauthorized purpose nor may you, in
                         the use of Marketplace Offerings, violate any laws.
@@ -213,7 +212,7 @@ export default function Terms() {
                         termination of your account and a lifetime ban from use
                         of the Site.
                       </p>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         We are a service provider and make no representations as
                         to the safety, effectiveness, adequacy, accuracy,
                         availability, prices, ratings, reviews, or legality of
@@ -231,7 +230,7 @@ export default function Terms() {
                       <h3 className="text-2xl font-semibold">
                         MARKETPLACE OFFERINGS{" "}
                       </h3>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         We reserve the right to limit the quantities of the
                         Marketplace Offerings offered or available on the Site.
                         All descriptions or pricing of the Marketplace Offerings
@@ -245,36 +244,36 @@ export default function Terms() {
                       <h3 className="text-2xl font-semibold">
                         PURCHASES AND PAYMENT{" "}
                       </h3>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         We accept the following forms of payment:
                       </p>
                       <ul className="list-none mr-auto">
                         <li className="flex items-center">
                           <i className="fab fa-bitcoin"></i>
-                          <span className="inline-block ml-2 text-blueGray-500">
+                          <span className="inline-block ml-2 text-stone-500">
                             Crypto-Currency
                           </span>
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-landmark"></i>
-                          <span className="inline-block ml-2 text-blueGray-500">
+                          <span className="inline-block ml-2 text-stone-500">
                             Bank Wire Transfer
                           </span>
                         </li>
                         <li className="flex items-center">
                           <i className="fab fa-cc-visa"></i>
-                          <span className="inline-block ml-2 text-blueGray-500">
+                          <span className="inline-block ml-2 text-stone-500">
                             Visa
                           </span>
                         </li>
                         <li className="flex items-center">
                           <i className="fab fa-cc-mastercard"></i>
-                          <span className="inline-block ml-2 text-blueGray-500">
+                          <span className="inline-block ml-2 text-stone-500">
                             Mastercard
                           </span>
                         </li>
                       </ul>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         You agree to provide current, complete, and accurate
                         purchase and account information for all purchases of
                         the Marketplace Offerings made via the Site. You further
@@ -286,7 +285,7 @@ export default function Terms() {
                         deemed required by us. We may change prices at any time.
                         All payments shall be in U.S. dollars.{" "}
                       </p>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         You agree to pay all charges at the prices then in
                         effect for your purchases and any applicable shipping
                         fees, and you authorize us to charge your chosen payment
@@ -295,7 +294,7 @@ export default function Terms() {
                         in pricing, even if we have already requested or
                         received payment.
                       </p>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         We reserve the right to refuse any order placed through
                         the Site. We may, in our sole discretion, limit or
                         cancel quantities purchased per person, per household,
@@ -309,20 +308,20 @@ export default function Terms() {
                       <h3 className="text-2xl font-semibold">
                         REFUNDS POLICY{" "}
                       </h3>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         All sales are final and no refund will be issued.
                       </p>
                       <h3 className="text-2xl font-semibold">
                         PROHIBITED ACTIVITIES{" "}
                       </h3>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         You may not access or use the Site for any purpose other
                         than that for which we make the Site available. The Site
                         may not be used in connection with any commercial
                         endeavors except those that are specifically endorsed or
                         approved by us.
                       </p>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         As a user of the Site, you agree not to:
                       </p>
                       <ul className="list-none mr-auto">
@@ -462,7 +461,7 @@ export default function Terms() {
                       <h3 className="text-2xl font-semibold">
                         USER GENERATED CONTRIBUTIONS{" "}
                       </h3>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         The Site does not offer users to submit or post content.
                         We may provide you with the opportunity to create,
                         submit, post, display, transmit, perform, publish,
@@ -569,19 +568,19 @@ export default function Terms() {
                       <h3 className="text-2xl font-semibold">
                         CONTRIBUTION LICENSE{" "}
                       </h3>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         {" "}
                         You and the Site agree that we may access, store,
                         process, and use any information and personal data that
                         you provide following the terms of the Privacy Policy
                         and your choices (including settings).{" "}
                       </p>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         By submitting suggestions or other feedback regarding
                         the Site, you agree that we can use and share such
                         feedback for any purpose without compensation to you.{" "}
                       </p>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         We do not assert any ownership over your Contributions.
                         You retain full ownership of all of your Contributions
                         and any intellectual property rights or other
@@ -594,7 +593,7 @@ export default function Terms() {
                         action against us regarding your Contributions.{" "}
                       </p>
                       <h3 className="text-2xl font-semibold">SOCIAL MEDIA </h3>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         {" "}
                         As part of the functionality of the Site, you may link
                         your account with online accounts you have with
@@ -657,7 +656,7 @@ export default function Terms() {
                         picture that become associated with your account.
                       </p>
                       <h3 className="text-2xl font-semibold">SUBMISSIONS </h3>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         {" "}
                         You acknowledge and agree that any questions, comments,
                         suggestions, ideas, feedback, or other information
@@ -679,7 +678,7 @@ export default function Terms() {
                       <h3 className="text-2xl font-semibold">
                         SITE MANAGEMENT{" "}
                       </h3>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         We reserve the right, but not the obligation, to: (1)
                         monitor the Site for violations of these Terms of Use;
                         (2) take appropriate legal action against anyone who, in
@@ -701,7 +700,7 @@ export default function Terms() {
                       <h3 className="text-2xl font-semibold">
                         PRIVACY POLICY{" "}
                       </h3>{" "}
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         We care about data privacy and security. Please review
                         our Privacy Policy: https://lxtgroup.nft/privacy. By
                         using the Site or the Marketplace Offerings, you agree
@@ -720,7 +719,7 @@ export default function Terms() {
                       <h3 className="text-2xl font-semibold">
                         TERM AND TERMINATION{" "}
                       </h3>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         {" "}
                         These Terms of Use shall remain in full force and effect
                         while you use the Site. WITHOUT LIMITING ANY OTHER
@@ -748,7 +747,7 @@ export default function Terms() {
                       <h3 className="text-2xl font-semibold">
                         MODIFICATIONS AND INTERRUPTIONS{" "}
                       </h3>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         {" "}
                         We reserve the right to change, modify, or remove the
                         contents of the Site at any time or for any reason at
@@ -788,7 +787,7 @@ export default function Terms() {
                       <h4 className="text-xl font-semibold">
                         Informal Negotiations{" "}
                       </h4>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         To expedite resolution and control the cost of any
                         dispute, controversy, or claim related to these Terms of
                         Use (each “Dispute” and collectively, the “Disputes”)
@@ -803,7 +802,7 @@ export default function Terms() {
                       <h4 className="text-xl font-semibold">
                         Binding Arbitration
                       </h4>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         {" "}
                         If the Parties are unable to resolve a Dispute through
                         informal negotiations, the Dispute (except those
@@ -854,7 +853,7 @@ export default function Terms() {
                         court.
                       </p>
                       <h4 className="text-xl font-semibold">Restrictions</h4>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         The Parties agree that any arbitration shall be limited
                         to the Dispute between the Parties individually. To the
                         full extent permitted by law, (a) no arbitration shall
@@ -869,7 +868,7 @@ export default function Terms() {
                       <h4 className="text-xl font-semibold">
                         Exceptions to Informal Negotiations and Arbitration
                       </h4>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         {" "}
                         The Parties agree that the following Disputes are not
                         subject to the above provisions concerning informal
@@ -889,7 +888,7 @@ export default function Terms() {
                         jurisdiction of that court.{" "}
                       </p>
                       <h3 className="text-2xl font-semibold">CORRECTIONS </h3>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         There may be information on the Site that contains
                         typographical errors, inaccuracies, or omissions that
                         may relate to the Marketplace Offerings, including
@@ -900,7 +899,7 @@ export default function Terms() {
                         notice.{" "}
                       </p>
                       <h3 className="text-2xl font-semibold">DISCLAIMER </h3>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         {" "}
                         THE SITE AND THE MARKETPLACE OFFERINGS ARE PROVIDED ON
                         AN AS-IS AND AS-AVAILABLE BASIS. YOU AGREE THAT YOUR USE
@@ -944,7 +943,7 @@ export default function Terms() {
                       <h3 className="text-2xl font-semibold">
                         LIMITATIONS OF LIABILITY{" "}
                       </h3>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         {" "}
                         IN NO EVENT WILL WE OR OUR DIRECTORS, EMPLOYEES, OR
                         AGENTS BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY
@@ -1048,7 +1047,7 @@ export default function Terms() {
                         parties hereto to execute these Terms of Use.
                       </p>
                       <h3 className="text-2xl font-semibold">CONTACT US </h3>
-                      <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                      <p className="leading-relaxed mt-1 mb-4 text-stone-500">
                         {" "}
                         In order to resolve a complaint regarding the Site or
                         the Marketplace Offerings or to receive further
@@ -1063,13 +1062,13 @@ export default function Terms() {
                             height="16"
                             width="16"
                           />
-                          <span className="inline-block ml-2 text-blueGray-500">
+                          <span className="inline-block ml-2 text-stone-500">
                             LXT GROUP LLC
                           </span>
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-map-marker-alt"></i>
-                          <span className="inline-block ml-2 text-blueGray-500">
+                          <span className="inline-block ml-2 text-stone-500">
                             16192 Coastal Highway
                             <br />
                             Lewes, DE 19958 <br />
@@ -1078,7 +1077,7 @@ export default function Terms() {
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-at"></i>
-                          <span className="inline-block ml-2 text-blueGray-500">
+                          <span className="inline-block ml-2 text-stone-500">
                             legal@lxtgroup.nft
                           </span>
                         </li>
