@@ -44,26 +44,29 @@ Crypto EFT & Hyperlocal Microservices.  Web 3.0 Blockchain domain IPFS "
             defer
             type="text/javascript"
           ></script>
+
         </Head>
         <body className="text-stone-700 antialiased">
           <div id="page-transition"></div>
           <Main />
           <NextScript />
           <div className="minymon">
-            <minymon-body
-              enableFeed="true"
-              enableTalk="true"
-              idsString="MWFkZmVkMjctYmM0Ny00ZjgyLWEwMGQtYjI2ODUyOWUzY2JkLmR0YVZOeWd1UG1wRHl5dHpqWFRaZA=="
-              infoTitle="Hi there!"
-              theme="gray"
-            >
-              <minymon-feedback
-                description="Your message will be sent to the owner of this site."
-                mid="1adfed27-bc47-4f82-a00d-b268529e3cbd"
-                theme="gray"
-                uid="dtaVNyguPmpDyytzjXTZd"
-              ></minymon-feedback>
-            </minymon-body>
+          <minymon-body enableFeed="true" enableTalk="false" idsString="MWFkZmVkMjctYmM0Ny00ZjgyLWEwMGQtYjI2ODUyOWUzY2JkLmR0YVZOeWd1UG1wRHl5dHpqWFRaZA==" infoTitle="Hi there!" theme="yellow">
+    <minymon-question question="What are our Fintech initiatives?" theme="yellow">
+      <minymon-answer answer="LXT GROUP is launching a FOREX brokerage, along with a key partnership with a SEC regulated crypto-hedge fund." question="What are our Fintech initiatives?" theme="yellow">
+      </minymon-answer>
+    </minymon-question>
+    <minymon-question question="What are our BioTech initiatives?" theme="yellow">
+      <minymon-answer answer="LXT Group is investing in startups & technologies in the fields of foodtech & pharmatech that are driven by advance AI or sustainable replacement solutions." question="What are our BioTech initiatives?" theme="yellow">
+      </minymon-answer>
+    </minymon-question>
+    <minymon-question question="What are our hyper-local microservices initiatives?" theme="yellow">
+      <minymon-answer answer="LXT GROUP will be launching business startup opportunities through our hyper-local microservices platform for startups looking to scale quickly." question="What are our hyper-local microservices initiatives?" theme="yellow">
+      </minymon-answer>
+    </minymon-question>
+    <minymon-feedback description="Your message will be sent to the owner of this site." mid="1adfed27-bc47-4f82-a00d-b268529e3cbd" theme="yellow" uid="dtaVNyguPmpDyytzjXTZd">
+    </minymon-feedback>
+  </minymon-body>
           </div>
         </body>
       </Html>
