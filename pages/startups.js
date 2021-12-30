@@ -21,7 +21,8 @@ export default function Startups() {
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
-              backgroundImage: "url('/quantum_header.jpg')"
+              backgroundImage:
+                "url('https://storageapi.fleek.co/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/quantum_header.jpg')"
             }}
           >
             <span
@@ -210,7 +211,7 @@ export default function Startups() {
                 <div className="relative flex flex-col min-w-0 break-words bg-stone-100 w-full mb-6 shadow-lg rounded-lg bg-stone-700">
                   <img
                     alt="Food Delivery Technology"
-                    src="/delivery_food.png"
+                    src="https://storageapi.fleek.co/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/app_food_delivery1.png"
                     layout="responsive"
                     className="w-full align-middle rounded-t-lg"
                   />
@@ -268,7 +269,7 @@ export default function Startups() {
                   <img
                     alt="Medical Delivery Technology"
                     layout="responsive"
-                    src="/delivery_medical.png"
+                    src="https://storageapi.fleek.co/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/delivery_medical.png"
                     className="w-full align-middle rounded-t-lg"
                   />
                   <blockquote className="relative p-8 mb-4">

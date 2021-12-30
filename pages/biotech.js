@@ -23,7 +23,8 @@ export default function BioTech() {
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
-              backgroundImage: "url('/quantum_header.jpg')"
+              backgroundImage:
+                "url('https://storageapi.fleek.co/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/quantum_header.jpg')"
             }}
           >
             <span
@@ -177,7 +178,7 @@ export default function BioTech() {
                     alt="Food Loves Tech"
                     layout="responsive"
                     className="w-full align-middle rounded-t-lg"
-                    src="/foodlovestech.png"
+                    src="https://storageapi.fleek.co/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/foodlovestech.png"
                   />
                   <blockquote className="relative p-8 mb-4">
                     <svg
@@ -232,7 +233,7 @@ export default function BioTech() {
                 <div className="relative flex flex-col min-w-0 break-words bg-stone-100 w-full mb-6 shadow-lg rounded-lg bg-stone-700">
                   <img
                     alt="BioTech"
-                    src="/biotech.png"
+                    src="https://storageapi.fleek.co/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/biotech.png"
                     layout="responsive"
                     className="w-full align-middle rounded-t-lg"
                   />

@@ -3,16 +3,13 @@ import React from "react";
 import { useState, useEffect } from "react";
 //import Link from "next/link";
 import Head from "next/head";
-import Image from "next/image";
+
 import ReactPlayer from "react-player";
 
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
 export default function Index() {
-  const myLoader = ({ src, width, quality }) => {
-    return "https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxtgroup-images/biotech.png";
-  };
   const [isPlaying, setIsPlaying] = useState(true);
   const Emoji = (props) => (
     <span
@@ -35,7 +32,8 @@ export default function Index() {
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
-              backgroundImage: "url('/quantum_header.jpg')"
+              backgroundImage:
+                "url('https://storageapi.fleek.co/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/quantum_header.jpg')"
             }}
           >
             <span
@@ -170,7 +168,7 @@ export default function Index() {
                   alt="BioTech"
                   className="max-w-full rounded-lg shadow-xl "
                   layout="responsive"
-                  src="/biotech.png"
+                  src="https://storageapi.fleek.co/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/biotech.png"
                 />
               </div>
             </div>
@@ -184,7 +182,7 @@ export default function Index() {
                   alt="Crypto EFT"
                   className="max-w-full rounded-lg shadow-xl"
                   layout="responsive"
-                  src="/crypto_etf1.png"
+                  src="https://storageapi.fleek.co/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/crypto_etf1.png"
                 />
               </div>
               <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
@@ -322,7 +320,7 @@ export default function Index() {
                   <img
                     alt="HYPERLOCAL MICROSERVICES"
                     layout="responsive"
-                    src="/hyperlocal.png"
+                    src="https://storageapi.fleek.co/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/hyperlocal.png"
                     className="w-full align-middle rounded-t-lg"
                   />
                   <blockquote className="relative p-8 mb-4">

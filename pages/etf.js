@@ -23,7 +23,8 @@ export default function ETF() {
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
-              backgroundImage: "url('/quantum_header.jpg')"
+              backgroundImage:
+                "url('https://storageapi.fleek.co/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/quantum_header.jpg')"
             }}
           >
             <span
@@ -178,7 +179,7 @@ export default function ETF() {
                 <div className="relative flex flex-col min-w-0 break-words bg-stone-100 w-full mb-6 shadow-lg rounded-lg bg-stone-700">
                   <img
                     alt="Crypto ETF"
-                    src="/crypto_etf2.png"
+                    src="https://storageapi.fleek.co/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/crypto_etf2.png"
                     layout="responsive"
                     className="w-full align-middle rounded-t-lg"
                   />
@@ -232,7 +233,7 @@ export default function ETF() {
                 <div className="relative flex flex-col min-w-0 break-words bg-stone-100 w-full mb-6 shadow-lg rounded-lg bg-stone-700">
                   <img
                     alt="Forex ETF"
-                    src="/forex_etf1.png"
+                    src="https://storageapi.fleek.co/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/forex_etf1.png"
                     layout="responsive"
                     className="w-full align-middle rounded-t-lg"
                   />
