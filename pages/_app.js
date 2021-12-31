@@ -10,11 +10,8 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import "styles/tailwind.css";
 
 //Tag Manager
-import Script from 'next/script'
-import { GTM_ID, pageview } from '../lib/gtm'
-//const tagManagerArgs = {
-//  id: "GTM-KFBK2N3"
-//};
+import Script from "next/script";
+import GoogleTagManager from "components/Googletagmanager/Googletagmanager.js";
 
 Router.events.on("routeChangeStart", (url) => {
   console.log(`Loading: ${url}`);
@@ -73,30 +70,32 @@ export default class MyApp extends App {
 
     return (
       <>
-      <Script
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer', '${GTM_ID}');
-          `,
-        }}
-      />
-      <React.Fragment>
-        <Head>
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-          />
-          <title>LXT GROUP LLC</title>
-        </Head>
-        <Layout>
+        {/* Google Tag Manager - Global base code */}
+        <GoogleTagManager>
           <Component {...pageProps} />
-        </Layout>
-      </React.Fragment>
+        </GoogleTagManager>
+        <Script async src="https://cdn.announcekit.app/widget-v2.js" />
+        <Script
+          src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.8/lottie_svg.min.js"
+          type="text/javascript"
+        />
+        <Script
+          src="https://api.minymon.com/minymon.js"
+          defer
+          type="text/javascript"
+        />{" "}
+        <React.Fragment>
+          <Head>
+            <meta
+              name="viewport"
+              content="width=device-width, initial-scale=1, shrink-to-fit=no"
+            />
+            <title>LXT GROUP LLC</title>
+          </Head>
+          <Layout>
+            <Component {...pageProps} />
+          </Layout>
+        </React.Fragment>
       </>
     );
   }

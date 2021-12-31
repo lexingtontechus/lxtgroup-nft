@@ -1,6 +1,6 @@
 import React from "react";
 import Document, { Html, Head, Main, NextScript } from "next/document";
-import { GTM_ID } from '../lib/gtm';
+import { GTM_ID } from "../lib/gtm";
 
 class MyDocument extends Document {
   render() {
@@ -34,49 +34,77 @@ Crypto EFT & Hyperlocal Microservices.  Web 3.0 Blockchain domain IPFS "
           />
           <link rel="shortcut icon" href="/ico_lxtgroup.svg" />
           <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon.png" />
-
-          <script async src="https://cdn.announcekit.app/widget-v2.js"></script>
+          {/* Google Tag Manager - Global base code */}
           <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.8/lottie_svg.min.js"
-            type="text/javascript"
-          ></script>
-          <script
-            src="https://api.minymon.com/minymon.js"
-            defer
-            type="text/javascript"
-          ></script>
-
+            dangerouslySetInnerHTML={{
+              __html: `
+              (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer', '${GTM_ID}');
+              `
+            }}
+          />
         </Head>
         <body className="text-stone-700 antialiased">
-        <noscript>
+          <noscript>
             <iframe
               title="Tag Manager"
               src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
               height="0"
               width="0"
-              style={{ display: 'none', visibility: 'hidden' }}
+              style={{ display: "none", visibility: "hidden" }}
             />
           </noscript>
           <div id="page-transition"></div>
           <Main />
           <NextScript />
           <div className="minymon">
-          <minymon-body enableFeed="true" enableTalk="false" idsString="MWFkZmVkMjctYmM0Ny00ZjgyLWEwMGQtYjI2ODUyOWUzY2JkLmR0YVZOeWd1UG1wRHl5dHpqWFRaZA==" infoTitle="Hi there!" theme="yellow">
-    <minymon-question question="What are our Fintech initiatives?" theme="yellow">
-      <minymon-answer answer="LXT GROUP is launching a FOREX brokerage, along with a key partnership with a SEC regulated crypto-hedge fund." question="What are our Fintech initiatives?" theme="yellow">
-      </minymon-answer>
-    </minymon-question>
-    <minymon-question question="What are our BioTech initiatives?" theme="yellow">
-      <minymon-answer answer="LXT Group is investing in startups & technologies in the fields of foodtech & pharmatech that are driven by advance AI or sustainable replacement solutions." question="What are our BioTech initiatives?" theme="yellow">
-      </minymon-answer>
-    </minymon-question>
-    <minymon-question question="What are our hyper-local microservices initiatives?" theme="yellow">
-      <minymon-answer answer="LXT GROUP will be launching business startup opportunities through our hyper-local microservices platform for startups looking to scale quickly." question="What are our hyper-local microservices initiatives?" theme="yellow">
-      </minymon-answer>
-    </minymon-question>
-    <minymon-feedback description="Your message will be sent to the owner of this site." mid="1adfed27-bc47-4f82-a00d-b268529e3cbd" theme="yellow" uid="dtaVNyguPmpDyytzjXTZd">
-    </minymon-feedback>
-  </minymon-body>
+            <minymon-body
+              enableFeed="true"
+              enableTalk="false"
+              idsString="MWFkZmVkMjctYmM0Ny00ZjgyLWEwMGQtYjI2ODUyOWUzY2JkLmR0YVZOeWd1UG1wRHl5dHpqWFRaZA=="
+              infoTitle="Hi there!"
+              theme="yellow"
+            >
+              <minymon-question
+                question="What are our Fintech initiatives?"
+                theme="yellow"
+              >
+                <minymon-answer
+                  answer="LXT GROUP is launching a FOREX brokerage, along with a key partnership with a SEC regulated crypto-hedge fund."
+                  question="What are our Fintech initiatives?"
+                  theme="yellow"
+                ></minymon-answer>
+              </minymon-question>
+              <minymon-question
+                question="What are our BioTech initiatives?"
+                theme="yellow"
+              >
+                <minymon-answer
+                  answer="LXT Group is investing in startups & technologies in the fields of foodtech & pharmatech that are driven by advance AI or sustainable replacement solutions."
+                  question="What are our BioTech initiatives?"
+                  theme="yellow"
+                ></minymon-answer>
+              </minymon-question>
+              <minymon-question
+                question="What are our hyper-local microservices initiatives?"
+                theme="yellow"
+              >
+                <minymon-answer
+                  answer="LXT GROUP will be launching business startup opportunities through our hyper-local microservices platform for startups looking to scale quickly."
+                  question="What are our hyper-local microservices initiatives?"
+                  theme="yellow"
+                ></minymon-answer>
+              </minymon-question>
+              <minymon-feedback
+                description="Your message will be sent to the owner of this site."
+                mid="1adfed27-bc47-4f82-a00d-b268529e3cbd"
+                theme="yellow"
+                uid="dtaVNyguPmpDyytzjXTZd"
+              ></minymon-feedback>
+            </minymon-body>
           </div>
         </body>
       </Html>
