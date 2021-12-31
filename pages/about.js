@@ -80,13 +80,13 @@ export default function About() {
                         <span className="text-xl font-bold block uppercase tracking-wide text-stone-600">
                           3
                         </span>
-                        <span className="text-sm text-stone-400">Funds</span>
+                        <span className="text-sm text-stone-800">Funds</span>
                       </div>
                       <div className="mr-4 p-3 text-center">
                         <span className="text-xl font-bold block uppercase tracking-wide text-stone-600">
                           6
                         </span>
-                        <span className="text-sm text-stone-400">
+                        <span className="text-sm text-stone-800">
                           Investments
                         </span>
                       </div>
@@ -94,7 +94,7 @@ export default function About() {
                         <span className="text-xl font-bold block uppercase tracking-wide text-stone-600">
                           4
                         </span>
-                        <span className="text-sm text-stone-400">Startups</span>
+                        <span className="text-sm text-stone-800">Startups</span>
                       </div>
                     </div>
                   </div>

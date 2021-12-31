@@ -300,7 +300,7 @@ export default function Index() {
                     </div>
                     <div className="relative flex flex-col min-w-0">
                       <div className="px-4 py-5 flex-auto">
-                        <div className="text-stone-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                        <div className="text-stone-900 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                           <i className="fas fa-dolly-flatbed"></i>
                         </div>
                         <h6 className="text-xl mb-1 font-semibold">

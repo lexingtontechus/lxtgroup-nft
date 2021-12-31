@@ -221,7 +221,7 @@ export default function BioTech() {
               y="0"
             >
               <polygon
-                className="text-stone-100 fill-current"
+                className="text-white fill-current"
                 points="2560 0 2560 100 0 100"
               ></polygon>
             </svg>
