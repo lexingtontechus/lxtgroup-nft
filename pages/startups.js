@@ -211,7 +211,7 @@ export default function Startups() {
                 <div className="relative flex flex-col min-w-0 break-words bg-stone-100 w-full mb-6 shadow-lg rounded-lg bg-stone-700">
                   <img
                     alt="Food Delivery Technology"
-                    src="https://storageapi.fleek.co/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/app_food_delivery1.png"
+                    src="https://storageapi.fleek.co/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/delivery_food.png"
                     layout="responsive"
                     className="w-full align-middle rounded-t-lg"
                   />
