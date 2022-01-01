@@ -32,8 +32,15 @@ Crypto EFT & Hyperlocal Microservices.  Web 3.0 Blockchain domain IPFS "
             content=" Web 3.0, Blockchain, domain, IPFS, Interplantary File System, Fleek, Storj, Quantum Management, FoodTech, BioTech, Hyperlocal Microservices, Crypto, Forex, ETF, Pharmatech"
             key="keywords"
           />
-          <link rel="shortcut icon" href="/ico_lxtgroup.svg" />
-          <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon.png" />
+          <link
+            rel="shortcut icon"
+            href="https://storageapi.fleek.co/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/ico_lxtgroup.svg"
+          />
+          <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="https://storageapi.fleek.co/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/apple-touch-icon.png"
+          />
           {/* Google Tag Manager - Global base code */}
           <script
             dangerouslySetInnerHTML={{
