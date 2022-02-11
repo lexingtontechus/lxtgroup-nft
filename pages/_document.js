@@ -29,9 +29,30 @@ Crypto EFT & Hyperlocal Microservices.  Web 3.0 Blockchain domain IPFS "
           <meta property="og:type" content="website" />
           <meta
             property="keywords"
-            content=" Web 3.0, Blockchain, domain, IPFS, Interplantary File System, Fleek, Storj, Quantum Management, FoodTech, BioTech, Hyperlocal Microservices, Crypto, Forex, ETF, Pharmatech"
+            content="Unstoppable, Web 3.0, Blockchain, domain, IPFS, Interplantary File System, Fleek, Storj, Quantum Management, FoodTech, BioTech, Hyperlocal Microservices, Crypto, Forex, ETF, Pharmatech"
             key="keywords"
           />
+          <meta
+            property="og:image"
+            content="https://storageapi.fleek.co/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/seo_logo_lxtgroup.png"
+          />
+
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:url" content="https://lxtgroup.nft/" />
+          <meta
+            property="twitter:title"
+            content="LXT GROUP | QUANTUM MANAGEMENT "
+          />
+          <meta
+            property="twitter:description"
+            content="Management Consulting | Investing in the future of FoodTech, BioTech,
+Crypto EFT & Hyperlocal Microservices.  Web 3.0 Blockchain domain IPFS"
+          />
+          <meta
+            property="twitter:image"
+            content="https://storageapi.fleek.co/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/seo_logo_lxtgroup.png"
+          />
+
           <link
             rel="shortcut icon"
             href="https://storageapi.fleek.co/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/ico_lxtgroup.svg"
@@ -41,6 +62,17 @@ Crypto EFT & Hyperlocal Microservices.  Web 3.0 Blockchain domain IPFS "
             sizes="76x76"
             href="https://storageapi.fleek.co/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/apple-touch-icon.png"
           />
+          <link
+            rel="preload"
+            href="https://lxtgroup.nft/_next/static/css/6f20d1a8087a3c5b.css"
+            as="style"
+          />
+          <link
+            rel="stylesheet"
+            href="https://lxtgroup.nft/_next/static/css/6f20d1a8087a3c5b.css"
+            data-n-g=""
+          />
+
           {/* Google Tag Manager - Global base code */}
           <script
             dangerouslySetInnerHTML={{

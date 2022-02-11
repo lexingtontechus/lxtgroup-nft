@@ -20,7 +20,7 @@ export default function Navbar(props) {
               className="bg-stone-700 max-w-full rounded-lg shadow-xl inline-block"
               src="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxtgroup-images/logo_lxtgroup.svg"
             />{" "}
-            <Link href="/">
+            <Link href="/" id="Home">
               <a
                 className="text-white text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
                 href="#lxt"
@@ -45,7 +45,7 @@ export default function Navbar(props) {
           >
             <ul className="flex flex-col lg:flex-row list-none mr-auto">
               <li className="flex items-center">
-                <Link href="/biotech">
+                <Link href="/biotech" id="nav_biotech">
                   <a
                     href="#lxt"
                     className="hover:text-stone-300 text-stone-400 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold border-none border-transparent"
@@ -55,7 +55,7 @@ export default function Navbar(props) {
                 </Link>
               </li>
               <li className="flex items-center">
-                <Link href="/etf">
+                <Link href="/etf" id="nav_etf">
                   <a
                     href="#lxt"
                     className="hover:text-stone-300 text-stone-400 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold border-none border-transparent"
@@ -65,7 +65,7 @@ export default function Navbar(props) {
                 </Link>
               </li>
               <li className="flex items-center">
-                <Link href="/startups">
+                <Link href="/startups" id="nav_startups">
                   <a
                     href="#lxt"
                     className="hover:text-stone-300 text-stone-400 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold border-none border-transparent"
@@ -82,7 +82,10 @@ export default function Navbar(props) {
                   className="px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold text-stone-400"
                   title="News"
                 >
-                  <AnnounceKit widget="https://announcekit.app/widgets/v2/3hkz9S">
+                  <AnnounceKit
+                    widget="https://announcekit.app/widgets/v2/3hkz9S"
+                    id="nav_news"
+                  >
                     <i className="hover:text-stone-300 text-stone-400 fas fa-rss text-lg leading-lg mr-2" />
                     <span className="lg:hidden inline-block">News</span>
                   </AnnounceKit>
@@ -90,7 +93,7 @@ export default function Navbar(props) {
               </li>
 
               <li className="flex items-center">
-                <Link href="/about">
+                <Link href="/about" id="nav_about">
                   <a
                     href="#lxt"
                     className="hover:text-stone-300 text-stone-400 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
@@ -102,7 +105,7 @@ export default function Navbar(props) {
                 </Link>
               </li>
               <li className="flex items-center">
-                <Link href="/contact">
+                <Link href="/contact" id="nav_contact">
                   <a
                     href="#lxt"
                     className="hover:text-stone-300 text-stone-400 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
@@ -115,6 +118,7 @@ export default function Navbar(props) {
               </li>
               <li className="flex items-center">
                 <a
+                  id="nav_linkedin"
                   className="hover:text-stone-300 text-stone-400 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="https://www.linkedin.com/company/lxtgroup"
                   target="_blank"
@@ -127,6 +131,7 @@ export default function Navbar(props) {
               </li>
               <li className="flex items-center">
                 <a
+                  id="nav_angel"
                   className="hover:text-stone-300 text-stone-400 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="https://angel.co/company/lxt-group/"
                   target="_blank"
@@ -140,6 +145,7 @@ export default function Navbar(props) {
 
               <li className="flex items-center">
                 <a
+                  id="nav_discord"
                   className="hover:text-stone-300 text-stone-400 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="https://discord.gg/8nZndQn6m6"
                   target="_blank"
