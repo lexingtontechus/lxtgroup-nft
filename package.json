@@ -8,8 +8,7 @@
   "scripts": {
     "dev": "next dev --turbo",
     "start": "next start",
-    "build": "next build && next export",
-    "export": "next export",
+    "build": "next build",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install --latest && npm run build:tailwind -i app/index.css && npm run dev",
     "build:tailwind": "tailwind build -i app/index.css -o app/tailwind.css"
   },
