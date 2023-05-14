@@ -9,8 +9,7 @@ const loader = ({ src, width, quality }) => {
   }`;
 };
 
-export default function BioTech() {
- 
+const BioTech = () => { 
   return (
     <>
         <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
@@ -238,3 +237,5 @@ export default function BioTech() {
     </>
   );
 }
+
+export default BioTech;

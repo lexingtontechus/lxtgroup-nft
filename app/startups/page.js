@@ -9,8 +9,8 @@ const loader = ({ src, width, quality }) => {
   }`;
 };
 
-export default function Startups({props}) {
-  return (
+const StartUp = () => {
+    return (
     <>
       <main>
         <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
@@ -242,3 +242,4 @@ export default function Startups({props}) {
     </>
   );
 }
+export default StartUp;

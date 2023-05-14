@@ -10,9 +10,8 @@ const loader = ({ src, width, quality }) => {
   }`;
 };
 
-export default function ETF() {
-  
-  return (
+const ETF = () => {
+    return (
     <>
       <main>
         <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
@@ -248,3 +247,4 @@ export default function ETF() {
     </>
   );
 }
+export default ETF;

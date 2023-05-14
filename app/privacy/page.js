@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faUserShield,faCircleCheck,faCircleXmark} from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 
-export default function Privacy({ color }) {
+const Privacy = () => {
   return (
     <>
       <main>
@@ -166,7 +166,7 @@ export default function Privacy({ color }) {
                           </span>
                         </li>
                       </ul>
-                      <h4 className="text-2xl font-semibold text-primary-100">
+                      <h4 className="text-2xl font-semibold text-primary-100 mt-2">
                         3. WILL YOUR INFORMATION BE SHARED WITH ANYONE?
                       </h4>
                       <p className="leading-relaxed mt-1 mb-4 text-primary-100">
@@ -240,7 +240,7 @@ export default function Privacy({ color }) {
                           </span>
                         </li>
                       </ul>
-                      <h4 className="text-2xl font-semibold text-primary-100">
+                      <h4 className="text-2xl font-semibold text-primary-100 mt-2">
                         4. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?
                       </h4>
                       <p className="leading-relaxed mt-1 mb-4 text-primary-100">
@@ -454,52 +454,27 @@ export default function Privacy({ color }) {
                           <thead>
                             <tr>
                               <th
-                                className={
-                                  "px-6 align-text-top border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-normal font-semibold text-left " +
-                                  (color === "light"
-                                    ? "bg-primary-50 text-primary-100 border-primary-100"
-                                    : "bg-primary-600 text-primary-200 border-primary-500")
-                                }
+                                className="px-6 align-text-top border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-normal font-semibold text-left bg-primary-600 text-primary-200 border-primary-500"
                               >
                                 Category of Personal Information
                               </th>
                               <th
-                                className={
-                                  "px-6 align-text-top border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left " +
-                                  (color === "light"
-                                    ? "bg-primary-50 text-primary-100 border-primary-100"
-                                    : "bg-primary-600 text-primary-200 border-primary-500")
-                                }
+                                className="px-6 align-text-top border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-normal font-semibold text-left bg-primary-600 text-primary-200 border-primary-500"
                               >
                                 Examples
                               </th>
                               <th
-                                className={
-                                  "px-6 align-text-top border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left " +
-                                  (color === "light"
-                                    ? "bg-primary-50 text-primary-100 border-primary-100"
-                                    : "bg-primary-600 text-primary-200 border-primary-500")
-                                }
+                                className="px-6 align-text-top border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-normal font-semibold text-left bg-primary-600 text-primary-200 border-primary-500"
                               >
                                 Collected
                               </th>
                               <th
-                                className={
-                                  "px-6 align-text-top border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-normal font-semibold text-left " +
-                                  (color === "light"
-                                    ? "bg-primary-50 text-primary-100 border-primary-100"
-                                    : "bg-primary-600 text-primary-200 border-primary-500")
-                                }
+                               className="px-6 align-text-top border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-normal font-semibold text-left bg-primary-600 text-primary-200 border-primary-500"
                               >
                                 Disclosed for Business Purposes
                               </th>
                               <th
-                                className={
-                                  "px-6 align-text-top border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left " +
-                                  (color === "light"
-                                    ? "bg-primary-50 text-primary-100 border-primary-100"
-                                    : "bg-primary-600 text-primary-200 border-primary-500")
-                                }
+                               className="px-6 align-text-top border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-normal font-semibold text-left bg-primary-600 text-primary-200 border-primary-500"
                               >
                                 Sold
                               </th>
@@ -509,14 +484,7 @@ export default function Privacy({ color }) {
                             {/*Identfiers*/}
                             <tr>
                               <th className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-normal p-4 text-left flex items-center">
-                                <span
-                                  className={
-                                    "ml-0 font-bold " +
-                                    +(color === "light"
-                                      ? "text-primary-600"
-                                      : "text-white")
-                                  }
-                                >
+                                <span className="ml-0 font-bold text-primary-600">
                                   Identifiers
                                 </span>
                               </th>
@@ -547,14 +515,7 @@ export default function Privacy({ color }) {
                             {/*Personal categories*/}
                             <tr>
                               <th className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-normal p-4 text-left flex items-center">
-                                <span
-                                  className={
-                                    "ml-0 font-bold " +
-                                    +(color === "light"
-                                      ? "text-primary-600"
-                                      : "text-white")
-                                  }
-                                >
+                                <span className="ml-0 font-bold text-primary-600">
                                   Personal information categories listed in the
                                   California Customer Records statute
                                 </span>
@@ -577,14 +538,7 @@ export default function Privacy({ color }) {
                             {/*Protected categories*/}
                             <tr>
                               <th className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-normal p-4 text-left flex items-center">
-                                <span
-                                  className={
-                                    "ml-0 font-bold " +
-                                    +(color === "light"
-                                      ? "text-primary-600"
-                                      : "text-white")
-                                  }
-                                >
+                                <span className="ml-0 font-bold text-primary-600">
                                   Protected classification characteristics under
                                   California or federal law
                                 </span>
@@ -605,14 +559,7 @@ export default function Privacy({ color }) {
                             {/*Commercial information*/}
                             <tr>
                               <th className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-normal p-4 text-left flex items-center">
-                                <span
-                                  className={
-                                    "ml-0 font-bold " +
-                                    +(color === "light"
-                                      ? "text-primary-600"
-                                      : "text-white")
-                                  }
-                                >
+                                <span className="ml-0 font-bold text-primary-600">
                                   Commercial information
                                 </span>
                               </th>
@@ -635,14 +582,7 @@ export default function Privacy({ color }) {
                             {/*Biometric information*/}
                             <tr>
                               <th className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-normal p-4 text-left flex items-center">
-                                <span
-                                  className={
-                                    "ml-0 font-bold " +
-                                    +(color === "light"
-                                      ? "text-primary-600"
-                                      : "text-white")
-                                  }
-                                >
+                                <span className="ml-0 font-bold text-primary-600">
                                   Biometric information
                                 </span>
                               </th>
@@ -662,14 +602,7 @@ export default function Privacy({ color }) {
                             {/*Internet activity*/}
                             <tr>
                               <th className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-normal p-4 text-left flex items-center">
-                                <span
-                                  className={
-                                    "ml-0 font-bold " +
-                                    +(color === "light"
-                                      ? "text-primary-600"
-                                      : "text-white")
-                                  }
-                                >
+                                <span className="ml-0 font-bold text-primary-600">
                                   Internet or other similiar activity
                                 </span>
                               </th>
@@ -693,14 +626,7 @@ export default function Privacy({ color }) {
                             {/*Geolocation data*/}
                             <tr>
                               <th className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-normal p-4 text-left flex items-center">
-                                <span
-                                  className={
-                                    "ml-0 font-bold " +
-                                    +(color === "light"
-                                      ? "text-primary-600"
-                                      : "text-white")
-                                  }
-                                >
+                                <span className="ml-0 font-bold text-primary-600">
                                   Geolocation data
                                 </span>
                               </th>
@@ -721,14 +647,7 @@ export default function Privacy({ color }) {
                             similar information*/}
                             <tr>
                               <th className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-normal p-4 text-left flex items-center">
-                                <span
-                                  className={
-                                    "ml-0 font-bold " +
-                                    +(color === "light"
-                                      ? "text-primary-600"
-                                      : "text-white")
-                                  }
-                                >
+                                <span className="ml-0 font-bold text-primary-600">
                                   Audio, electronic, visual, thermal, olfactory,
                                   or similar information
                                 </span>
@@ -753,14 +672,7 @@ export default function Privacy({ color }) {
                             {/* Professional or employment-related information*/}
                             <tr>
                               <th className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-normal p-4 text-left flex items-center">
-                                <span
-                                  className={
-                                    "ml-0 font-bold " +
-                                    +(color === "light"
-                                      ? "text-primary-600"
-                                      : "text-white")
-                                  }
-                                >
+                                <span className="ml-0 font-bold text-primary-600">
                                   Professional or employment-related information
                                 </span>
                               </th>
@@ -790,14 +702,7 @@ export default function Privacy({ color }) {
                             {/* Inferences drawn from other personal information */}
                             <tr>
                               <th className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-normal p-4 text-left flex items-center">
-                                <span
-                                  className={
-                                    "ml-0 font-bold " +
-                                    +(color === "light"
-                                      ? "text-primary-600"
-                                      : "text-white")
-                                  }
-                                >
+                                <span className="ml-0 font-bold text-primary-600">
                                   Inferences drawn from other personal
                                   information
                                 </span>
@@ -1132,3 +1037,4 @@ export default function Privacy({ color }) {
     </>
   );
 }
+export default Privacy;

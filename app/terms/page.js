@@ -2,8 +2,8 @@
 import React from "react";
 import Link from "next/link";
 
-export default function Terms() {
-  return (
+const Terms = () => {
+    return (
     <>
       <main>
         <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
@@ -1062,3 +1062,4 @@ export default function Terms() {
     </>
   );
 }
+export default Terms;
