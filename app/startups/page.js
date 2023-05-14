@@ -134,7 +134,7 @@ const StartUp = () => {
               </div>
 
               <div className="w-full md:w-6/12 lg:5/12  px-4 mr-auto ml-auto">
-                <div className="relative flex flex-col min-w-0 break-words bg-primary-100 w-full mb-6 shadow-lg rounded-lg bg-primary-700">
+                <div className="relative flex flex-col min-w-0 break-words bg-primary-800 w-full mb-6 shadow-lg rounded-lg">
                   <Image
                     loader={loader}
                     src="delivery_food.png"

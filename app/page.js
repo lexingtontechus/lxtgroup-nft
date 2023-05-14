@@ -32,7 +32,7 @@ const Home = () => {
                 </h1>
                 {/*<div className="w-full h-4/12">PLAYER</div>*/}
                 <div className="h-4/12 w-full pt-2">
-                  <p className="mb-4 mt-2 text-center text-lg text-primary-100 font-semibold">
+                  <p className="mb-4 mt-2 text-center text-lg font-semibold text-primary-100">
                     Investing in the future of FoodTech, BioTech, <br />
                     Crypto EFT & Hyperlocal Microservices.
                   </p>
@@ -47,5 +47,5 @@ const Home = () => {
       <Showcases data={showcaseThree} />
     </>
   );
-}
+};
 export default Home;
