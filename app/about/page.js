@@ -9,7 +9,7 @@ const loader = ({ src, width, quality }) => {
   }`;
 };
 
-export default function About() {
+const About = () => {
   return (
     <>
   <main>
@@ -143,3 +143,5 @@ export default function About() {
     </>
   );
 }
+
+export default About;

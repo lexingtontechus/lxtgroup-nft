@@ -3,7 +3,6 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-   output: "export",
   reactStrictMode: true,
   basePath: "",
   pageExtensions: ["js", "jsx", "ts", "tsx", "mdx"],

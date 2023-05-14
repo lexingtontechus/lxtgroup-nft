@@ -7,7 +7,7 @@ import {
 } from "./components/dataShowcase";
 import Showcases from "./components/showcases";
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <div className="min-h-screen-50 relative flex content-center items-center justify-center pb-32 pt-16">
@@ -48,3 +48,4 @@ export default function Home() {
     </>
   );
 }
+export default Home;

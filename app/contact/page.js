@@ -4,7 +4,7 @@ import ContactForm from "./contactform.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faHandHoldingDollar, faHandHoldingDroplet, faRocket} from "@fortawesome/free-solid-svg-icons"
 
-export default function Contact() {
+const Contact = () => {
   return (
     <>
       <main>
@@ -113,3 +113,4 @@ export default function Contact() {
     </>
   );
 }
+export default Contact;
