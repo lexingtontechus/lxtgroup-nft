@@ -21,7 +21,7 @@ export default function RootLayout({
           <Navbar />
           {children}
           <Footer />
-          <Cal />
+          <Cal className="btn rounded-md" />
         </Providers>
       </body>
     </html>

@@ -7,7 +7,11 @@ import {
 } from "./components/dataShowcase";
 import Showcases from "./components/showcases";
 import Link from "next/link";
-
+const loader = ({ src, width, quality }) => {
+  return `https://storageapi.fleek.co/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/${src}?w=${width}&q=${
+    quality || 75
+  }`;
+};
 export const metadata = {
   title: "LXT Group LLC",
   description:
@@ -39,18 +43,24 @@ export const openGraphImage = {
 const Home = () => {
   return (
     <>
-      <div className="hero min-h-screen bg-base-300">
+      <div
+        className="hero min-h-screen bg-base-300 bg-opacity-50"
+        style={{
+          backgroundImage:
+            "url('https://storage.fleek-internal.com/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/header.jpg')",
+        }}
+      >
         <div className="hero-content text-center">
           <div className="max-w-lg">
             <h1 className="text-5xl font-bold text-accent">LXT GROUP LLC</h1>
-            <h2 className="text-4xl font-bold uppercase my-8 text-base-content">
+            <h2 className="text-4xl font-bold uppercase my-8 text-primary-content">
               Quantum Management
             </h2>
-            <p className="py-6 text-primary">
+            <h3 className="py-6 text-primary font-bold">
               Investing in the future of FoodTech, BioTech, <br />
               Crypto EFT & Hyperlocal Microservices.
-            </p>
-            <button className="btn btn-primary uppercase">
+            </h3>
+            <button className="btn btn-primary uppercase rounded-md">
               <Link href="/contact">Contact</Link>
             </button>
           </div>
