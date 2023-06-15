@@ -78,5 +78,4 @@ module.exports = {
     "visited",
     "disabled",
   ],
-  plugins: [require("prettier-plugin-tailwindcss")],
 };

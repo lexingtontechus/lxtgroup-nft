@@ -21,33 +21,15 @@
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@headlessui/react": "^1.7.14",
-    "@lottiefiles/react-lottie-player": "^3.5.3",
     "eslint-config-next": "^13.4.1",
     "next": "^13.4.1",
     "next-themes": "^0.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-fontawesome": "^1.7.1",
-    "react-player": "^2.9.0",
-    "react-scripts": "^2.1.3",
+    "react-scripts": "^5.0.1",
     "tailwindcss": "^3.3.2",
     "turbopack": "^0.0.1"
-  },
-  "extends": [
-    "next",
-    "prettier"
-  ],
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   },
   "optionalDependencies": {
     "typescript": "^4.2.3"
@@ -55,8 +37,6 @@
   "devDependencies": {
     "autoprefixer": "^10.2.5",
     "eslint-config-prettier": "^8.8.0",
-    "postcss": "^8.2.14",
-    "prettier": "^2.8.8",
-    "prettier-plugin-tailwindcss": "^0.2.8"
+    "postcss": "^8.2.14"
   }
 }

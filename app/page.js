@@ -27,12 +27,12 @@ const Home = () => {
           <div className="flex flex-wrap items-center">
             <div className="ml-auto mr-auto w-full items-center justify-center px-4 pt-24 text-center lg:w-10/12">
               <div className="p-2">
-                <h1 className="pb-4 text-center text-4xl font-bold uppercase text-primary-100">
+                <h1 className="pb-4 text-center text-4xl font-bold uppercase text-primary-50">
                   Quantum Management
                 </h1>
                 {/*<div className="w-full h-4/12">PLAYER</div>*/}
                 <div className="h-4/12 w-full pt-2">
-                  <p className="mb-4 mt-2 text-center text-lg text-primary-100 font-semibold">
+                  <p className="mb-4 mt-2 text-center text-lg font-semibold text-primary-100">
                     Investing in the future of FoodTech, BioTech, <br />
                     Crypto EFT & Hyperlocal Microservices.
                   </p>
@@ -47,5 +47,5 @@ const Home = () => {
       <Showcases data={showcaseThree} />
     </>
   );
-}
+};
 export default Home;

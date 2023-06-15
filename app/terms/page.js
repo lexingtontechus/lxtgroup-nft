@@ -38,7 +38,7 @@ const Terms = () => {
               <div className="w-full lg:w-10/12 px-4">
                 <div className="relative flex flex-col min-w-0 break-words w-full mt-8 mb-6 shadow-lg rounded-lg bg-primary-400">
                   <div className="flex-auto p-5 lg:p-10">
-                    <h2 className="text-2xl font-semibold text-primary-100 text-primary-50">
+                    <h2 className="text-2xl font-semibold text-primary-100">
                       Last updated Jan 01, {new Date().getFullYear()}
                     </h2>
                      <p className="mt-4 text-lg font-bold text-primary-100">
