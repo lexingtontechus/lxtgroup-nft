@@ -14,13 +14,14 @@ module.exports = {
   ],
   theme: {
     colors: {
-       primary: colors.stone,
-      secondary: colors.teal,
+      stone: colors.stone,
+      teal: colors.teal,
       neutral: colors.blue,
       red: colors.red,
       blue: colors.blue,
       sky: colors.sky,
-      emerald: colors.emerald
+      emerald: colors.emerald,
+      indigo: colors.indigo,
     },
     extend: {
       minHeight: {
@@ -78,4 +79,29 @@ module.exports = {
     "visited",
     "disabled",
   ],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: [
+      "synthwave",
+      "business",
+      {
+        lxtgroup: {
+          primary: "#8c0327",
+          "primary-focus": "",
+          "primary-content": "",
+          secondary: "#d75050",
+          "secondary-focus": "",
+          "secondary-content": "",
+          accent: "#d59b6c",
+          neutral: "#836b5d",
+          "base-100": "#f2f2f2",
+          "base-200": "#f2f2f2",
+          info: "#42aebd",
+          success: "#489380",
+          warning: "#eb8014",
+          error: "#e01a2e",
+        },
+      },
+    ],
+  },
 };

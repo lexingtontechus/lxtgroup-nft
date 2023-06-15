@@ -12,7 +12,10 @@
     "dev": {
       "name": "dev",
       "command": "yarn dev",
-      "runAtStart": true
+      "runAtStart": true,
+      "preview": {
+        "port": 3000
+      }
     },
     "start": {
       "name": "start",
@@ -24,7 +27,11 @@
       "command": "yarn build",
       "runAtStart": false
     },
-    
+    "lint": {
+      "name": "lint",
+      "command": "yarn lint",
+      "runAtStart": false
+    },
     "export": {
       "name": "export",
       "command": "yarn export",

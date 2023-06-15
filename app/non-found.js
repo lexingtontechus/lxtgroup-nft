@@ -1,12 +1,33 @@
-import React, { Component } from "react";
-import Router from "next/router";
+'use client'; // Error components must be Client Components
 
-export default class Error404 extends Component {
-  componentDidMount = () => {
-    Router.push("/");
-  };
+import { useEffect } from 'react';
+import Link from 'next/link';
+export default function NotFound({ error, reset }) {
+  useEffect(() => {
+    // Log the error to an error reporting service
+    console.error(error);
+  }, [error]);
 
-  render() {
-    return <div />;
-  }
+  return (
+    <div classsName="relative flex flex-col justify-center overflow-hidden m-8">
+      <h1 className="animate-linear bg-gradient-to-r from-truePurple-500 via-trueSky-500 to-truePink-500 bg-[length:200%_auto] bg-clip-text text-center text-5xl font-black uppercase text-transparent">
+        &quot;We haven't had that spirit here since 1969&quot;
+      </h1>
+     
+           <div className="mx-auto w-full text-center">
+          <button className="btn-primary btn uppercase text-base-content mr-3">
+            <Link href="/"> HOME</Link>
+          </button>
+          <button
+            className="btn-primary btn uppercase text-base-content"
+            onPress={
+              // Attempt to recover by trying to re-render the segment
+              () => reset()
+            }
+          >
+            Reset
+          </button>
+        </div>
+    </div>
+  );
 }

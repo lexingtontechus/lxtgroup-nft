@@ -1,50 +1,34 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faAt, faCircleInfo } from "@fortawesome/free-solid-svg-icons";
 
-export default function Footer(props) {
+export default function Footer() {
   return (
-    <>
-      <footer
-        className={
-          (props.absolute
-            ? "absolute w-full bottom-0 bg-primary-900 text-center mx-auto"
-            : "relative bg-primary-900 text-center mx-auto") + " pb-6"
-        }
-      >
-        <div className="container mx-auto px-4">
-          <hr className="mb-6 border-b-1 border-primary-50" />
-          <div className="flex flex-wrap items-center md:justify-between justify-center">
-            <div className="w-full px-4">
-              <div className="text-sm text-primary-100 font-semibold py-2 text-center">
-                Copyright © {new Date().getFullYear()}{" "}
-                <Link
-                  href="/terms"
-                  className="text-primary-100 hover:text-secondary-400 text-sm font-semibold px-4 uppercase"
-                >
-                  Terms
-                </Link>       
-                <Link
-                  href="/privacy"
-                  className="text-primary-100 hover:text-secondary-400 text-sm font-semibold px-4 uppercase"
-                >
-                  Privacy
-                </Link>       
-                </div>
-              <div className="text-sm font-semibold py-2 text-center">
-                <Link
-                  href="/"
-                  className="text-primary-100 text-sm font-semibold py-1"
-                >
-                  LXT GROUP LLC
-                </Link>
-              </div>
+    <div className="btm-nav px-8 py-4 mb-2">
+      <div className="container mx-auto px-4">
+        <hr className="mb-6 border-b-1 border-primary-50" />
+        <div className="flex flex-wrap items-center md:justify-between justify-center">
+          <div className="w-full px-4">
+            <div className="text-sm font-semibold py-2 text-center">
+              <span className="px-4">
+                Copyright © {new Date().getFullYear()}
+              </span>
+              <Link
+                href="/terms"
+                className="hover:text-secondar-focus text-sm font-semibold px-4 uppercase"
+              >
+                Terms
+              </Link>
+              <Link
+                href="/privacy"
+                className="hover:text-secondar-focus text-sm font-semibold px-4 uppercase"
+              >
+                Privacy
+              </Link>
             </div>
           </div>
         </div>
-      </footer>
-    </>
+      </div>
+    </div>
   );
 }
