@@ -41,7 +41,7 @@ export default function Contact() {
                 change crises.
               </p>
               <h3 className="text-2xl font-semibold text-primary">
-                Invest In Something Meaningful
+                Invest In Something Meaningful.
               </h3>
             </div>
           </div>

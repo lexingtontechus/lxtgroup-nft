@@ -22,7 +22,7 @@ export default function Test({ error, reset }) {
             className="m-8"
           ></Player>
           <h1 className="mb-5 text-5xl font-bold text-accent uppercase">
-            AI Generating ...
+            AI Generation In Progress ...
           </h1>
         </div>
       </div>

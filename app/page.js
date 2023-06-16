@@ -44,7 +44,7 @@ const Home = () => {
   return (
     <>
       <div
-        className="hero min-h-screen bg-base-300 bg-opacity-50"
+        className="hero min-h-screen"
         style={{
           backgroundImage:
             "url('https://storage.fleek-internal.com/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/header.jpg')",

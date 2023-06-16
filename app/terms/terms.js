@@ -5,23 +5,19 @@ import Link from "next/link";
 export default function Terms() {
   return (
     <main>
-      <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
-        <div
-          className="absolute top-0 w-full h-full bg-center bg-cover"
-          style={{
-            backgroundImage:
-              "url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')",
-          }}
-        ></div>
-        <div className="container relative mx-auto">
-          <div className="items-center flex flex-wrap">
-            <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-              <div className="pr-12">
-                <h1 className="text-accent font-bold text-4xl uppercase">
-                  Terms of Service
-                </h1>
-              </div>
-            </div>
+      <div
+        className="hero min-h-screen"
+        style={{
+          backgroundImage:
+            "url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')",
+        }}
+      >
+        <div className="hero-overlay bg-opacity-60"></div>
+        <div className="hero-content text-center text-neutral-content">
+          <div className="max-w-md">
+            <h1 className="mb-5 text-5xl font-bold text-accent uppercase">
+              Terms of Service
+            </h1>
           </div>
         </div>
       </div>

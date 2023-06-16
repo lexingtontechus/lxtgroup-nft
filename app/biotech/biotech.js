@@ -15,7 +15,6 @@ const loader = ({ src, width, quality }) => {
     quality || 75
   }`;
 };
-
 export default function BioTechPage() {
   return (
     <main>

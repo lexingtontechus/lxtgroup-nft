@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="w-full px-4">
             <div className="text-sm font-semibold py-2 text-center">
               <span className="px-4">
-                Copyright © {new Date().getFullYear()}
+                Copyright © {new Date().getFullYear()}.
               </span>
               <Link
                 href="/terms"

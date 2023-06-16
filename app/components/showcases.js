@@ -26,7 +26,6 @@ export default function Showcases(props) {
             height={400}
           />
         </div>
-
         <div
           className={`flex flex-wrap items-center w-full lg:w-1/2 p-8 ${
             props.imgPos === "right" ? "lg:justify-end" : ""

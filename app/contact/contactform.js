@@ -11,7 +11,6 @@ export default function ContactForm() {
       </div>
     );
   }
-
   return (
     <form onSubmit={handleSubmit}>
       <div className="relative w-full mb-8">

@@ -122,20 +122,20 @@ export default function StartUp() {
             </div>
           </div>
           {/*Delivery Food*/}
-          <div className="flex flex-wrap items-center mx-4 p-8 rounded-lg bg-base-300">
+          <div className="flex flex-wrap items-center mx-4 p-8 rounded-lg bg-accent">
             <div className="w-full md:w-6/12 lg:7/12 px-4 mr-auto ml-auto">
               <h3 className="text-3xl mb-2 font-semibold leading-normal text-primary">
                 The Future Of Local Business
               </h3>
-              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-primary">
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-primary-content">
                 Supporting Transportation Service Companies & Transportation
                 Service Networks.
               </p>
-              <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-primary">
+              <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-primary-content">
                 Launch a hyperlocal transportation service that caters to your
                 niche market, e.g.
               </p>
-              <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-primary">
+              <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-primary-content">
                 Local business routes Welfare causes Afterschool pickup Senior
                 citizens
               </p>
@@ -155,7 +155,7 @@ export default function StartUp() {
                   <h4 className="text-xl font-bold text-primary">
                     Food Delivery / Cloud Kitchens
                   </h4>
-                  <p className="text-md font-light mt-2 text-primary">
+                  <p className="text-md font-light mt-2 text-secondary">
                     Supporting restaurants, food networks & cloud kitchens
                     business models.
                   </p>
@@ -167,8 +167,8 @@ export default function StartUp() {
       </section>
 
       <section className="relative py-20">
-        <div className="container mx-4 p-8">
-          <div className="items-center flex flex-wrap bg-base-300 py-8">
+        <div className="container mx-auto p-8">
+          <div className="items-center flex flex-wrap bg-accent mx-8 py-8 rounded-lg">
             <div className="w-full md:w-6/12 lg:5/12 px-4 mr-auto ml-auto">
               <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-base-100">
                 <Image
@@ -183,11 +183,11 @@ export default function StartUp() {
                   <h4 className="text-xl font-bold text-primary">
                     Parcel & Logistics
                   </h4>
-                  <p className="text-md font-light mt-2 text-primary">
+                  <p className="text-md font-light mt-2 text-secondary">
                     Your customers conduct orders, make payments, track and
                     electronically confirm deliveries.
                   </p>
-                  <p className="text-md font-light mt-2 text-primary">
+                  <p className="text-md font-light mt-2 text-secondary">
                     Your delivery fleet can accept, manage and carry out
                     delivery orders.
                   </p>
@@ -215,7 +215,7 @@ export default function StartUp() {
                         />{" "}
                       </div>
                       <div>
-                        <h4 className="text-primary ml-2 mb-4">
+                        <h4 className="text-primary-content ml-2 mb-4">
                           Provide business infrastructure to launch.
                         </h4>
                       </div>

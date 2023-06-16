@@ -11,24 +11,33 @@ const loader = ({ src, width, quality }) => {
 export default function Privacy() {
   return (
     <main>
-      <section className="relative block h-500-px">
-        <div
-          className="absolute top-0 h-full w-full bg-cover bg-center"
-          style={{
-            backgroundImage:
-              "url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')",
-          }}
-        >
-          <span
-            id="blackOverlay"
-            className="bg-black absolute h-full w-full opacity-50"
-          ></span>
+      <div
+        className="hero min-h-screen backdrop-opacity-50"
+        style={{
+          backgroundImage:
+            "url('https://storage.fleek-internal.com/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/header.jpg')",
+        }}
+      >
+        <div className="hero-overlay bg-opacity-60"></div>
+        <div className="hero-content text-center text-neutral-content">
+          <div className="max-w-md">
+            <h1 className="mb-5 text-5xl font-bold text-accent uppercase">
+              QUANTUM MANAGEMENT
+            </h1>
+            <p className="mb-5 text-xl">
+              Human systems, a necessary part of the theory argues that the
+              purposes, values, aspirations, and motivations of people working
+              in an organization, and the emergent organizational culture, must
+              be seen as part of its system dynamics.
+            </p>
+          </div>
         </div>
-      </section>
+      </div>
 
-      <section className="relative bg-base-100 py-16">
-        <div className="container mx-auto px-4">
-          <div className="relative -mt-64 mb-6 flex w-full min-w-0 flex-col break-words rounded-lg bg-neutral px-6 shadow-xl">
+      <section className="relative bg-base-100 ">
+        <div className="">
+          {/*container mx-auto px-4*/}
+          <div className="relative mb-6 flex w-full min-w-0 flex-col break-words rounded-lg bg-neutral px-6 shadow-xl">
             <div className="flex flex-wrap justify-center">
               <div className="relative flex w-full justify-center px-4 lg:order-2 lg:w-3/12">
                 <Image
@@ -93,10 +102,10 @@ export default function Privacy() {
                 </button>
               </div>
 
-              <div className="mb-2 mt-10 text-primary">
+              <div className="mb-2 mt-10 text-primary-content">
                 The Decentralized Web (3.0)
               </div>
-              <div className="mb-2 text-primary">
+              <div className="mb-2 text-primary-content">
                 IPFS - The Distributed Web
               </div>
               <button
@@ -136,7 +145,7 @@ export default function Privacy() {
                     <li>Web 3.0</li>
                   </ul>
 
-                  <p className="mb-4 text-lg leading-relaxed text-primary">
+                  <p className="mb-4 text-lg leading-relaxed text-secondary">
                     Part of the publicly accessible Ethereum blockchain.
                     <br />
                     Providing an impressive level of openness, transparency and

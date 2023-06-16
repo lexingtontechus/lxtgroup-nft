@@ -2,6 +2,8 @@
 
 import { useEffect } from 'react';
 import Link from 'next/link';
+import { Player } from '@lottiefiles/react-lottie-player';
+
 export default function NotFound({ error, reset }) {
   useEffect(() => {
     // Log the error to an error reporting service
@@ -9,13 +11,19 @@ export default function NotFound({ error, reset }) {
   }, [error]);
 
   return (
-    <div classsName="relative flex flex-col justify-center overflow-hidden m-8">
-      <h1 className="animate-linear bg-gradient-to-r from-truePurple-500 via-trueSky-500 to-truePink-500 bg-[length:200%_auto] bg-clip-text text-center text-5xl font-black uppercase text-transparent">
-        &quot;We haven't had that spirit here since 1969&quot;
-      </h1>
-     
-           <div className="mx-auto w-full text-center">
-          <button className="btn-primary btn uppercase text-base-content mr-3">
+    <div className="hero min-h-screen bg-base-200">
+    <div className="hero-content text-center">
+    <div className="max-w-md">
+      <h1 className="text-5xl font-bold">AI Is Not Available</h1>
+       <Player
+        autoplay
+        loop
+        src="https://storage.fleek-internal.com/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lottie/error404.json"
+        style={{ height: '500px', width: '500px' }}
+        className="m-8"
+      ></Player>
+      <div className="join">
+      <button className="btn-primary btn uppercase text-base-content mr-3">
             <Link href="/"> HOME</Link>
           </button>
           <button
@@ -27,7 +35,10 @@ export default function NotFound({ error, reset }) {
           >
             Reset
           </button>
-        </div>
     </div>
+    </div>
+  </div>
+  </div>
+    
   );
 }
