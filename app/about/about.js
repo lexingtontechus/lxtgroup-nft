@@ -25,7 +25,8 @@ export default function About() {
               QUANTUM MANAGEMENT
             </h1>
             <p className="mb-5 text-xl">
-              Investing in future technologies and microservices.
+              Investing in the future of FoodTech, BioTech, Crypto EFT &
+              Hyperlocal Microservices.
             </p>
           </div>
         </div>
