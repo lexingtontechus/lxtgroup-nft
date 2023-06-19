@@ -4,15 +4,15 @@ import Link from "next/link";
 import Image from "next/image";
 
 const loader = ({ src, width, quality }) => {
-  return `https://storageapi.fleek.co/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/${src}?w=${width}&q=${
+  return `https://storage.fleek-internal.com/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/${src}?w=${width}&q=${
     quality || 75
   }`;
 };
-export default function Privacy() {
+export default function About() {
   return (
     <main>
       <div
-        className="hero min-h-screen backdrop-opacity-50"
+        className="hero min-h-screen"
         style={{
           backgroundImage:
             "url('https://storage.fleek-internal.com/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/header.jpg')",
@@ -25,10 +25,7 @@ export default function Privacy() {
               QUANTUM MANAGEMENT
             </h1>
             <p className="mb-5 text-xl">
-              Human systems, a necessary part of the theory argues that the
-              purposes, values, aspirations, and motivations of people working
-              in an organization, and the emergent organizational culture, must
-              be seen as part of its system dynamics.
+              Investing in future technologies and microservices.
             </p>
           </div>
         </div>
@@ -131,7 +128,7 @@ export default function Privacy() {
               </Link>
             </div>
 
-            <div className="mt-10 border-t border-primary-200 py-10 text-center">
+            <div className="mt-10 border-t border-accent py-10 text-center">
               <div className="flex flex-wrap justify-center">
                 <div className="w-full px-4 lg:w-9/12">
                   <h3 className="mb-2 text-4xl font-semibold leading-normal text-primary">

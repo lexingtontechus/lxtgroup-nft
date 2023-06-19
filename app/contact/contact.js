@@ -61,7 +61,7 @@ export default function Contact() {
               <p className="mt-2 mb-4 text-primary">Quant hedge fund</p>
             </div>
             <div className="w-full lg:w-3/12 px-4 text-center">
-              <div className="p-3 w-12 h-12 shadow-lg rounded-md bg-emerald-400 inline-flex items-center justify-center">
+              <div className="p-3 w-12 h-12 shadow-lg rounded-md bg-blue-400 inline-flex items-center justify-center">
                 <FontAwesomeIcon
                   icon={faHandHoldingDroplet}
                   size="lg"
@@ -77,7 +77,7 @@ export default function Contact() {
               </p>
             </div>
             <div className="w-full lg:w-3/12 px-4 text-center">
-              <div className="p-3 w-12 h-12 shadow-lg rounded-md bg-emerald-400 inline-flex items-center justify-center">
+              <div className="p-3 w-12 h-12 shadow-lg rounded-md bg-red-400 inline-flex items-center justify-center">
                 <FontAwesomeIcon
                   icon={faRocket}
                   size="lg"

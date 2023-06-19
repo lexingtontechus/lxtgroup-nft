@@ -18,6 +18,10 @@ export default function Terms() {
             <h1 className="mb-5 text-5xl font-bold text-accent uppercase">
               Terms of Service
             </h1>
+            <p className="py-6">
+              The terms of service covers acceptable use, limitations of
+              liability, intellectual property ownership, and fees and charges.
+            </p>
           </div>
         </div>
       </div>
@@ -31,7 +35,7 @@ export default function Terms() {
                   <h2 className="text-2xl font-semibold text-primary">
                     Last updated Jan 01, {new Date().getFullYear()}
                   </h2>
-                  <p className="mt-4 text-lg font-boldtext-primary-content">
+                  <p className="my-4 text-lg font-boldtext-primary-content">
                     The definition of the Terms of Service in connection with
                     the use of our services.
                   </p>

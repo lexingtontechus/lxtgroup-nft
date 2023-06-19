@@ -8,7 +8,7 @@ import {
 import Showcases from "./components/showcases";
 import Link from "next/link";
 const loader = ({ src, width, quality }) => {
-  return `https://storageapi.fleek.co/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/${src}?w=${width}&q=${
+  return `https://storage.fleek-internal.com/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/${src}?w=${width}&q=${
     quality || 75
   }`;
 };
@@ -37,7 +37,7 @@ export const metadata = {
 };
 export const openGraphImage = {
   images: [
-    "https://storageapi.fleek.co/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/seo_logo_lxtgroup.png",
+    "https://storage.fleek-internal.com/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/seo_logo_lxtgroup.png",
   ],
 };
 const Home = () => {
