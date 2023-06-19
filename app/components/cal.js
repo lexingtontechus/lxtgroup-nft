@@ -1,22 +1,23 @@
-'use client';
+"use client";
 import { useEffect } from "react";
 import { getCalApi } from "@calcom/embed-react";
 
 export default function MyCal() {
-      useEffect(() => {
+  useEffect(() => {
     (async function () {
       const cal = await getCalApi();
       cal("floatingButton", {
         calLink: "lxtgroup/30min",
-        buttonPosition: "bottom-left",
-        hideButtonIcon: false,
-        buttonText: "#f3f4f6",
+        buttonText: "BOOK",
         buttonColor: "#075985",
         buttonTextColor: "#eadddd",
+        hideButtonIcon: false,
+        buttonPosition: "bottom-left",
       });
       cal("ui", {
-        styles: { branding: { brandColor: "#e53d3d" } },
-        hideEventTypeDetails: true,
+        theme: "dark",
+        styles: { branding: { brandColor: "#075985" } },
+        hideEventTypeDetails: false,
       });
     })();
   }, []);

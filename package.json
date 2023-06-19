@@ -10,32 +10,30 @@
     "start": "next start",
     "build": "next build",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install --latest && npm run build:tailwind -i app/index.css && npm run dev",
-    "build:tailwind": "tailwind build -i app/index.css -o app/tailwind.css"
+    "build:tailwind": "tailwind build -i app/index.css -o app/tailwind.css",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@formspree/react": "2.2.4",
+    "@calcom/embed-react": "^1.1.1",
+    "@formspree/react": "2.4.2",
     "@fortawesome/fontawesome-free": "^6.4.0",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
     "@fortawesome/free-regular-svg-icons": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "@headlessui/react": "^1.7.14",
-    "eslint-config-next": "^13.4.1",
-    "next": "^13.4.1",
+    "@lottiefiles/react-lottie-player": "^3.5.3",
+    "eslint-config-next": "^13.4.6",
+    "next": "^13.4.6",
     "next-themes": "^0.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-fontawesome": "^1.7.1",
-    "react-scripts": "^5.0.1",
     "tailwindcss": "^3.3.2",
     "turbopack": "^0.0.1"
   },
-  "optionalDependencies": {
-    "typescript": "^4.2.3"
-  },
   "devDependencies": {
     "autoprefixer": "^10.2.5",
+    "daisyui": "^3.1.1",
     "eslint-config-prettier": "^8.8.0",
     "postcss": "^8.2.14"
   }
