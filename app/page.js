@@ -1,4 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank */
+import MainBioTech from "./components/mainBiotech";
+import MainETF from "./components/mainETF";
+import MainStartups from "./components/mainStartups";
 
 import {
   showcaseOne,
@@ -56,19 +59,15 @@ const Home = () => {
             <h2 className="text-4xl font-bold uppercase my-8 text-primary-content">
               Quantum Management
             </h2>
-            <h3 className="py-6 text-primary font-bold">
-              Investing in the future of FoodTech, BioTech, <br />
-              Crypto EFT & Hyperlocal Microservices.
-            </h3>
             <button className="btn btn-primary uppercase rounded-md">
               <Link href="/contact">Contact</Link>
             </button>
           </div>
         </div>
       </div>
-      <Showcases data={showcaseOne} />
-      <Showcases imgPos="right" data={showcaseTwo} />
-      <Showcases data={showcaseThree} />
+      <MainBioTech />
+      <MainETF />
+      <MainStartups />
     </>
   );
 };

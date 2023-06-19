@@ -14,7 +14,7 @@ export default function Showcases(props) {
     <>
       <div className="w-full flex flex-wrap lg:gap-10 lg:flex-nowrap p-8">
         <div
-          className={`flex items-center justify-center w-full lg:w-1/2 p-8 ${
+          className={`bg-secondary flex items-center justify-center w-full lg:w-1/2 p-8 ${
             props.imgPos === "right" ? "lg:order-1" : ""
           }`}
         >
@@ -23,11 +23,11 @@ export default function Showcases(props) {
             src={data.image}
             alt="Showcase"
             width={600}
-            height={400}
+            height={600}
           />
         </div>
         <div
-          className={`flex flex-wrap items-center w-full lg:w-1/2 p-8 ${
+          className={`bg-accent flex flex-wrap items-center w-full lg:w-1/2 p-8 ${
             props.imgPos === "right" ? "lg:justify-end" : ""
           }`}
         >
