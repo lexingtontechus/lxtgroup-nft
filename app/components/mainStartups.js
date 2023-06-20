@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function MainBioTech() {
   return (
     <main className="mb-8">
-      <section id="main-biotech" className="justify-between bg-neutral">
+      <section id="main-startups" className="justify-between bg-neutral">
         <div className="card w-full bg-base-100 shadow-xl">
           <figure className="px-10 pt-10">
             <img
@@ -14,8 +14,10 @@ export default function MainBioTech() {
               className="rounded-xl"
             />
           </figure>
-          <div className="card-body items-center text-center">
-            <h2 className="card-title">HYPERLOCAL MICROSERVICES</h2>
+          <div className="card-body items-center text-center ">
+            <h2 className="card-title text-primary">
+              HYPERLOCAL MICROSERVICES
+            </h2>
             <p>
               Our primary goal is to establish a wealth strategy for our clients
               through the use of Artificial Intelligence-driven Quantitative
@@ -44,8 +46,8 @@ export default function MainBioTech() {
               Launch a parcel delivery or logistics app or marketplace
             </p>
             <div className="card-actions">
-              <button className="btn btn-primary uppercase rounded-md">
-                <Link href="/startups">startups</Link>
+              <button className="btn btn-primary uppercase rounded-md w-24">
+                <Link href="/startups">More</Link>
               </button>
             </div>
           </div>

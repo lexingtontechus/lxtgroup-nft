@@ -15,7 +15,7 @@ export default function MainBioTech() {
             />
           </figure>
           <div className="card-body items-center text-center">
-            <h2 className="card-title">BIO TECHNOLOGY</h2>
+            <h2 className="card-title text-primary">BIO TECHNOLOGY</h2>
             <p>
               Advances in food technology spans from replacement food sources to
               synthetic replacements of biopharma applications. We are investing
@@ -37,8 +37,8 @@ export default function MainBioTech() {
               and specialty chemicals.
             </p>
             <div className="card-actions">
-              <button className="btn btn-primary uppercase rounded-md">
-                <Link href="/biotech">Biotech</Link>
+              <button className="btn btn-primary uppercase rounded-md w-24">
+                <Link href="/biotech">More</Link>
               </button>
             </div>
           </div>

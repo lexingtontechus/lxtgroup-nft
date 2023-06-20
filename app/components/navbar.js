@@ -36,14 +36,12 @@ export default function Navbar() {
       </div>
       <div className="navbar-end flex-none">
         <div className="dropdown dropdown-end">
-          <label tabIndex={0} className="btn rounded-lg">
-            <div className="w-10">
-              <FontAwesomeIcon
-                icon={faBars}
-                className="text-stone-100 hover:text-secondary-focus"
-                size="lg"
-              />
-            </div>
+          <label tabIndex={0} className="btn btn-primary backdrop:rounded-lg">
+            <FontAwesomeIcon
+              icon={faBars}
+              className="text-stone-100 hover:text-secondary-focus"
+              size="lg"
+            />
           </label>
           <ul
             tabIndex={0}
