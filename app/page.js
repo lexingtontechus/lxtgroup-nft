@@ -3,13 +3,13 @@ import MainBioTech from "./components/mainBiotech";
 import MainETF from "./components/mainETF";
 import MainStartups from "./components/mainStartups";
 
-import {
-  showcaseOne,
-  showcaseTwo,
-  showcaseThree,
-} from "./components/dataShowcase";
-import Showcases from "./components/showcases";
+//import {  showcaseOne,  showcaseTwo,  showcaseThree,} from "./components/dataShowcase";
+//import Showcases from "./components/showcases";
+ //<Showcases data={showcaseOne} />
+ //     <Showcases imgPos="right" data={showcaseTwo} />
+ //     <Showcases data={showcaseThree} />
 import Link from "next/link";
+
 const loader = ({ src, width, quality }) => {
   return `https://storage.fleek-internal.com/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/${src}?w=${width}&q=${
     quality || 75
@@ -45,7 +45,7 @@ export const openGraphImage = {
 };
 const Home = () => {
   return (
-    <>
+    <main className="mb-8">
       <div
         className="hero min-h-screen"
         style={{
@@ -68,7 +68,7 @@ const Home = () => {
       <MainBioTech />
       <MainETF />
       <MainStartups />
-    </>
+    </main>
   );
 };
 export default Home;

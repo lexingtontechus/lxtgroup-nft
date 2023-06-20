@@ -1,7 +1,7 @@
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 config.autoAddCss = false; //FA config
-
+import { Analytics } from '@vercel/analytics/react';
 import { Providers } from "./providers";
 import "./index.css";
 import "./globals.css";
@@ -19,9 +19,10 @@ export default function RootLayout({
       <body>
         <Providers>
           <Navbar />
-          {children}
+          <div className="mb-8">{children}</div>
           <Footer />
           <Cal className="btn rounded-md" />
+          <Analytics />
         </Providers>
       </body>
     </html>
