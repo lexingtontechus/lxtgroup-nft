@@ -11,20 +11,14 @@ const loader = ({ src, width, quality }) => {
 export default function About() {
   return (
     <main>
-      <div
-        className="hero min-h-screen"
-        style={{
-          backgroundImage:
-            "url('https://storage.fleek-internal.com/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/header.jpg')",
-        }}
-      >
+      <div className="hero min-h-screen svg-about">
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
             <h1 className="mb-5 text-5xl font-bold text-accent uppercase">
               QUANTUM MANAGEMENT
             </h1>
-            <p className="mb-5 text-xl">
+            <p className="my-8 text-2xl">
               Investing in the future of FoodTech, BioTech, Crypto EFT &
               Hyperlocal Microservices.
             </p>
@@ -38,14 +32,9 @@ export default function About() {
           <div className="relative mb-6 flex w-full min-w-0 flex-col break-words rounded-lg bg-neutral px-6 shadow-xl">
             <div className="flex flex-wrap justify-center">
               <div className="relative flex w-full justify-center px-4 lg:order-2 lg:w-3/12">
-                <Image
-                  loader={loader}
-                  alt="LXT GROUP LLC"
-                  src="logo_lxtgroup_circle.svg"
-                  width="150"
-                  height="150"
-                  className="rounded-half absolute -m-16 -ml-20 h-auto max-w-150-px border-none align-middle lg:-ml-16"
-                />
+                <div className="rounded-half absolute -m-16 -ml-20 h-auto max-w-150-px border-none align-middle lg:-ml-16">
+                  <Logo />
+                </div>
               </div>
             </div>
 
@@ -107,16 +96,10 @@ export default function About() {
                 IPFS - The Distributed Web
               </div>
               <button
-                className="mb-1 mr-1 h-4 w-4 rounded-full align-middle outline-none focus:outline-none"
+                className="mb-1 mr-4 h-4 w-4 rounded-full align-middle outline-none focus:outline-none"
                 type="button"
               >
-                <Image
-                  loader={loader}
-                  src="polygon.svg"
-                  alt="Polygon"
-                  height="25"
-                  width="25"
-                />
+                <Polygon />
               </button>
               <Link
                 className="mb-2 mr-4 inline-block whitespace-nowrap py-2 text-sm font-bold uppercase leading-relaxed text-secondary"
@@ -156,5 +139,88 @@ export default function About() {
         </div>
       </section>
     </main>
+  );
+}
+function Polygon() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 125 125">
+      <defs>
+        <clipPath>
+          <rect
+            id="Rectangle_32"
+            data-name="Rectangle 32"
+            width="125"
+            height="125"
+            transform="translate(385 345)"
+            fill="#fff"
+          />
+        </clipPath>
+      </defs>
+      <g id="favicon" transform="translate(-385 -345)">
+        <g id="Mask_Group_3" data-name="Mask Group 3">
+          <path
+            id="Path_151"
+            data-name="Path 151"
+            d="M91.487,31.85a7.794,7.794,0,0,0-7.605,0L66.434,41.97l-11.855,6.6L37.132,58.69a7.8,7.8,0,0,1-7.605,0L15.658,50.77a7.566,7.566,0,0,1-3.8-6.38V28.77a7.114,7.114,0,0,1,3.8-6.38l13.645-7.7a7.8,7.8,0,0,1,7.605,0l13.645,7.7a7.566,7.566,0,0,1,3.8,6.38V38.89l11.855-6.82V21.95a7.114,7.114,0,0,0-3.8-6.38L37.132,1.051a7.8,7.8,0,0,0-7.605,0L3.8,15.571A7.114,7.114,0,0,0,0,21.95V51.21a7.114,7.114,0,0,0,3.8,6.38l25.724,14.52a7.8,7.8,0,0,0,7.605,0l17.447-9.9,11.855-6.82,17.448-9.9a7.794,7.794,0,0,1,7.605,0l13.645,7.7a7.567,7.567,0,0,1,3.8,6.38v15.62a7.114,7.114,0,0,1-3.8,6.38l-13.645,7.92a7.8,7.8,0,0,1-7.605,0l-13.645-7.7a7.567,7.567,0,0,1-3.8-6.38V65.289l-11.855,6.82v10.12a7.114,7.114,0,0,0,3.8,6.38l25.724,14.52a7.8,7.8,0,0,0,7.605,0l25.724-14.52a7.567,7.567,0,0,0,3.8-6.38V52.97a7.114,7.114,0,0,0-3.8-6.38Z"
+            transform="translate(387 354.939)"
+            fill="#8247e5"
+          />
+        </g>
+      </g>
+    </svg>
+  );
+}
+
+function Logo() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 393.75 393.75"
+      preserveAspectRatio="xMidYMid meet"
+      height="150"
+      width="150"
+    >
+      <defs id="SvgjsDefs2207" />
+      <g
+        featurekey="rootContainer"
+        transform="matrix(7.875,0,0,7.875,0,0)"
+        fill="#F6F6F6"
+      >
+        <circle cx="25" cy="25" r="25" fill="#F6F6F6" />
+      </g>
+      <g
+        featurekey="UFHKJ9-0"
+        transform="matrix(2.5564905797032815,0,0,2.5564905797032815,68.43511126938303,40.322269079362606)"
+        fill="#6D9280"
+      >
+        <g
+          xmlns="http://www.w3.org/2000/svg"
+          transform="translate(0,-952.36218)"
+          fill="#6D9280"
+        >
+          <path
+            d="m 60.7828,964.36215 27.1809,0.8834 -27.1809,25.9958 z m -1.9745,1.4513 0,26.7845 -25.2681,0 c 8.6166,-8.7334 16.8796,-17.8103 25.2681,-26.7845 z m 27.7053,3.628 3.4864,1.1989 -12.5877,7.4768 z m -68.1835,2.9656 5.5226,0 12.8654,14.0705 -5.9854,6.1204 -12.4026,0 c 9e-4,-6.7347 0,-13.4597 0,-20.1909 z m -1.9746,1.2304 0,5.8364 -6.3555,0 z m 3.363,20.9796 38.627,0 -10.7675,29.43465 z m 39.0898,4.54286 0,41.20229 -12.5878,-6.8775 c 4.1972,-11.443 8.3886,-22.879 12.5878,-34.32479 z"
+            fill="#6D9280"
+            fillOpacity="1"
+            stroke="none"
+            marker="none"
+            visibility="visible"
+            display="inline"
+            overflow="visible"
+          />
+        </g>
+      </g>
+      <g
+        id="SvgjsG2210"
+        featurekey="nameFeature-0"
+        transform="matrix(2.2882358444145687,0,0,2.2882358444145687,98.71176415558543,276.3047033547783)"
+        fill="#6D9192"
+      >
+        <path
+          d="M1 20 l0 -16 l2 0 l0 14 l2.6 0 l0 2 l-4.6 0 z M6.2 20 l2 -8.04 l-1.8 -7.96 l2 0 l0.8 5.6 l0.2 0 l0.8 -5.6 l2 0 l-1.8 7.42 l2 8.58 l-2 0 l-1 -5.66 l-0.2 0 l-1 5.66 l-2 0 z M13 5.800000000000001 l0 -1.8 l6 0 l0 1.8 l-2 0 l0 14.2 l-2 0 l0 -14.2 l-2 0 z M24.400000000000002 11.58 c0 -5.58 0 -7.78 3 -7.78 c2.28 0 2.82 1.26 2.96 4.28 l-1.86 0 c-0.08 -2.18 -0.3 -2.68 -1.1 -2.68 c-1.12 0 -1.12 0.98 -1.12 6.18 c0 5.78 0 6.62 1.12 6.62 c1.06 0 1.12 -0.76 1.12 -5 l-1.32 0 l0 -1.6 l3.2 0 l0 0.78 c0 5.6 0 7.82 -3 7.82 s-3 -2.22 -3 -8.62 z M32 20 l0 -16 l3.24 0 c2.06 0 2.76 1.26 2.76 3.68 c0 2.18 -0.26 3.42 -0.88 4.02 l0 0.12 c0.52 0.18 0.68 1.12 0.88 3.46 l0.4 4.72 l-2 0 l-0.26 -4.72 c-0.14 -2.38 -0.5 -2.88 -1.1 -2.88 l-1.04 0 l0 7.6 l-2 0 z M34 10.8 l1.24 0 c0.7 0 0.9 -0.7 0.9 -3.12 c0 -1.58 -0.3 -2.08 -0.9 -2.08 l-1.24 0 l0 5.2 z M39.8 11.58 c0 -5.58 0.12 -7.78 3.12 -7.78 s3.12 2.2 3.12 7.78 c0 6.4 -0.12 8.62 -3.12 8.62 s-3.12 -2.22 -3.12 -8.62 z M41.8 11.58 c0 5.78 0 6.62 1.12 6.62 s1.12 -0.84 1.12 -6.62 c0 -5.2 0 -6.18 -1.12 -6.18 s-1.12 0.98 -1.12 6.18 z M47.74 11.58 l0 -7.58 l2 0 l0 7.58 c0 5.78 0 6.62 1 6.62 s1 -0.84 1 -6.62 l0 -7.58 l2 0 l0 7.58 c0 6.4 0 8.62 -3 8.62 s-3 -2.22 -3 -8.62 z M55.64 20 l0 -16 l3.24 0 c2.06 0 2.6 1.26 2.76 4.28 l0 0.64 c-0.16 3.02 -0.7 4.28 -2.76 4.28 l-1.24 0 l0 6.8 l-2 0 z M57.64 11.6 l1.24 0 c0.6 0 0.82 -0.5 0.9 -2.68 l0 -0.64 c-0.08 -2.18 -0.3 -2.68 -0.9 -2.68 l-1.24 0 l0 6 z M67.44 20 l0 -16 l2 0 l0 14 l2.6 0 l0 2 l-4.6 0 z M73.24 20 l0 -16 l2 0 l0 14 l2.6 0 l0 2 l-4.6 0 z M78.83999999999999 11.58 c0 -5.58 0 -7.78 2.8 -7.78 c2.06 0 2.62 1.26 2.76 4.28 l-1.86 0 c-0.08 -2.18 -0.3 -2.68 -0.9 -2.68 c-0.92 0 -0.92 0.98 -0.92 6.18 c0 5.78 0 6.62 0.92 6.62 c0.66 0 0.86 -0.5 0.9 -3.08 l1.88 0 c-0.12 3.7 -0.62 5.08 -2.78 5.08 c-2.8 0 -2.8 -2.22 -2.8 -8.62 z"
+          fill="#6D9192"
+        />
+      </g>
+    </svg>
   );
 }

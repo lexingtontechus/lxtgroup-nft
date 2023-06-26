@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div className="footer footer-center p-4 flex-nowrap grow">
       <div className="grid grid-flow-col gap-4">
-        Copyright © {new Date().getFullYear()}.
+        Copyright © {new Date().getFullYear()}
         <Link
           href="/terms"
           className="hover:text-secondar-focus text-sm font-semibold px-4 uppercase"

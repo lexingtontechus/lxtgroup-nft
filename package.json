@@ -6,7 +6,7 @@
   "repository": "https://github.com/LXT-Group-LLC",
   "license": "MIT",
   "scripts": {
-    "dev": "next dev --turbo",
+    "dev": "next dev",
     "start": "next start",
     "build": "next build",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install --latest && npm run build:tailwind -i app/index.css && npm run dev",
@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@calcom/embed-react": "^1.1.1",
-    "@formspree/react": "2.4.2",
+    "@formspree/react": "^2.4.3",
     "@fortawesome/fontawesome-free": "^6.4.0",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
@@ -29,8 +29,7 @@
     "next-themes": "^0.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "tailwindcss": "^3.3.2",
-    "turbopack": "^0.0.1"
+    "tailwindcss": "^3.3.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.5",

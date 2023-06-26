@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import { Player } from "@lottiefiles/react-lottie-player";
+import Link from "next/link";
 
 export default function Error({ error, reset }) {
   useEffect(() => {
