@@ -35,7 +35,7 @@ export default function Privacy() {
 
       <section className="relative block py-24 lg:pt-0">
         <div className="container mx-auto px-4">
-          <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
+          <div className="flex flex-wrap justify-center">
             <div className="w-full lg:w-10/12 px-4">
               <div className="relative flex flex-col min-w-0 break-words w-full mt-8 mb-6 shadow-lg rounded-lg bg-base-100">
                 <div className="flex-auto p-5 lg:p-10">

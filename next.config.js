@@ -3,10 +3,13 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
+  output: "export",
+  trailingSlash: true,
   reactStrictMode: true,
   basePath: "",
   pageExtensions: ["js", "jsx", "ts", "tsx", "mdx"],
   images: {
+    unoptimized: true,
     //domains: ["storageapi.fleek.co", "savivets.wpengine.com"],
     remotePatterns: [
       {
