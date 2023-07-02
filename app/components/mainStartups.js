@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import Link from "next/link";
 
 export default function MainBioTech() {
@@ -18,7 +17,7 @@ export default function MainBioTech() {
             <h2 className="card-title text-primary">
               HYPERLOCAL MICROSERVICES
             </h2>
-            <p>
+            <p className="mt-1 text-secondary">
               Our primary goal is to establish a wealth strategy for our clients
               through the use of Artificial Intelligence-driven Quantitative
               trading,

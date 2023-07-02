@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import ContactForm from "./contactform.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -20,7 +19,7 @@ export default function Contact() {
       >
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
-          <div className="max-w-md">
+          <div className="max-w-lg">
             <h1 className="mb-5 text-5xl font-bold text-accent">
               Diverse. Resilient. Sustainable.
             </h1>

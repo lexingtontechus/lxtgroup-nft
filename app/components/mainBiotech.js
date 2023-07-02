@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import Link from "next/link";
 
 export default function MainBioTech() {
@@ -16,7 +15,7 @@ export default function MainBioTech() {
           </figure>
           <div className="card-body items-center text-center">
             <h2 className="card-title text-primary">BIO TECHNOLOGY</h2>
-            <p>
+            <p className="mt-1 text-secondary">
               Advances in food technology spans from replacement food sources to
               synthetic replacements of biopharma applications. We are investing
               in businesses that divest & diversify in,

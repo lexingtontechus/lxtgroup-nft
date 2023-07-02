@@ -39,7 +39,7 @@ const showcaseOne = {
 };
 
 const showcaseTwo = {
-  title: "ETF",
+  title: "SmartFX",
   desc: "Our primary goal is to establish a wealth strategy for our clients through the use of Artificial Intelligence-driven Quantitative trading,",
   image: "crypto_etf2.png",
   bullets: [

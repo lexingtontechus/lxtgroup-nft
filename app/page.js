@@ -1,13 +1,13 @@
 /* eslint-disable react/jsx-no-target-blank */
 import MainBioTech from "./components/mainBiotech";
-import MainETF from "./components/mainETF";
+import MainSmartFX from "./components/mainSmartfx";
 import MainStartups from "./components/mainStartups";
 
 //import {  showcaseOne,  showcaseTwo,  showcaseThree,} from "./components/dataShowcase";
 //import Showcases from "./components/showcases";
- //<Showcases data={showcaseOne} />
- //     <Showcases imgPos="right" data={showcaseTwo} />
- //     <Showcases data={showcaseThree} />
+//<Showcases data={showcaseOne} />
+//     <Showcases imgPos="right" data={showcaseTwo} />
+//     <Showcases data={showcaseThree} />
 import Link from "next/link";
 
 const loader = ({ src, width, quality }) => {
@@ -18,7 +18,7 @@ const loader = ({ src, width, quality }) => {
 export const metadata = {
   title: "LXT Group LLC",
   description:
-    "Quantum Management - Investing in the future of FoodTech, BioTech, Crypto EFT & Hyperlocal Microservices",
+    "Quantum Management - Investing in the future of FoodTech, BioTech, SmartFX & Hyperlocal Microservices",
   keywords: [
     "Unstoppable",
     "Web 3",
@@ -32,9 +32,8 @@ export const metadata = {
     "FoodTech",
     "BioTech",
     "Hyperlocal Microservices",
-    "Crypto",
     "Forex",
-    "ETF",
+    "SmartFX",
     "Pharmatech",
   ],
 };
@@ -56,7 +55,7 @@ const Home = () => {
         <div className="hero-content text-center">
           <div className="max-w-lg">
             <h1 className="text-5xl font-bold text-accent">LXT GROUP LLC</h1>
-            <h2 className="text-4xl font-bold uppercase my-8 text-primary-content">
+            <h2 className="text-3xl font-bold uppercase my-8 text-stone-50">
               Quantum Management
             </h2>
             <button className="btn btn-primary uppercase rounded-md">
@@ -66,7 +65,7 @@ const Home = () => {
         </div>
       </div>
       <MainBioTech />
-      <MainETF />
+      <MainSmartFX />
       <MainStartups />
     </main>
   );
