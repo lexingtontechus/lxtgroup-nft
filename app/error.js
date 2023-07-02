@@ -26,17 +26,8 @@ export default function Error({ error, reset }) {
             AI Computation Error
           </h1>
           <div className="join">
-            <button className="btn-primary btn mr-3 uppercase text-base-content">
+            <button className="btn-info btn mr-3 uppercase text-base-content">
               <Link href="/"> Home</Link>
-            </button>
-            <button
-              className="btn btn-primary uppercase"
-              onClick={
-                // Attempt to recover by trying to re-render the segment
-                () => reset()
-              }
-            >
-              Reset
             </button>
           </div>
         </div>

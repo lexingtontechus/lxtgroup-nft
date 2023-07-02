@@ -7,7 +7,7 @@ const loader = ({ src, width, quality }) => {
   }`;
 };
 
-export default function ETF() {
+export default function SmartFX() {
   return (
     <main className="mb-8">
       <div
@@ -43,7 +43,8 @@ export default function ETF() {
             <div className="card-body p-4">
               <h2 className="card-title text">Our Mission</h2>
               <p>
-                Build AI & Machine Learning driven algorithms for ETF platforms.
+                Build AI & Machine Learning driven algorithms for SmartFX
+                platforms.
               </p>
               <p>
                 Sustainable investment portfolios across a wide range of
@@ -61,9 +62,7 @@ export default function ETF() {
             </figure>
             <div className="card-body p-4">
               <h2 className="card-title">Our Investments</h2>
-              <p>
-                Investing in digital assets management, currency ETF & Forex.
-              </p>
+              <p>Investing in digital assets management & SmartFX.</p>
               <p>
                 Investing in Education & Fintech Defi business opportunities.
               </p>
@@ -79,7 +78,7 @@ export default function ETF() {
             </figure>
             <div className="card-body p-4">
               <h2 className="card-title">Our Growth</h2>
-              <p>Quant-driven Forex & Crypto investment platform.</p>
+              <p>Quant-driven SmartFX SaaS platform.</p>
               <p>
                 Realtime ML of market conditions producing exceptional returns.
               </p>
@@ -96,18 +95,20 @@ export default function ETF() {
         <div className="flex flex-wrap items-center rounded-lg bg-accent">
           <div className="lg:7/12 ml-auto mr-auto w-full px-4 md:w-6/12">
             <h3 className="mb-2 text-3xl font-semibold leading-normal text-primary">
-              Crypto ETF
+              SMARTFX
             </h3>
             <p className="mb-4 mt-4 text-lg font-light leading-relaxed text-primary-content">
-              Algorithmic tracking of crypto indices & transactions.
+              Funds are comprised of currency futures contracts.
             </p>
             <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
-              Direct & indirect exposure to digital assets.
+              Algorithm driven smart trading of Forex & Currency SmartFX
+              contracts.
             </p>
             <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
-              Includes crypto miners, companies engaged in blockchain, crypto
-              transactions, purveyors of blockchain technology, including
-              hardware and software, and more.
+              Optimized leverage & liquidity.
+            </p>
+            <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
+              Curated currency baskets & dynamic pairing selections.
             </p>
           </div>
 
@@ -116,12 +117,15 @@ export default function ETF() {
               <figure>
                 <img
                   src="https://storage.fleek-internal.com/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/crypto_etf2.png"
-                  alt="Crypto ETF"
+                  alt="SmartFX"
                 />
               </figure>
               <div className="card-body p-4">
-                <h2 className="card-title">Crypto Fund</h2>
-                <p>SEC Approved Management Fund.</p>
+                <h2 className="card-title">Forex SmartFX</h2>
+                <p>
+                  Live trading built on our proprietary smart trading
+                  algorithms.
+                </p>
               </div>
             </div>
           </div>
@@ -135,31 +139,27 @@ export default function ETF() {
               <figure>
                 <img
                   src="https://storage.fleek-internal.com/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/crypto_etf1.png"
-                  alt="Forex ETF"
+                  alt="SmartFX"
                 />
               </figure>
               <div className="card-body p-4">
-                <h2 className="card-title">Forex & Currency ETF</h2>
-                <p>
-                  Live trading built on our proprietary smart trading
-                  algorithms.
-                </p>
+                <h2 className="card-title">Licensed Platforms</h2>
+                <p>Customized Whitelabel Solutions</p>
               </div>
             </div>
           </div>
           <div className="lg:7/12 ml-auto mr-auto w-full px-4 md:w-6/12">
-            <h3 className="text-3xl font-semibold text-primary mb-2">ETF</h3>
+            <h3 className="text-3xl font-semibold text-primary mb-2">
+              Saas Solutions
+            </h3>
             <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
-              Funds are comprised of currency futures contracts.
+              Realtime algorithmic tracking of trading assets.
             </p>
             <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
-              Algorithm driven smart trading of Forex & Currency ETF contracts.
+              Realtime risk management.
             </p>
             <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
-              Optimized leverage & liquidity.
-            </p>
-            <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
-              Curated currency baskets & dynamic pairing selections.
+              Realtime position decisions.
             </p>
           </div>
         </div>

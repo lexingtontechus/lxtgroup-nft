@@ -63,7 +63,7 @@ export default function ContactForm() {
               </option>
               <option value="BioTech">BioTech</option>
               <option value="FoodTech">FoodTech</option>
-              <option value="ETF">ETF</option>
+              <option value="SmartFX">SmartFX</option>
               <option value="Hyperlocal Microservices">
                 Hyperlocal Microservices{" "}
               </option>

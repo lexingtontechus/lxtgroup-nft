@@ -1,11 +1,10 @@
 "use client";
-import React from "react";
 import Link from "next/link";
 
 export default function Main() {
   return (
     <main className="mb-8">
-      <section id="main-etf" className="justify-between bg-neutral">
+      <section id="main-smartfx" className="justify-between bg-neutral">
         <div className="card w-full bg-base-100 shadow-xl">
           <figure className="px-10 pt-10">
             <img
@@ -15,15 +14,15 @@ export default function Main() {
             />
           </figure>
           <div className="card-body items-center text-center">
-            <h2 className="card-title text-primary">ETF</h2>
-            <p>
+            <h2 className="card-title text-primary">SmartFX</h2>
+            <p className="mt-1 text-secondary">
               Our primary goal is to establish a wealth strategy for our clients
               through the use of Artificial Intelligence-driven Quantitative
               trading,
             </p>
-            <h4 className="text-xl font-medium text-primary">SEC Approved</h4>
+            <h4 className="text-xl font-medium text-primary">SaaS Solutions</h4>
             <p className="mt-1 text-secondary">
-              Multi-asset forex & crypto brokerage service
+              Custom whitelabel licensed technology.
             </p>
             <h4 className="text-xl font-medium text-primary">
               Licensed Management
@@ -39,7 +38,7 @@ export default function Main() {
             </p>
             <div className="card-actions">
               <button className="btn btn-primary uppercase rounded-md w-24">
-                <Link href="/etf">More</Link>
+                <Link href="/smartfx">More</Link>
               </button>
             </div>
           </div>

@@ -50,10 +50,10 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                href="/etf"
+                href="/smartfx"
                 className="hover:text-stone-100 px-4 py-2 text-sm"
               >
-                ETF
+                SmartFX
               </Link>
             </li>
             <li>

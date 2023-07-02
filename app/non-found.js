@@ -26,15 +26,6 @@ export default function NotFound({ error, reset }) {
       <button className="btn-primary btn uppercase text-base-content mr-3">
             <Link href="/"> HOME</Link>
           </button>
-          <button
-            className="btn-primary btn uppercase text-base-content"
-            onPress={
-              // Attempt to recover by trying to re-render the segment
-              () => reset()
-            }
-          >
-            Reset
-          </button>
     </div>
     </div>
   </div>
