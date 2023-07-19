@@ -22,14 +22,14 @@ export default function Navbar() {
           href="/"
           id="Home"
           alt="Home"
-          className=" hover:text-secondary-focus text-base font-bold leading-relaxed inline-block ml-2 mt-1 whitespace-nowrap uppercase"
+          className="pt-1 hover:text-secondary-focus text-base font-bold leading-relaxed inline-block ml-2 mt-1 whitespace-nowrap uppercase"
         >
           LXT GROUP LLC
         </Link>
       </div>
       <div className="navbar-end flex-none">
         <div className="dropdown dropdown-end">
-          <label tabIndex={0} className="btn btn-primary backdrop:rounded-lg">
+          <label tabIndex={0} className="btn btn-ghost backdrop:rounded-lg">
             <FontAwesomeIcon
               icon={faBars}
               className="text-stone-100 hover:text-secondary-focus"
@@ -38,7 +38,7 @@ export default function Navbar() {
           </label>
           <ul
             tabIndex={0}
-            className="mt-3 p-2 shadow menu menu-sm dropdown-content bg-base-300 rounded-box w-52"
+            className="mt-1 p-2 shadow menu menu-sm dropdown-content bg-base-300 rounded-box w-52"
           >
             <li>
               <Link
