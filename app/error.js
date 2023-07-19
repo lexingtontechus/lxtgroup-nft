@@ -15,6 +15,9 @@ export default function Error({ error, reset }) {
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-neutral-content">
         <div className="max-w-md">
+          <h1 className="mb-5 text-5xl font-bold text-accent uppercase">
+            AI Computation Error
+          </h1>
           <Player
             autoplay
             loop
@@ -22,9 +25,7 @@ export default function Error({ error, reset }) {
             style={{ height: "400px", width: "400px" }}
             className="m-8"
           ></Player>
-          <h1 className="mb-5 text-5xl font-bold text-accent uppercase">
-            AI Computation Error
-          </h1>
+
           <div className="join">
             <button className="btn-info btn mr-3 uppercase text-base-content">
               <Link href="/"> Home</Link>
