@@ -21,13 +21,13 @@ export default function Privacy() {
               This policy outlines how LXT GROUP LLC stores and uses user data
               that is collected in the course of them visiting your website in
               accordance with General Data Protection Regulation (GDPR) and
-              California Consumer Privacy Act (CCPA)
+              California Consumer Privacy Act (CCPA).
             </p>
           </div>
         </div>
       </div>
 
-      <section className="relative block py-24 lg:pt-0 bg-base-200">
+      <section className="relative block py-24 lg:pt-0 bg-neutral">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap justify-center">
             <div className="w-full lg:w-10/12 px-4">

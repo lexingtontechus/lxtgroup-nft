@@ -19,7 +19,7 @@ export default function Terms() {
         </div>
       </div>
 
-      <section className="relative block py-24 lg:pt-0 bg-base-200">
+      <section className="relative block py-24 lg:pt-0 bg-neutral">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap justify-center">
             <div className="w-full lg:w-10/12 px-4">
