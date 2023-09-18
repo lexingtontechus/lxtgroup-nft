@@ -29,12 +29,8 @@ export default function Navbar() {
       </div>
       <div className="navbar-end flex-none">
         <div className="dropdown dropdown-end">
-          <label tabIndex={0} className="btn btn-ghost backdrop:rounded-lg">
-            <FontAwesomeIcon
-              icon={faBars}
-              className="text-neutral hover:text-secondary-focus"
-              size="lg"
-            />
+          <label tabIndex={0} className="btn btn-xs btn-outline btn-accent">
+            <FontAwesomeIcon icon={faBars} className="text-accent hover:text-primary-focus" size="lg" />
           </label>
           <ul
             tabIndex={0}
