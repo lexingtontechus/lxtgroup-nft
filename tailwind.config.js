@@ -82,7 +82,7 @@ module.exports = {
   plugins: [require("daisyui")],
   daisyui: {
     themes: [
-      "corporate",
+      "autumn",
       "business",
       {
         lxtgroup: {

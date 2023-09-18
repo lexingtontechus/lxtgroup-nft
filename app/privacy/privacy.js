@@ -979,13 +979,13 @@ export default function Privacy() {
                             height="20"
                             width="20"
                           />
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-3">
                             LXT GROUP LLC
                           </span>
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-map-marker-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-8">
                             16192 Coastal Highway
                             <br />
                             Lewes, DE 19958
@@ -995,7 +995,7 @@ export default function Privacy() {
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-at"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-8">
                             legal@lxtgroup.nft
                           </span>
                         </li>
