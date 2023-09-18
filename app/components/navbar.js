@@ -32,7 +32,7 @@ export default function Navbar() {
           <label tabIndex={0} className="btn btn-ghost backdrop:rounded-lg">
             <FontAwesomeIcon
               icon={faBars}
-              className="text-stone-100 hover:text-secondary-focus"
+              className="text-neutral hover:text-secondary-focus"
               size="lg"
             />
           </label>

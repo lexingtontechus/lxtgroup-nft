@@ -52,8 +52,9 @@ const Home = () => {
             "url('https://storage.fleek-internal.com/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/header.jpg')",
         }}
       >
+        <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center">
-          <div className="max-w-lg">
+          <div className="max-w-xl">
             <h1 className="text-5xl font-bold text-accent">LXT GROUP LLC</h1>
             <h2 className="text-3xl font-bold uppercase my-8 text-stone-50">
               Quantum Management

@@ -2,5 +2,5 @@
 import { ThemeProvider } from "next-themes";
 
 export function Providers({ children }) {
-  return <ThemeProvider defaultTheme="business">{children}</ThemeProvider>;
+  return <ThemeProvider defaultTheme="corporate">{children}</ThemeProvider>;
 }

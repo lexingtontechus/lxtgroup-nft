@@ -40,7 +40,7 @@ export default function BioTechPage() {
               />
             </figure>
             <div className="card-body p-4">
-              <h2 className="card-title"> Our Mission</h2>
+              <h2 className="card-title text-accent">Our Mission</h2>
               <p>
                 Investing in the sustainable future of food & medical advances.
               </p>
@@ -56,7 +56,7 @@ export default function BioTechPage() {
               />
             </figure>
             <div className="card-body p-4">
-              <h2 className="card-title">Our Investments</h2>
+              <h2 className="card-title  text-accent">Our Investments</h2>
               <p>Plant-based & cell-based innovations.</p>
               <p>Food systems & medical advances.</p>
               <p>High yield foodtech products & water sources.</p>
@@ -71,7 +71,7 @@ export default function BioTechPage() {
               />
             </figure>
             <div className="card-body p-4">
-              <h2 className="card-title">Our Growth</h2>
+              <h2 className="card-title  text-accent">Our Growth</h2>
               <p>Accelerating innovation and action for sustainable growth.</p>
               <p>Embracing technology powering food systems transformation.</p>
               <p>Embracing technology, leveraging AI and Machine Learning.</p>
@@ -81,81 +81,63 @@ export default function BioTechPage() {
       </section>
 
       <section className="container mx-auto px-8">
-        <div className="flex flex-wrap items-center rounded-lg bg-accent">
-          <div className="lg:7/12 ml-auto mr-auto w-full px-4 md:w-6/12">
-            <h3 className="mb-2 text-3xl font-semibold leading-normal text-primary">
-              The Future Of Food
-            </h3>
-            <p className="mb-4 mt-4 text-lg font-light leading-relaxed text-primary-content">
-              Technology that meets future needs.
-            </p>
-            <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
-              Sustainable & high yield foodtech products & water sources.
-            </p>
-            <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
-              Future of eCommerce powered by virtual & augmented reality.
-            </p>
+        <div className="flex flex-wrap items-center rounded-sm bg-neutral">
+          <div className="md:w-6/12 ml-auto mr-auto w-full p-4 bg-neutral">
+            <div className="grow card card-normal w-full bg-neutral break-words shadow-lg">
+              <figure className="image-full max-h-80">
+                <img
+                  src="https://storage.fleek-internal.com/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/food_evolution.png"
+                  alt="BioTech"
+                />
+              </figure>
+              <div className="card-body p-4 text-primary-content">
+                <h2 className="card-title text-accent">BioTechnology</h2>
+                <ul className="list list-outside list-disc">
+                  <li className="my-2 font-light leading-relaxed">
+                    Synthetic & biotech inventions address farming challenges.
+                  </li>
+                  <li className="my-2 font-light leading-relaxed">
+                    Affordable & alternate healthcare solutions
+                  </li>
+                  <li className="my-2 font-light leading-relaxed">
+                    Food & water supply chain security
+                  </li>
+                  <li className="my-2 font-light leading-relaxed">
+                    Repurposing waste into sustainable products
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
 
-          <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-accent">
-            <div
-              className="grow card card-compact w-full bg-neutral text-primary-content
- break-words shadow-lg"
-            >
-              <figure>
+          <div className="md:w-6/12 ml-auto mr-auto w-full p-4 bg-neutral">
+            <div className="grow card card-normal w-full bg-neutral break-words shadow-lg">
+              <figure className="image-full max-h-80">
                 <img
                   src="https://storage.fleek-internal.com/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/foodlovestech.png"
                   alt="Food Loves Tech"
                 />
               </figure>
-              <div className="card-body p-4">
-                <h2 className="card-title">Biodiverse Food Systems</h2>
-                <p> Cellular agriculture & plant-based movement</p>
+              <div className="card-body p-4 text-primary-content">
+                <h2 className="card-title text-accent">
+                  Bio-Diverse Food Systems
+                </h2>
+                <ul className="list list-outside list-disc">
+                  <li className="my-2 font-light leading-relaxed">
+                    Cellular agriculture & plant-based movement
+                  </li>
+                  <li className="my-2 font-light leading-relaxed">
+                    Technology that meets future needs.
+                  </li>
+                  <li className="my-2 font-light leading-relaxed">
+                    High yield foodtech products & water sources.
+                  </li>
+                  <li className="my-2 font-light leading-relaxed">
+                    eCommerce powered by virtual & augmented reality.
+                  </li>
+                </ul>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="my-8 px-8 container mx-auto">
-        <div className="flex flex-wrap items-center rounded-lg bg-accent">
-          <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-accent">
-            <div
-              className="grow card card-compact w-full bg-neutral text-primary-content
- break-words shadow-lg"
-            >
-              <figure>
-                <img
-                  src="https://storage.fleek-internal.com/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/biotech.png"
-                  alt="BioTech"
-                />
-              </figure>
-              <div className="card-body p-4">
-                <h2 className="card-title">BioTechnology</h2>
-                <p>
-                  {" "}
-                  Biology & Technology integration to address farming
-                  challenges.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="lg:7/12 ml-auto mr-auto w-full px-4 md:w-6/12">
-            <h3 className="text-3xl font-semibold text-primary mb-2">
-              Bio Evolution
-            </h3>
-            <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
-              Synthetic & biotech inventions & startups.
-            </p>
-            <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
-              Affordable & alternate healthcare solutions
-            </p>
-            <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
-              Food supply chain security
-            </p>
-            <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
-              Repurposing waste into sustainable products
-            </p>
           </div>
         </div>
       </section>
