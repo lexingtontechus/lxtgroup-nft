@@ -28,7 +28,7 @@ export default function Error({ error, reset }) {
 
           <div className="join">
             <button className="btn-info btn mr-3 uppercase text-base-content">
-              <Link href="/"> Home</Link>
+              <Link href="/">Home</Link>
             </button>
           </div>
         </div>

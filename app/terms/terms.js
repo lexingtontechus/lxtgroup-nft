@@ -4,13 +4,7 @@ import Link from "next/link";
 export default function Terms() {
   return (
     <main>
-      <div
-        className="hero min-h-screen"
-        style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')",
-        }}
-      >
+      <div className="hero min-h-screen svg-terms">
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
@@ -25,22 +19,22 @@ export default function Terms() {
         </div>
       </div>
 
-      <section className="relative block py-24 lg:pt-0 bg-base-100">
+      <section className="relative block py-24 lg:pt-0 bg-base-200">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap justify-center">
             <div className="w-full lg:w-10/12 px-4">
-              <div className="relative flex flex-col min-w-0 break-words w-full mt-8 mb-6 shadow-lg rounded-lg bg-base-100">
+              <div className="relative flex flex-col min-w-0 break-words w-full mt-8 mb-6 shadow-lg rounded-lg bg-base-300">
                 <div className="flex-auto p-5 lg:p-10">
                   <h2 className="text-2xl font-semibold text-primary">
                     Last updated Jan 01, {new Date().getFullYear()}
                   </h2>
-                  <p className="my-4 text-lg font-boldtext-primary-content">
+                  <p className="my-4 text-lg font-bold">
                     The definition of the Terms of Service in connection with
                     the use of our services.
                   </p>
 
                   <div className="relative w-full mb-3 mt-8">
-                    <p className="leading-relaxed mt-1 mb-4 text-primary-content">
+                    <p>
                       These Terms of Use constitute a legally binding agreement
                       made between you, whether personally or on behalf of an
                       entity (“you”) and LXT GROUP LLC, doing business as LXT
@@ -62,7 +56,7 @@ export default function Terms() {
                       PROHIBITED FROM USING THE SITE AND/OR THE MARKETPLACE
                       OFFERINGS AND YOU MUST DISCONTINUE USE IMMEDIATELY.
                     </p>
-                    <p className="leading-relaxed mt-1 mb-4 text-primary-content">
+                    <p>
                       Supplemental terms and conditions or documents that may be
                       posted on the Site from time to time are hereby expressly
                       incorporated herein by reference. We reserve the right, in
@@ -78,7 +72,7 @@ export default function Terms() {
                       continued use of the Site after the date such revised
                       Terms of Use are posted.
                     </p>
-                    <p className="leading-relaxed mt-1 mb-4 text-primary-content">
+                    <p>
                       The information provided on the Site is not intended for
                       distribution to or use by any person or entity in any
                       jurisdiction or country where such distribution or use
@@ -90,7 +84,7 @@ export default function Terms() {
                       compliance with local laws, if and to the extent local
                       laws are applicable.
                     </p>
-                    <p className="leading-relaxed mt-1 mb-4 text-primary-content">
+                    <p>
                       The Site is not tailored to comply with industry-specific
                       regulations (Health Insurance Portability and
                       Accountability Act (HIPAA), Federal Information Security
@@ -99,7 +93,7 @@ export default function Terms() {
                       Site. You may not use the Site in a way that would violate
                       the Gramm-Leach-Bliley Act (GLBA).
                     </p>
-                    <p className="leading-relaxed mt-1 mb-4 text-primary-content">
+                    <p>
                       The Site is intended for users who are at least 18 years
                       old. Persons under the age of 18 are not permitted to use
                       or register for the Site or use the Marketplace Offerings.
@@ -114,7 +108,6 @@ export default function Terms() {
                     </div>
                     <div className="collapse-content">
                       <p>
-                        {" "}
                         Unless otherwise indicated, the Site and the Marketplace
                         Offerings are our proprietary property and all source
                         code, databases, functionality, software, website
@@ -137,7 +130,7 @@ export default function Terms() {
                         any commercial purpose whatsoever, without our express
                         prior written permission.
                       </p>
-                      <p className="leading-relaxed mt-1 mb-4 text-primary-content">
+                      <p>
                         Provided that you are eligible to use the Site, you are
                         granted a limited license to access and use the Site and
                         to download or print a copy of any portion of the
@@ -156,7 +149,7 @@ export default function Terms() {
                       USER REPRESENTATIONS
                     </div>
                     <div className="collapse-content">
-                      <p className="leading-relaxed mt-1 mb-4 text-primary-content">
+                      <p>
                         By using the Site or the Marketplace Offerings, you
                         represent and warrant that: (1) you have the legal
                         capacity and you agree to comply with these Terms of
@@ -169,14 +162,14 @@ export default function Terms() {
                         the Marketplace Offerings will not violate any
                         applicable law or regulation.
                       </p>
-                      <p className="leading-relaxed mt-1 mb-4 text-primary-content">
+                      <p>
                         If you provide any information that is untrue,
                         inaccurate, not current, or incomplete, we have the
                         right to suspend or terminate your account and refuse
                         any and all current or future use of the Site (or any
                         portion thereof).
                       </p>
-                      <p className="leading-relaxed mt-1 mb-4 text-primary-content">
+                      <p>
                         You may not use the Site or the Marketplace Offerings
                         for any illegal or unauthorized purpose nor may you, in
                         the use of Marketplace Offerings, violate any laws.
@@ -189,7 +182,7 @@ export default function Terms() {
                         termination of your account and a lifetime ban from use
                         of the Site.
                       </p>
-                      <p className="leading-relaxed mt-1 mb-4 text-primary-content">
+                      <p>
                         We are a service provider and make no representations as
                         to the safety, effectiveness, adequacy, accuracy,
                         availability, prices, ratings, reviews, or legality of
@@ -214,7 +207,7 @@ export default function Terms() {
                       MARKETPLACE OFFERINGS
                     </div>
                     <div className="collapse-content">
-                      <p className="leading-relaxed mt-1 mb-4 text-primary-content">
+                      <p>
                         We reserve the right to limit the quantities of the
                         Marketplace Offerings offered or available on the Site.
                         All descriptions or pricing of the Marketplace Offerings
@@ -235,32 +228,28 @@ export default function Terms() {
                       PURCHASES AND PAYMENT
                     </div>
                     <div className="collapse-content">
-                      <p className="leading-relaxed mt-1 mb-4 text-primary-content">
-                        We accept the following forms of payment:
-                      </p>
+                      <p>We accept the following forms of payment:</p>
                       <ul className="list-disc mr-auto">
                         <li className="flex items-center">
-                          <span className="inline-block ml-2 text-primary-content">
+                          <span className="inline-block ml-2">
                             - Crypto-Currency
                           </span>
                         </li>
                         <li className="flex items-center">
-                          <span className="inline-block ml-2 text-primary-content">
+                          <span className="inline-block ml-2">
                             - Bank Wire Transfer
                           </span>
                         </li>
                         <li className="flex items-center">
-                          <span className="inline-block ml-2 text-primary-content">
-                            - Visa
-                          </span>
+                          <span className="inline-block ml-2">- Visa</span>
                         </li>
                         <li className="flex items-center">
-                          <span className="inline-block ml-2 text-primary-content">
+                          <span className="inline-block ml-2">
                             - Mastercard
                           </span>
                         </li>
                       </ul>
-                      <p className="leading-relaxed mt-1 mb-4 text-primary-content">
+                      <p>
                         You agree to provide current, complete, and accurate
                         purchase and account information for all purchases of
                         the Marketplace Offerings made via the Site. You further
@@ -272,7 +261,7 @@ export default function Terms() {
                         deemed required by us. We may change prices at any time.
                         All payments shall be in U.S. dollars.
                       </p>
-                      <p className="leading-relaxed mt-1 mb-4 text-primary-content">
+                      <p>
                         You agree to pay all charges at the prices then in
                         effect for your purchases and any applicable shipping
                         fees, and you authorize us to charge your chosen payment
@@ -281,7 +270,7 @@ export default function Terms() {
                         in pricing, even if we have already requested or
                         received payment.
                       </p>
-                      <p className="leading-relaxed mt-1 mb-4 text-primary-content">
+                      <p>
                         We reserve the right to refuse any order placed through
                         the Site. We may, in our sole discretion, limit or
                         cancel quantities purchased per person, per household,
@@ -302,9 +291,7 @@ export default function Terms() {
                       REFUNDS POLICY
                     </div>
                     <div className="collapse-content">
-                      <p className="leading-relaxed mt-1 mb-4 text-primary-content">
-                        All sales are final and no refund will be issued.
-                      </p>
+                      <p>All sales are final and no refund will be issued.</p>
                     </div>
                   </div>
                   <div
@@ -315,16 +302,14 @@ export default function Terms() {
                       PROHIBITED ACTIVITIES
                     </div>
                     <div className="collapse-content">
-                      <p className="leading-relaxed mt-1 mb-4 text-primary-content">
+                      <p>
                         You may not access or use the Site for any purpose other
                         than that for which we make the Site available. The Site
                         may not be used in connection with any commercial
                         endeavors except those that are specifically endorsed or
                         approved by us.
                       </p>
-                      <p className="leading-relaxed mt-1 mb-4 text-primary-content">
-                        As a user of the Site, you agree not to:
-                      </p>
+                      <p>As a user of the Site, you agree not to:</p>
                       <ul className="list-none mr-autotext-primary-content">
                         <li className="flex items-center">
                           1. Systematically retrieve data or other content from
@@ -469,7 +454,7 @@ export default function Terms() {
                       USER GENERATED CONTRIBUTIONS
                     </div>
                     <div className="collapse-content">
-                      <p className="leading-relaxed mt-1 mb-4 text-primary-content">
+                      <p>
                         The Site does not offer users to submit or post content.
                         We may provide you with the opportunity to create,
                         submit, post, display, transmit, perform, publish,
@@ -583,18 +568,18 @@ export default function Terms() {
                       CONTRIBUTION LICENSE
                     </div>
                     <div className="collapse-content">
-                      <p className="leading-relaxed mt-1 mb-4 text-primary-content">
+                      <p>
                         You and the Site agree that we may access, store,
                         process, and use any information and personal data that
                         you provide following the terms of the Privacy Policy
                         and your choices (including settings).
                       </p>
-                      <p className="leading-relaxed mt-1 mb-4 text-primary-content">
+                      <p>
                         By submitting suggestions or other feedback regarding
                         the Site, you agree that we can use and share such
                         feedback for any purpose without compensation to you.
                       </p>
-                      <p className="leading-relaxed mt-1 mb-4 text-primary-content">
+                      <p>
                         We do not assert any ownership over your Contributions.
                         You retain full ownership of all of your Contributions
                         and any intellectual property rights or other
@@ -616,7 +601,7 @@ export default function Terms() {
                       SOCIAL MEDIA
                     </div>
                     <div className="collapse-content">
-                      <p className="leading-relaxed mt-1 mb-4 text-primary-content">
+                      <p>
                         As part of the functionality of the Site, you may link
                         your account with online accounts you have with
                         third-party service providers (each such account, a
@@ -687,7 +672,7 @@ export default function Terms() {
                       SUBMISSIONS
                     </div>
                     <div className="collapse-content">
-                      <p className="leading-relaxed mt-1 mb-4 text-primary-content">
+                      <p>
                         You acknowledge and agree that any questions, comments,
                         suggestions, ideas, feedback, or other information
                         regarding the Site or the Marketplace Offerings
@@ -715,7 +700,7 @@ export default function Terms() {
                       SITE MANAGEMENT
                     </div>
                     <div className="collapse-content">
-                      <p className="leading-relaxed mt-1 mb-4 text-primary-content">
+                      <p>
                         We reserve the right, but not the obligation, to: (1)
                         monitor the Site for violations of these Terms of Use;
                         (2) take appropriate legal action against anyone who, in
@@ -744,7 +729,7 @@ export default function Terms() {
                       FPRIVACY POLICY
                     </div>
                     <div className="collapse-content">
-                      <p className="leading-relaxed mt-1 mb-4 text-primary-content">
+                      <p>
                         We care about data privacy and security. Please review
                         our Privacy Policy:{" "}
                         <span>
@@ -775,7 +760,7 @@ export default function Terms() {
                       TERM AND TERMINATION
                     </div>
                     <div className="collapse-content">
-                      <p className="leading-relaxed mt-1 mb-4 text-primary-content">
+                      <p>
                         These Terms of Use shall remain in full force and effect
                         while you use the Site. WITHOUT LIMITING ANY OTHER
                         PROVISION OF THESE TERMS OF USE, WE RESERVE THE RIGHT
@@ -809,137 +794,164 @@ export default function Terms() {
                       MODIFICATIONS AND INTERRUPTIONS
                     </div>
                     <div className="collapse-content">
-                      <div
-                        tabIndex={0}
-                        className="collapse collapse-arrow border border-base-300 bg-base-200"
-                      >
-                        <div className="collapse-title text-xl font-medium">
-                          DISPUTE RESOLUTION
-                        </div>
-                        <div className="collapse-content">
-                          <h4 className="text-xl font-semibold">
-                            Informal Negotiations
-                          </h4>
-                          <p className="leading-relaxed mt-1 mb-4 text-primary-content">
-                            To expedite resolution and control the cost of any
-                            dispute, controversy, or claim related to these
-                            Terms of Use (each “Dispute” and collectively, the
-                            “Disputes”) brought by either you or us
-                            (individually, a “Party” and collectively, the
-                            “Parties”), the Parties agree to first attempt to
-                            negotiate any Dispute (except those Disputes
-                            expressly provided below) informally for at least
-                            thirty (30) days before initiating arbitration. Such
-                            informal negotiations commence upon written notice
-                            from one Party to the other Party.
-                          </p>
-                          <h4 className="text-xl font-semibold text-primary-content">
-                            Binding Arbitration
-                          </h4>
-                          <p className="leading-relaxed mt-1 mb-4 text-primary-content">
-                            If the Parties are unable to resolve a Dispute
-                            through informal negotiations, the Dispute (except
-                            those Disputes expressly excluded below) will be
-                            finally and exclusively resolved through binding
-                            arbitration. YOU UNDERSTAND THAT WITHOUT THIS
-                            PROVISION, YOU WOULD HAVE THE RIGHT TO SUE IN COURT
-                            AND HAVE A JURY TRIAL. The arbitration shall be
-                            commenced and conducted under the Commercial
-                            Arbitration Rules of the American Arbitration
-                            Association (“AAA”) and, where appropriate, the
-                            AAA’s Supplementary Procedures for Consumer Related
-                            Disputes (“AAA Consumer Rules”), both of which are
-                            available at the AAA website: www.adr.org. Your
-                            arbitration fees and your share of arbitrator
-                            compensation shall be governed by the AAA Consumer
-                            Rules and, where appropriate, limited by the AAA
-                            Consumer Rules. The arbitration may be conducted in
-                            person, through the submission of documents, by
-                            phone, or online. The arbitrator will make a
-                            decision in writing, but need not provide a
-                            statement of reasons unless requested by either
-                            Party. The arbitrator must follow applicable law,
-                            and any award may be challenged if the arbitrator
-                            fails to do so. Except where otherwise required by
-                            the applicable AAA rules or applicable law, the
-                            arbitration will take place in United States of
-                            America, Delaware. Except as otherwise provided
-                            herein, the Parties may litigate in court to compel
-                            arbitration, stay proceedings pending arbitration,
-                            or to confirm, modify, vacate, or enter judgment on
-                            the award entered by the arbitrator. If for any
-                            reason, a Dispute proceeds in court rather than
-                            arbitration, the Dispute shall be commenced or
-                            prosecuted in the state and federal courts located
-                            in United States of America, Delaware, and the
-                            Parties hereby consent to, and waive all defenses of
-                            lack of personal jurisdiction, and forum non
-                            conveniens with respect to venue and jurisdiction in
-                            such state and federal courts. Application of the
-                            United Nations Convention on Contracts for the
-                            International Sale of Goods and the Uniform Computer
-                            Information Transaction Act (UCITA) is excluded from
-                            these Terms of Use. If this provision is found to be
-                            illegal or unenforceable, then neither Party will
-                            elect to arbitrate any Dispute falling within that
-                            portion of this provision found to be illegal or
-                            unenforceable, and such Dispute shall be decided by
-                            a court of competent jurisdiction within the courts
-                            listed for jurisdiction above, and the Parties agree
-                            to submit to the personal jurisdiction of that
-                            court.
-                          </p>
-                          <h4 className="text-xl font-semibold text-primary-content">
-                            Restrictions
-                          </h4>
-                          <p className="leading-relaxed mt-1 mb-4 text-primary-content">
-                            The Parties agree that any arbitration shall be
-                            limited to the Dispute between the Parties
-                            individually. To the full extent permitted by law,
-                            (a) no arbitration shall be joined with any other
-                            proceeding; (b) there is no right or authority for
-                            any Dispute to be arbitrated on a class-action basis
-                            or to utilize class action procedures; and (c) there
-                            is no right or authority for any Dispute to be
-                            brought in a purported representative capacity on
-                            behalf of the general public or any other persons.
-                          </p>
-                          <h4 className="text-xl font-semibold text-primary-content">
-                            Exceptions to Informal Negotiations and Arbitration
-                          </h4>
-                          <p className="leading-relaxed mt-1 mb-4 text-primary-content">
-                            The Parties agree that the following Disputes are
-                            not subject to the above provisions concerning
-                            informal negotiations and binding arbitration: (a)
-                            any Disputes seeking to enforce or protect, or
-                            concerning the validity of, any of the intellectual
-                            property rights of a Party; (b) any Dispute related
-                            to, or arising from, allegations of theft, piracy,
-                            invasion of privacy, or unauthorized use; and (c)
-                            any claim for injunctive relief. If this provision
-                            is found to be illegal or unenforceable, then
-                            neither Party will elect to arbitrate any Dispute
-                            falling within that portion of this provision found
-                            to be illegal or unenforceable and such Dispute
-                            shall be decided by a court of competent
-                            jurisdiction within the courts listed for
-                            jurisdiction above, and the Parties agree to submit
-                            to the personal jurisdiction of that court.
-                          </p>
-                        </div>
-                      </div>
+                      <p>
+                        We reserve the right to change, modify, or remove the
+                        contents of the Site at any time or for any reason at
+                        our sole discretion without notice. However, we have no
+                        obligation to update any information on our Site. We
+                        also reserve the right to modify or discontinue all or
+                        part of the Marketplace Offerings without notice at any
+                        time. We will not be liable to you or any third party
+                        for any modification, price change, suspension, or
+                        discontinuance of the Site or the Marketplace Offerings.
+                        We cannot guarantee the Site and the Marketplace
+                        Offerings will be available at all times. We may
+                        experience hardware, software, or other problems or need
+                        to perform maintenance related to the Site, resulting in
+                        interruptions, delays, or errors. We reserve the right
+                        to change, revise, update, suspend, discontinue, or
+                        otherwise modify the Site or the Marketplace Offerings
+                        at any time or for any reason without notice to you. You
+                        agree that we have no liability whatsoever for any loss,
+                        damage, or inconvenience caused by your inability to
+                        access or use the Site or the Marketplace Offerings
+                        during any downtime or discontinuance of the Site or the
+                        Marketplace Offerings. Nothing in these Terms of Use
+                        will be construed to obligate us to maintain and support
+                        the Site or the Marketplace Offerings or to supply any
+                        corrections, updates, or releases in connection
+                        therewith. GOVERNING LAW These Terms of Use and your use
+                        of the Site and the Marketplace Offerings are governed
+                        by and construed in accordance with the laws of the
+                        State of Delaware applicable to agreements made and to
+                        be entirely performed within the State of Delaware,
+                        without regard to its conflict of law principles.
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    tabIndex={14}
+                    className="collapse collapse-arrow border border-base-300 bg-base-200"
+                  >
+                    <div className="collapse-title text-xl font-medium">
+                      DISPUTE RESOLUTION
+                    </div>
+                    <div className="collapse-content">
+                      <h4 className="text-xl font-semibold">
+                        Informal Negotiations
+                      </h4>
+                      <p>
+                        To expedite resolution and control the cost of any
+                        dispute, controversy, or claim related to these Terms of
+                        Use (each “Dispute” and collectively, the “Disputes”)
+                        brought by either you or us (individually, a “Party” and
+                        collectively, the “Parties”), the Parties agree to first
+                        attempt to negotiate any Dispute (except those Disputes
+                        expressly provided below) informally for at least thirty
+                        (30) days before initiating arbitration. Such informal
+                        negotiations commence upon written notice from one Party
+                        to the other Party.
+                      </p>
+                      <h4 className="text-xl font-semibold text-primary-content">
+                        Binding Arbitration
+                      </h4>
+                      <p>
+                        If the Parties are unable to resolve a Dispute through
+                        informal negotiations, the Dispute (except those
+                        Disputes expressly excluded below) will be finally and
+                        exclusively resolved through binding arbitration. YOU
+                        UNDERSTAND THAT WITHOUT THIS PROVISION, YOU WOULD HAVE
+                        THE RIGHT TO SUE IN COURT AND HAVE A JURY TRIAL. The
+                        arbitration shall be commenced and conducted under the
+                        Commercial Arbitration Rules of the American Arbitration
+                        Association (“AAA”) and, where appropriate, the AAA’s
+                        Supplementary Procedures for Consumer Related Disputes
+                        (“AAA Consumer Rules”), both of which are available at
+                        the AAA website: www.adr.org. Your arbitration fees and
+                        your share of arbitrator compensation shall be governed
+                        by the AAA Consumer Rules and, where appropriate,
+                        limited by the AAA Consumer Rules. The arbitration may
+                        be conducted in person, through the submission of
+                        documents, by phone, or online. The arbitrator will make
+                        a decision in writing, but need not provide a statement
+                        of reasons unless requested by either Party. The
+                        arbitrator must follow applicable law, and any award may
+                        be challenged if the arbitrator fails to do so. Except
+                        where otherwise required by the applicable AAA rules or
+                        applicable law, the arbitration will take place in
+                        United States of America, Delaware. Except as otherwise
+                        provided herein, the Parties may litigate in court to
+                        compel arbitration, stay proceedings pending
+                        arbitration, or to confirm, modify, vacate, or enter
+                        judgment on the award entered by the arbitrator. If for
+                        any reason, a Dispute proceeds in court rather than
+                        arbitration, the Dispute shall be commenced or
+                        prosecuted in the state and federal courts located in
+                        United States of America, Delaware, and the Parties
+                        hereby consent to, and waive all defenses of lack of
+                        personal jurisdiction, and forum non conveniens with
+                        respect to venue and jurisdiction in such state and
+                        federal courts. Application of the United Nations
+                        Convention on Contracts for the International Sale of
+                        Goods and the Uniform Computer Information Transaction
+                        Act (UCITA) is excluded from these Terms of Use. If this
+                        provision is found to be illegal or unenforceable, then
+                        neither Party will elect to arbitrate any Dispute
+                        falling within that portion of this provision found to
+                        be illegal or unenforceable, and such Dispute shall be
+                        decided by a court of competent jurisdiction within the
+                        courts listed for jurisdiction above, and the Parties
+                        agree to submit to the personal jurisdiction of that
+                        court.
+                      </p>
+                      <h4 className="text-xl font-semibold text-primary-content">
+                        Restrictions
+                      </h4>
+                      <p>
+                        The Parties agree that any arbitration shall be limited
+                        to the Dispute between the Parties individually. To the
+                        full extent permitted by law, (a) no arbitration shall
+                        be joined with any other proceeding; (b) there is no
+                        right or authority for any Dispute to be arbitrated on a
+                        class-action basis or to utilize class action
+                        procedures; and (c) there is no right or authority for
+                        any Dispute to be brought in a purported representative
+                        capacity on behalf of the general public or any other
+                        persons.
+                      </p>
+                      <h4 className="text-xl font-semibold text-primary-content">
+                        Exceptions to Informal Negotiations and Arbitration
+                      </h4>
+                      <p>
+                        The Parties agree that the following Disputes are not
+                        subject to the above provisions concerning informal
+                        negotiations and binding arbitration: (a) any Disputes
+                        seeking to enforce or protect, or concerning the
+                        validity of, any of the intellectual property rights of
+                        a Party; (b) any Dispute related to, or arising from,
+                        allegations of theft, piracy, invasion of privacy, or
+                        unauthorized use; and (c) any claim for injunctive
+                        relief. If this provision is found to be illegal or
+                        unenforceable, then neither Party will elect to
+                        arbitrate any Dispute falling within that portion of
+                        this provision found to be illegal or unenforceable and
+                        such Dispute shall be decided by a court of competent
+                        jurisdiction within the courts listed for jurisdiction
+                        above, and the Parties agree to submit to the personal
+                        jurisdiction of that court.
+                      </p>
                     </div>
                   </div>
 
                   <div
-                    tabIndex={14}
+                    tabIndex={15}
                     className="collapse collapse-arrow border border-base-300 bg-base-200"
                   >
                     <div className="collapse-title text-xl font-medium">
                       CORRECTIONS
                     </div>
                     <div className="collapse-content">
-                      <p className="leading-relaxed mt-1 mb-4 text-primary-content">
+                      <p>
                         There may be information on the Site that contains
                         typographical errors, inaccuracies, or omissions that
                         may relate to the Marketplace Offerings, including
@@ -952,14 +964,14 @@ export default function Terms() {
                     </div>
                   </div>
                   <div
-                    tabIndex={15}
+                    tabIndex={16}
                     className="collapse collapse-arrow border border-base-300 bg-base-200"
                   >
                     <div className="collapse-title text-xl font-medium">
                       DISCLAIMER
                     </div>
                     <div className="collapse-content">
-                      <p className="leading-relaxed mt-1 mb-4 text-primary-content">
+                      <p>
                         THE SITE AND THE MARKETPLACE OFFERINGS ARE PROVIDED ON
                         AN AS-IS AND AS-AVAILABLE BASIS. YOU AGREE THAT YOUR USE
                         OF THE SITE AND OUR SERVICES WILL BE AT YOUR SOLE RISK.
@@ -1002,14 +1014,14 @@ export default function Terms() {
                     </div>
                   </div>
                   <div
-                    tabIndex={16}
+                    tabIndex={17}
                     className="collapse collapse-arrow border border-base-300 bg-base-200"
                   >
                     <div className="collapse-title text-xl font-medium">
                       LIMITATIONS OF LIABILITY
                     </div>
                     <div className="collapse-content">
-                      <p className="leading-relaxed mt-1 mb-4 text-primary-content">
+                      <p>
                         IN NO EVENT WILL WE OR OUR DIRECTORS, EMPLOYEES, OR
                         AGENTS BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY
                         DIRECT, INDIRECT, CONSEQUENTIAL, EXEMPLARY, INCIDENTAL,
@@ -1114,14 +1126,14 @@ export default function Terms() {
                     </div>
                   </div>
                   <div
-                    tabIndex={17}
+                    tabIndex={18}
                     className="collapse collapse-arrow border border-base-300 bg-base-200"
                   >
                     <div className="collapse-title text-xl font-medium">
                       CONTACT US
                     </div>
                     <div className="collapse-content">
-                      <p className="leading-relaxed mt-1 mb-4 text-primary-content">
+                      <p>
                         In order to resolve a complaint regarding the Site or
                         the Marketplace Offerings or to receive further
                         information regarding use of the Site or the Marketplace
@@ -1132,16 +1144,16 @@ export default function Terms() {
                           <img
                             src="/logo_lxtgroup_circle.svg"
                             alt="LXT GROUP LLC"
-                            height="16"
-                            width="16"
+                            height="20"
+                            width="20"
                           />
-                          <span className="inline-block ml-2 text-primary-content">
+                          <span className="inline-block ml-2">
                             LXT GROUP LLC
                           </span>
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-map-marker-alt"></i>
-                          <span className="inline-block ml-2 text-primary-content">
+                          <span className="inline-block ml-2">
                             16192 Coastal Highway
                             <br />
                             Lewes, DE 19958 <br />
@@ -1150,7 +1162,7 @@ export default function Terms() {
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-at"></i>
-                          <span className="inline-block ml-2 text-primary-content">
+                          <span className="inline-block ml-2">
                             legal@lxtgroup.nft
                           </span>
                         </li>

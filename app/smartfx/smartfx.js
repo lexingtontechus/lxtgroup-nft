@@ -41,7 +41,7 @@ export default function SmartFX() {
               />
             </figure>
             <div className="card-body p-4">
-              <h2 className="card-title text">Our Mission</h2>
+              <h2 className="card-title text-accent">Our Mission</h2>
               <p>
                 Build AI & Machine Learning driven algorithms for SmartFX
                 platforms.
@@ -61,7 +61,7 @@ export default function SmartFX() {
               />
             </figure>
             <div className="card-body p-4">
-              <h2 className="card-title">Our Investments</h2>
+              <h2 className="card-title text-accent">Our Investments</h2>
               <p>Investing in digital assets management & SmartFX.</p>
               <p>
                 Investing in Education & Fintech Defi business opportunities.
@@ -77,7 +77,7 @@ export default function SmartFX() {
               />
             </figure>
             <div className="card-body p-4">
-              <h2 className="card-title">Our Growth</h2>
+              <h2 className="card-title text-accent">Our Growth</h2>
               <p>Quant-driven SmartFX SaaS platform.</p>
               <p>
                 Realtime ML of market conditions producing exceptional returns.
@@ -92,75 +92,66 @@ export default function SmartFX() {
       </section>
 
       <section className="container mx-auto px-8">
-        <div className="flex flex-wrap items-center rounded-lg bg-accent">
-          <div className="lg:7/12 ml-auto mr-auto w-full px-4 md:w-6/12">
-            <h3 className="mb-2 text-3xl font-semibold leading-normal text-primary">
-              SMARTFX
-            </h3>
-            <p className="mb-4 mt-4 text-lg font-light leading-relaxed text-primary-content">
-              Funds are comprised of currency futures contracts.
-            </p>
-            <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
-              Algorithm driven smart trading of Forex & Currency SmartFX
-              contracts.
-            </p>
-            <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
-              Optimized leverage & liquidity.
-            </p>
-            <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
-              Curated currency baskets & dynamic pairing selections.
-            </p>
+        <div className="flex flex-wrap items-center rounded-sm bg-neutral">
+          <div className="md:w-6/12 ml-auto mr-auto w-full p-4 bg-neutral">
+            <div className="grow card card-compact w-full bg-neutral text-primary-content break-words shadow-lg">
+              <figure className="image-full">
+                <img
+                  className="w-full h-96"
+                  src="https://storage.fleek-internal.com/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/crypto_etf1.png"
+                  alt="Whitelabel"
+                />
+              </figure>
+              <div className="card-body p-4">
+                <h2 className="card-title text-accent">
+                  Customized Whitelabel Solutions
+                </h2>
+                <ul className="list list-inside list-disc">
+                  <li className="my-2 font-light leading-relaxed">
+                    Licensed Platform
+                  </li>
+                  <li className="my-2 font-light leading-relaxed">
+                    Realtime assets tracking.
+                  </li>
+                  <li className="my-2 font-light leading-relaxed">
+                    Realtime risk management.
+                  </li>
+                  <li className="my-2 font-light leading-relaxed">
+                    Realtime position decisions.
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
 
-          <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-accent">
+          <div className="md:w-6/12 ml-auto mr-auto w-full p-4 bg-neutral">
             <div className="grow card card-compact w-full bg-neutral text-primary-content break-words shadow-lg">
-              <figure>
+              <figure className="image-full">
                 <img
+                  className="w-full h-96"
                   src="https://storage.fleek-internal.com/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/crypto_etf2.png"
                   alt="SmartFX"
                 />
               </figure>
               <div className="card-body p-4">
-                <h2 className="card-title">Forex SmartFX</h2>
-                <p>
-                  Live trading built on our proprietary smart trading
-                  algorithms.
-                </p>
+                <h2 className="card-title text-accent">Forex SmartFX</h2>
+                <ul className="list list-inside list-disc">
+                  <li className="my-2 font-light leading-relaxed">
+                    Live trading built on our proprietary smart trading
+                    algorithms.
+                  </li>
+                  <li className="my-2 font-light leading-relaxed">
+                    Funds are comprised of currency futures contracts.
+                  </li>
+                  <li className="my-2 font-light leading-relaxed">
+                    Optimized leverage & liquidity.
+                  </li>
+                  <li className="my-2 font-light leading-relaxed">
+                    Curated currency baskets & dynamic pairing selections.
+                  </li>
+                </ul>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="mt-8 container mx-auto px-8">
-        <div className="flex flex-wrap items-center rounded-lg bg-accent">
-          <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-accent">
-            <div className="grow card card-compact w-full bg-neutral text-primary-content break-words shadow-lg">
-              <figure>
-                <img
-                  src="https://storage.fleek-internal.com/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/crypto_etf1.png"
-                  alt="SmartFX"
-                />
-              </figure>
-              <div className="card-body p-4">
-                <h2 className="card-title">Licensed Platforms</h2>
-                <p>Customized Whitelabel Solutions</p>
-              </div>
-            </div>
-          </div>
-          <div className="lg:7/12 ml-auto mr-auto w-full px-4 md:w-6/12">
-            <h3 className="text-3xl font-semibold text-primary mb-2">
-              Saas Solutions
-            </h3>
-            <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
-              Realtime algorithmic tracking of trading assets.
-            </p>
-            <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
-              Realtime risk management.
-            </p>
-            <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
-              Realtime position decisions.
-            </p>
           </div>
         </div>
       </section>

@@ -10,17 +10,11 @@ import Link from "next/link";
 export default function Privacy() {
   return (
     <main>
-      <div
-        className="hero min-h-screen"
-        style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')",
-        }}
-      >
+      <div className="hero min-h-screen svg-privacy">
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold text-accent">
+            <h1 className="mb-5 text-5xl font-bold text-accent uppercase">
               Privacy Policy
             </h1>
             <p className="py-6">
@@ -33,11 +27,11 @@ export default function Privacy() {
         </div>
       </div>
 
-      <section className="relative block py-24 lg:pt-0 bg-base-100">
+      <section className="relative block py-24 lg:pt-0 bg-base-200">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap justify-center">
             <div className="w-full lg:w-10/12 px-4">
-              <div className="relative flex flex-col min-w-0 break-words w-full mt-8 mb-6 shadow-lg rounded-lg bg-base-100">
+              <div className="relative flex flex-col min-w-0 break-words w-full mt-8 mb-6 shadow-lg rounded-lg bg-base-300">
                 <div className="flex-auto p-5 lg:p-10">
                   <h2 className="text-2xl font-semibold text-primary">
                     Last updated Jan 01, {new Date().getFullYear()}
@@ -982,8 +976,8 @@ export default function Privacy() {
                           <img
                             src="/logo_lxtgroup_circle.svg"
                             alt="LXT GROUP LLC"
-                            height="16"
-                            width="16"
+                            height="20"
+                            width="20"
                           />
                           <span className="inline-block ml-2">
                             LXT GROUP LLC
@@ -1006,11 +1000,17 @@ export default function Privacy() {
                           </span>
                         </li>
                       </ul>
-                      <br />
-                      <h4 className="text-2xl font-semibold">
-                        13. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE
-                        COLLECT FROM YOU?
-                      </h4>
+                    </div>
+                  </div>
+                  <div
+                    tabIndex={12}
+                    className="collapse collapse-arrow border border-base-300 bg-base-200"
+                  >
+                    <div className="collapse-title text-xl font-medium">
+                      13. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE
+                      COLLECT FROM YOU?
+                    </div>
+                    <div className="collapse-content">
                       <p className="leading-relaxed mt-1 mb-4">
                         Based on the applicable laws of your country, you may
                         have the right to request access to the personal
