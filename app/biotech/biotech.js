@@ -92,7 +92,7 @@ export default function BioTechPage() {
               </figure>
               <div className="card-body p-4 text-primary-content">
                 <h2 className="card-title text-accent">BioTechnology</h2>
-                <ul className="list list-outside list-disc">
+                <ul className="list list-inside list-disc">
                   <li className="my-2 font-light leading-relaxed">
                     Synthetic & biotech inventions address farming challenges.
                   </li>
@@ -122,7 +122,7 @@ export default function BioTechPage() {
                 <h2 className="card-title text-accent">
                   Bio-Diverse Food Systems
                 </h2>
-                <ul className="list list-outside list-disc">
+                <ul className="list list-inside list-disc">
                   <li className="my-2 font-light leading-relaxed">
                     Cellular agriculture & plant-based movement
                   </li>

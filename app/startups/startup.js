@@ -97,7 +97,7 @@ export default function StartUp() {
               </figure>
               <div className="card-body">
                 <h2 className="card-title text-accent">Parcel & Logistics</h2>
-                <ul className="list list-outside list-disc">
+                <ul className="list list-inside list-disc">
                   <li className="my-2 font-light leading-relaxed">
                     Your customers conduct orders, make payments, track and
                     electronically confirm deliveries. Your delivery fleet can
@@ -128,7 +128,7 @@ export default function StartUp() {
                 <h2 className="card-title text-accent">
                   Food Delivery / Cloud Kitchens
                 </h2>
-                <ul className="list list-outside list-disc">
+                <ul className="list list-inside list-disc">
                   <li className="my-2 font-light leading-relaxed">
                     Support restaurants, food networks & cloud kitchens business
                     models.

@@ -19,9 +19,9 @@ export default function Navbar() {
           <Logo />
         </Link>
         <Link
-          href="/"
-          id="Home"
-          alt="Home"
+          href="/about"
+          id="About"
+          alt="About"
           className="pt-1 hover:text-secondary-focus text-base font-bold leading-relaxed inline-block ml-2 mt-1 whitespace-nowrap uppercase"
         >
           LXT GROUP LLC
@@ -30,11 +30,15 @@ export default function Navbar() {
       <div className="navbar-end flex-none">
         <div className="dropdown dropdown-end">
           <label tabIndex={0} className="btn btn-xs btn-outline btn-accent">
-            <FontAwesomeIcon icon={faBars} className="text-accent hover:text-primary-focus" size="lg" />
+            <FontAwesomeIcon
+              icon={faBars}
+              className="text-accent hover:text-primary-focus"
+              size="lg"
+            />
           </label>
           <ul
             tabIndex={0}
-            className="mt-1 p-2 shadow menu menu-sm dropdown-content bg-base-300 rounded-box w-52"
+            className="mt-4 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-300 rounded-box w-52"
           >
             <li>
               <Link
@@ -89,7 +93,7 @@ function Logo() {
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 393.75 393.75"
       preserveAspectRatio="xMidYMid meet"
-      className="h-12 w-12"
+      className="h-10 w-10"
     >
       <defs id="SvgjsDefs2207" />
       <g
